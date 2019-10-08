@@ -63,6 +63,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="0" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="JavaScript" POSITION="right" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570576907105" LINK="https://melvincarvalho.github.io/JavaScript/">
+<edge COLOR="#ff0000"/>
+</node>
 </node>
 </map>
