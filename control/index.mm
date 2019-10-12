@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1570576812785" STYLE="oval">
+<node TEXT="control" FOLDED="false" ID="ID_1331037305" CREATED="1570900320561" MODIFIED="1570900375788" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,15 +63,16 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="languages" POSITION="right" ID="ID_1877121242" CREATED="1570900220418" MODIFIED="1570900223004">
-<edge COLOR="#00ffff"/>
-<node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570900226429" LINK="https://melvincarvalho.github.io/JavaScript/"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="pm2" POSITION="right" ID="ID_1709105674" CREATED="1570900352607" MODIFIED="1570900404661" LINK="pm2.mm">
+<edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="control" POSITION="right" ID="ID_1041005677" CREATED="1570900237485" MODIFIED="1570900384592" LINK="control/index.mm">
-<edge COLOR="#7c0000"/>
-<node TEXT="git" ID="ID_1536156446" CREATED="1570577057978" MODIFIED="1570900242896"/>
-<node TEXT="pm2" ID="ID_901084502" CREATED="1570636909431" MODIFIED="1570900244713"/>
+<node TEXT="git" POSITION="right" ID="ID_1006031312" CREATED="1570900398681" MODIFIED="1570900400095">
+<edge COLOR="#00ffff"/>
+</node>
+<node TEXT="links" POSITION="left" ID="ID_132797472" CREATED="1570900337193" MODIFIED="1570900337198">
+<icon BUILTIN="attach"/>
+<edge COLOR="#00ff00"/>
 </node>
 </node>
 </map>
