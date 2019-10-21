@@ -1,0 +1,17 @@
+<#ID_1226961462> <urn:string:@_TEXT> """Introduction""" .
+<#ID_1984730658> <urn:string:@_TEXT> """Cascading Style Sheets apply styles to documents""" .
+<#ID_1984730658> <urn:string:child> <ID_1984730658> .
+<#ID_798700444> <urn:string:@_TEXT> """CSS is a language that describes the style of an HTML document.""" .
+<#ID_798700444> <urn:string:child> <ID_798700444> .
+<#ID_519099534> <urn:string:@_TEXT> """CSS describes how HTML elements should be displayed.""" .
+<#ID_519099534> <urn:string:child> <ID_519099534> .
+<#ID_1914318529> <urn:string:@_TEXT> """External stylesheets are stored in CSS files""" .
+<#ID_1914318529> <urn:string:child> <ID_1914318529> .
+<#ID_1831053540> <urn:string:@_TEXT> """Tutorials""" .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_63945964> <urn:string:@_TEXT> """undefined""" .
+<#ID_63945964> <urn:string:child> <ID_63945964> .
+<#ID_1090161300> <urn:string:@_TEXT> """undefined""" .
+<#ID_1090161300> <urn:string:child> <ID_1090161300> .
+<#ID_1875564442> <urn:string:@_TEXT> """undefined""" .
+<#ID_1875564442> <urn:string:child> <ID_1875564442> .

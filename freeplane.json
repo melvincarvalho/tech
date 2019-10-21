@@ -1,0 +1,576 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "freeplane",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1571338380265,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 5,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Summary",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1226961462",
+                    "@_CREATED": 1570979963389,
+                    "@_MODIFIED": 1570980209554,
+                    "@_COLOR": "#3333ff",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "node": {
+                        "@_TEXT": "Freeplane is a fork of free mind for mind mapping",
+                        "@_ID": "ID_492559976",
+                        "@_CREATED": 1571338349855,
+                        "@_MODIFIED": 1571338360932
+                    }
+                },
+                {
+                    "@_TEXT": "Details",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_120250381",
+                    "@_CREATED": 1570979967089,
+                    "@_MODIFIED": 1570980228711,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    }
+                },
+                {
+                    "@_TEXT": "Doing",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1085389952",
+                    "@_CREATED": 1571344051119,
+                    "@_MODIFIED": 1571344055220,
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    },
+                    "node": {
+                        "@_TEXT": "xslt",
+                        "@_ID": "ID_121554319",
+                        "@_CREATED": 1571346855057,
+                        "@_MODIFIED": 1571346859158,
+                        "node": [
+                            {
+                                "@_ID": "ID_1455200437",
+                                "@_CREATED": 1571346860812,
+                                "@_MODIFIED": 1571346860812,
+                                "@_LINK": "https://github.com/htw-docear/docear/blob/master/freeplane/resources/xslt/freeplane2html.xsl",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://github.com/htw-docear/docear/blob/master/freeplane/resources/xslt/freeplane2html.xsl",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://github.com/htw-docear/docear/blob/master/freeplane/resources/xslt/freeplane2html.xsl"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "@_ID": "ID_1309887860",
+                                "@_CREATED": 1571347033471,
+                                "@_MODIFIED": 1571347033471,
+                                "@_LINK": "https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_1248490359",
+                            "@_CREATED": 1571338424296,
+                            "@_MODIFIED": 1571338424296,
+                            "@_LINK": "https://github.com/freeplane/freeplane",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://github.com/freeplane/freeplane",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://github.com/freeplane/freeplane"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_1288808904",
+                            "@_CREATED": 1571338505640,
+                            "@_MODIFIED": 1571338505640,
+                            "@_LINK": "https://www.freeplane.org/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://www.freeplane.org/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://www.freeplane.org/"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_1162793213",
+                            "@_CREATED": 1571344020507,
+                            "@_MODIFIED": 1571344020507,
+                            "@_LINK": "https://www.freeplane.org/wiki/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://www.freeplane.org/wiki/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://www.freeplane.org/wiki/"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "scripting",
+                            "@_ID": "ID_443931931",
+                            "@_CREATED": 1571338437687,
+                            "@_MODIFIED": 1571338442222,
+                            "@_LINK": "https://www.freeplane.org/wiki/index.php/Scripting",
+                            "node": {
+                                "@_ID": "ID_456322394",
+                                "@_CREATED": 1571344008796,
+                                "@_MODIFIED": 1571344008796,
+                                "@_LINK": "https://www.freeplane.org/wiki/index.php/Scripts_collection",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://www.freeplane.org/wiki/index.php/Scripts_collection",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://www.freeplane.org/wiki/index.php/Scripts_collection"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "build",
+                            "@_ID": "ID_1145562489",
+                            "@_CREATED": 1571344451920,
+                            "@_MODIFIED": 1571344453360,
+                            "node": [
+                                {
+                                    "@_ID": "ID_1428523306",
+                                    "@_CREATED": 1571344454536,
+                                    "@_MODIFIED": 1571344454536,
+                                    "@_LINK": "https://www.freeplane.org/wiki/index.php/IDE_setup",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.freeplane.org/wiki/index.php/IDE_setup",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.freeplane.org/wiki/index.php/IDE_setup"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_1942546707",
+                                    "@_CREATED": 1571344466573,
+                                    "@_MODIFIED": 1571344466573,
+                                    "@_LINK": "https://www.freeplane.org/wiki/index.php/Category:Coding",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.freeplane.org/wiki/index.php/Category:Coding",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.freeplane.org/wiki/index.php/Category:Coding"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_ID": "ID_1260132184",
+                                    "@_CREATED": 1571344474221,
+                                    "@_MODIFIED": 1571344474221,
+                                    "@_LINK": "https://www.freeplane.org/wiki/index.php/Category:Developer",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.freeplane.org/wiki/index.php/Category:Developer",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.freeplane.org/wiki/index.php/Category:Developer"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "addons",
+                            "@_ID": "ID_916552440",
+                            "@_CREATED": 1571344496089,
+                            "@_MODIFIED": 1571344497346,
+                            "node": {
+                                "@_ID": "ID_607657161",
+                                "@_CREATED": 1571344498683,
+                                "@_MODIFIED": 1571344498683,
+                                "@_LINK": "https://www.freeplane.org/wiki/index.php/Add-ons_(Develop)",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://www.freeplane.org/wiki/index.php/Add-ons_(Develop)",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://www.freeplane.org/wiki/index.php/Add-ons_(Develop)"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "contributors",
+                            "@_ID": "ID_846778807",
+                            "@_CREATED": 1571344526148,
+                            "@_MODIFIED": 1571344528240,
+                            "node": {
+                                "@_ID": "ID_562906381",
+                                "@_CREATED": 1571344529297,
+                                "@_MODIFIED": 1571344529297,
+                                "@_LINK": "https://www.freeplane.org/wiki/index.php/Contributors",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://www.freeplane.org/wiki/index.php/Contributors",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://www.freeplane.org/wiki/index.php/Contributors"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "forum",
+                            "@_ID": "ID_1131779541",
+                            "@_CREATED": 1571344587203,
+                            "@_MODIFIED": 1571344589490,
+                            "node": {
+                                "@_ID": "ID_4426340",
+                                "@_CREATED": 1571344601646,
+                                "@_MODIFIED": 1571344601646,
+                                "@_LINK": "https://sourceforge.net/p/freeplane/discussion/758437/",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://sourceforge.net/p/freeplane/discussion/758437/",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://sourceforge.net/p/freeplane/discussion/758437/"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340808305,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    }
+                }
+            ]
+        }
+    }
+}
