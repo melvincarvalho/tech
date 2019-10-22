@@ -63,10 +63,14 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="languages" POSITION="right" ID="ID_1877121242" CREATED="1570900220418" MODIFIED="1570900223004">
 <edge COLOR="#00ffff"/>
 <node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570900226429" LINK="https://melvincarvalho.github.io/JavaScript/"/>
+</node>
+<node TEXT="editors" POSITION="right" ID="ID_1019017499" CREATED="1571731938237" MODIFIED="1571731939889">
+<edge COLOR="#7c7c00"/>
+<node TEXT="vscode" ID="ID_847676993" CREATED="1571731940861" MODIFIED="1571732008363" LINK="https://code.visualstudio.com/"/>
 </node>
 <node TEXT="web" POSITION="right" ID="ID_532002583" CREATED="1571333469724" MODIFIED="1571333472059">
 <edge COLOR="#00007c"/>

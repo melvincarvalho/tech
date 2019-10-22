@@ -186,7 +186,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 10,
+                    "@_COUNTER": 11,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -206,6 +206,23 @@
                         "@_CREATED": 1570576879455,
                         "@_MODIFIED": 1570900226429,
                         "@_LINK": "https://melvincarvalho.github.io/JavaScript/"
+                    }
+                },
+                {
+                    "@_TEXT": "editors",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1019017499",
+                    "@_CREATED": 1571731938237,
+                    "@_MODIFIED": 1571731939889,
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    },
+                    "node": {
+                        "@_TEXT": "vscode",
+                        "@_ID": "ID_847676993",
+                        "@_CREATED": 1571731940861,
+                        "@_MODIFIED": 1571732008363,
+                        "@_LINK": "https://code.visualstudio.com/"
                     }
                 },
                 {
