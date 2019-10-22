@@ -186,7 +186,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 8,
+                    "@_COUNTER": 10,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -274,6 +274,53 @@
                         "@_CREATED": 1571338322315,
                         "@_MODIFIED": 1571338343996,
                         "@_LINK": "freeplane.mm"
+                    }
+                },
+                {
+                    "@_TEXT": "lists",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_21985093",
+                    "@_CREATED": 1571731255998,
+                    "@_MODIFIED": 1571731257410,
+                    "edge": {
+                        "@_COLOR": "#7c007c"
+                    },
+                    "node": {
+                        "@_ID": "ID_588856980",
+                        "@_CREATED": 1571731259435,
+                        "@_MODIFIED": 1571731259435,
+                        "@_LINK": "https://getawesomeness.herokuapp.com/get/js",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://getawesomeness.herokuapp.com/get/js",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://getawesomeness.herokuapp.com/get/js"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "this page",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_117142409",
+                    "@_CREATED": 1571731629320,
+                    "@_MODIFIED": 1571731631437,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": {
+                        "@_TEXT": "json",
+                        "@_ID": "ID_485260235",
+                        "@_CREATED": 1571731633357,
+                        "@_MODIFIED": 1571731648894,
+                        "@_LINK": "index.json"
                     }
                 }
             ]

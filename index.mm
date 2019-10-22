@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="languages" POSITION="right" ID="ID_1877121242" CREATED="1570900220418" MODIFIED="1570900223004">
 <edge COLOR="#00ffff"/>
 <node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570900226429" LINK="https://melvincarvalho.github.io/JavaScript/"/>
@@ -81,6 +81,26 @@
 <node TEXT="apps" POSITION="left" ID="ID_453742222" CREATED="1571338319058" MODIFIED="1571338321054">
 <edge COLOR="#007c00"/>
 <node TEXT="freeplane" ID="ID_756649779" CREATED="1571338322315" MODIFIED="1571338343996" LINK="freeplane.mm"/>
+</node>
+<node TEXT="lists" POSITION="left" ID="ID_21985093" CREATED="1571731255998" MODIFIED="1571731257410">
+<edge COLOR="#7c007c"/>
+<node ID="ID_588856980" CREATED="1571731259435" MODIFIED="1571731259435" LINK="https://getawesomeness.herokuapp.com/get/js"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://getawesomeness.herokuapp.com/get/js">https://getawesomeness.herokuapp.com/get/js</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="this page" POSITION="left" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1571731631437">
+<edge COLOR="#007c7c"/>
+<node TEXT="json" ID="ID_485260235" CREATED="1571731633357" MODIFIED="1571731648894" LINK="index.json"/>
 </node>
 </node>
 </map>
