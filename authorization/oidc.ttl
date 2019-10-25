@@ -1,0 +1,48 @@
+<#ID_1572009272> <urn:string:@_TEXT> """Terminology""" .
+<#ID_1289681239> <urn:string:@_TEXT> """Resource Owner""" .
+<#ID_1289681239> <urn:string:child> <ID_1289681239> .
+<#ID_136917330> <urn:string:@_TEXT> """Client""" .
+<#ID_136917330> <urn:string:child> <ID_136917330> .
+<#ID_773693740> <urn:string:@_TEXT> """Authorization Server""" .
+<#ID_773693740> <urn:string:child> <ID_773693740> .
+<#ID_583339478> <urn:string:@_TEXT> """Resource Server""" .
+<#ID_583339478> <urn:string:child> <ID_583339478> .
+<#ID_763149664> <urn:string:@_TEXT> """Redirect URI""" .
+<#ID_763149664> <urn:string:child> <ID_763149664> .
+<#ID_1034503034> <urn:string:@_TEXT> """Response Type""" .
+<#ID_1034503034> <urn:string:child> <ID_1034503034> .
+<#ID_1605955820> <urn:string:@_TEXT> """Scope""" .
+<#ID_1605955820> <urn:string:child> <ID_1605955820> .
+<#ID_245246260> <urn:string:@_TEXT> """Consent""" .
+<#ID_245246260> <urn:string:child> <ID_245246260> .
+<#ID_1454557639> <urn:string:@_TEXT> """Client ID""" .
+<#ID_1454557639> <urn:string:child> <ID_1454557639> .
+<#ID_1921522318> <urn:string:@_TEXT> """Client Secret""" .
+<#ID_1921522318> <urn:string:child> <ID_1921522318> .
+<#ID_113405435> <urn:string:@_TEXT> """Authorization Code""" .
+<#ID_113405435> <urn:string:child> <ID_113405435> .
+<#ID_1535983558> <urn:string:@_TEXT> """Access Token""" .
+<#ID_1535983558> <urn:string:child> <ID_1535983558> .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_466759422> <urn:string:@_TEXT> """tags""" .
+<#ID_449520030> <urn:string:@_TEXT> """OAuth2""" .
+<#ID_1640917716> <urn:string:@_TEXT> """No password anti pattern""" .
+<#ID_1640917716> <urn:string:child> <ID_1640917716> .
+<#ID_1816138588> <urn:string:@_TEXT> """Share your contacts to email them""" .
+<#ID_1816138588> <urn:string:child> <ID_1816138588> .
+<#ID_551008889> <urn:string:@_TEXT> """Flow""" .
+<#ID_551008889> <urn:string:child> <ID_551008889> .
+<#ID_900753286> <urn:string:@_TEXT> """Authorization Code Flow""" .
+<#ID_900753286> <urn:string:child> <ID_900753286> .
+<#ID_1044247150> <urn:string:@_TEXT> """Click on your provider""" .
+<#ID_1044247150> <urn:string:child> <ID_1044247150> .
+<#ID_1278643681> <urn:string:@_TEXT> """Redirect there""" .
+<#ID_1278643681> <urn:string:child> <ID_1278643681> .
+<#ID_1500974585> <urn:string:@_TEXT> """Log in or logged in""" .
+<#ID_1500974585> <urn:string:child> <ID_1500974585> .
+<#ID_708254690> <urn:string:@_TEXT> """Click allow""" .
+<#ID_708254690> <urn:string:child> <ID_708254690> .
+<#ID_488426351> <urn:string:@_TEXT> """Redirect back""" .
+<#ID_488426351> <urn:string:child> <ID_488426351> .
+<#ID_1972852853> <urn:string:@_TEXT> """OIDC""" .

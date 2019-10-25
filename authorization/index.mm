@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1570576812785" STYLE="oval">
+<node TEXT="authorization" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572000512495" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
+<icon BUILTIN="bookmark"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,50 +64,23 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="languages" POSITION="right" ID="ID_1877121242" CREATED="1570900220418" MODIFIED="1570900223004">
-<edge COLOR="#00ffff"/>
-<node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570900226429" LINK="https://melvincarvalho.github.io/JavaScript/"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="OIDC" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1572000498191" LINK="oidc.mm">
+<icon BUILTIN="list"/>
+<edge COLOR="#00ff00"/>
+<font BOLD="true"/>
 </node>
-<node TEXT="editors" POSITION="right" ID="ID_1019017499" CREATED="1571731938237" MODIFIED="1571731939889">
-<edge COLOR="#7c7c00"/>
-<node TEXT="vscode" ID="ID_847676993" CREATED="1571731940861" MODIFIED="1571732008363" LINK="https://code.visualstudio.com/"/>
-</node>
-<node TEXT="web" POSITION="right" ID="ID_532002583" CREATED="1571333469724" MODIFIED="1571333472059">
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
+<icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
-<node TEXT="css" ID="ID_1846113849" CREATED="1571333474425" MODIFIED="1571333716551" LINK="css.mm"/>
-<node TEXT="svg" ID="ID_428457042" CREATED="1571334566267" MODIFIED="1571336723249" LINK="https://www.w3schools.com/graphics/svg_reference.asp"/>
 </node>
-<node TEXT="control" POSITION="right" ID="ID_1041005677" CREATED="1570900237485" MODIFIED="1570900384592" LINK="control/index.mm">
-<edge COLOR="#7c0000"/>
-<node TEXT="git" ID="ID_1536156446" CREATED="1570577057978" MODIFIED="1570900242896"/>
-<node TEXT="pm2" ID="ID_901084502" CREATED="1570636909431" MODIFIED="1570900244713"/>
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
+<icon BUILTIN="folder"/>
+<edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="authorization" POSITION="right" ID="ID_1568925180" CREATED="1572000518964" MODIFIED="1572000529230" LINK="authorization/index.mm">
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="apps" POSITION="left" ID="ID_453742222" CREATED="1571338319058" MODIFIED="1571338321054">
+<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
+<icon BUILTIN="hashtag"/>
 <edge COLOR="#007c00"/>
-<node TEXT="freeplane" ID="ID_756649779" CREATED="1571338322315" MODIFIED="1571338343996" LINK="freeplane.mm"/>
-</node>
-<node TEXT="lists" POSITION="left" ID="ID_21985093" CREATED="1571731255998" MODIFIED="1571731257410">
-<edge COLOR="#7c007c"/>
-<node ID="ID_588856980" CREATED="1571731259435" MODIFIED="1571731259435" LINK="https://getawesomeness.herokuapp.com/get/js"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://getawesomeness.herokuapp.com/get/js">https://getawesomeness.herokuapp.com/get/js</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="this page" POSITION="left" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1571731631437">
-<edge COLOR="#007c7c"/>
-<node TEXT="json" ID="ID_485260235" CREATED="1571731633357" MODIFIED="1571731648894" LINK="index.json"/>
 </node>
 </node>
 </map>

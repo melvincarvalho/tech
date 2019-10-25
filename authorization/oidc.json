@@ -1,0 +1,624 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "oidc",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1572000241129,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 8,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Terminology",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1572009272",
+                    "@_CREATED": 1571999288590,
+                    "@_MODIFIED": 1572000256299,
+                    "@_HGAP_QUANTITY": "-107.49999637901794 pt",
+                    "@_VSHIFT_QUANTITY": "-39.74999881535772 pt",
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Resource Owner",
+                            "@_ID": "ID_1289681239",
+                            "@_CREATED": 1571999294485,
+                            "@_MODIFIED": 1572000001354,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "You",
+                                "@_ID": "ID_607931300",
+                                "@_CREATED": 1571999304957,
+                                "@_MODIFIED": 1571999306149
+                            }
+                        },
+                        {
+                            "@_TEXT": "Client",
+                            "@_ID": "ID_136917330",
+                            "@_CREATED": 1571999312662,
+                            "@_MODIFIED": 1572000001358,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Terrible Pun of the Day",
+                                "@_ID": "ID_834500855",
+                                "@_CREATED": 1571999315465,
+                                "@_MODIFIED": 1571999335220
+                            }
+                        },
+                        {
+                            "@_TEXT": "Authorization Server",
+                            "@_ID": "ID_773693740",
+                            "@_CREATED": 1571999351306,
+                            "@_MODIFIED": 1572000001359,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Where you have an account",
+                                "@_ID": "ID_1043956131",
+                                "@_CREATED": 1571999361561,
+                                "@_MODIFIED": 1571999366904
+                            }
+                        },
+                        {
+                            "@_TEXT": "Resource Server",
+                            "@_ID": "ID_583339478",
+                            "@_CREATED": 1571999387913,
+                            "@_MODIFIED": 1572000001359,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "API the client wants to use",
+                                "@_ID": "ID_1032805705",
+                                "@_CREATED": 1571999405205,
+                                "@_MODIFIED": 1571999412781
+                            }
+                        },
+                        {
+                            "@_TEXT": "Redirect URI",
+                            "@_ID": "ID_763149664",
+                            "@_CREATED": 1571999435642,
+                            "@_MODIFIED": 1572000001360,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Where you come back",
+                                "@_ID": "ID_394097524",
+                                "@_CREATED": 1571999439802,
+                                "@_MODIFIED": 1571999442453
+                            }
+                        },
+                        {
+                            "@_TEXT": "Response Type",
+                            "@_ID": "ID_1034503034",
+                            "@_CREATED": 1571999459900,
+                            "@_MODIFIED": 1572000001360,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "most common is code",
+                                "@_ID": "ID_1328666592",
+                                "@_CREATED": 1571999464490,
+                                "@_MODIFIED": 1571999469047,
+                                "node": {
+                                    "@_TEXT": "authorization code",
+                                    "@_ID": "ID_1375330228",
+                                    "@_CREATED": 1571999469978,
+                                    "@_MODIFIED": 1571999473061
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "Scope",
+                            "@_ID": "ID_1605955820",
+                            "@_CREATED": 1571999482758,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "granular permissions",
+                                "@_ID": "ID_15002016",
+                                "@_CREATED": 1571999485018,
+                                "@_MODIFIED": 1571999488651
+                            }
+                        },
+                        {
+                            "@_TEXT": "Consent",
+                            "@_ID": "ID_245246260",
+                            "@_CREATED": 1571999505094,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "The box you click to allow access",
+                                "@_ID": "ID_852451378",
+                                "@_CREATED": 1571999508059,
+                                "@_MODIFIED": 1571999513933
+                            }
+                        },
+                        {
+                            "@_TEXT": "Client ID",
+                            "@_ID": "ID_1454557639",
+                            "@_CREATED": 1571999521631,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Identifies the client",
+                                "@_ID": "ID_339107514",
+                                "@_CREATED": 1571999528527,
+                                "@_MODIFIED": 1571999534591
+                            }
+                        },
+                        {
+                            "@_TEXT": "Client Secret",
+                            "@_ID": "ID_1921522318",
+                            "@_CREATED": 1571999538502,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Shared secret only the Authorization server and client know",
+                                "@_ID": "ID_574833304",
+                                "@_CREATED": 1571999549733,
+                                "@_MODIFIED": 1571999564190
+                            }
+                        },
+                        {
+                            "@_TEXT": "Authorization Code",
+                            "@_ID": "ID_113405435",
+                            "@_CREATED": 1571999568384,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "short lived code the client gives the authz server for an access token",
+                                "@_ID": "ID_1842269980",
+                                "@_CREATED": 1571999590578,
+                                "@_MODIFIED": 1571999604338
+                            }
+                        },
+                        {
+                            "@_TEXT": "Access Token",
+                            "@_ID": "ID_1535983558",
+                            "@_CREATED": 1571999615406,
+                            "@_MODIFIED": 1572000001361,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "Key the client will use with the authz server",
+                                "@_ID": "ID_365762092",
+                                "@_CREATED": 1571999619797,
+                                "@_MODIFIED": 1571999630042
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": {
+                        "@_ID": "ID_920528829",
+                        "@_CREATED": 1571999021268,
+                        "@_MODIFIED": 1571999021268,
+                        "@_LINK": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    }
+                },
+                {
+                    "@_TEXT": "OAuth2",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_449520030",
+                    "@_CREATED": 1571999160823,
+                    "@_MODIFIED": 1572000262677,
+                    "@_HGAP_QUANTITY": "57.49999870359901 pt",
+                    "@_VSHIFT_QUANTITY": "-66.74999801069504 pt",
+                    "icon": {
+                        "@_BUILTIN": "password"
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c0000"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "No password anti pattern",
+                            "@_ID": "ID_1640917716",
+                            "@_CREATED": 1571999173769,
+                            "@_MODIFIED": 1571999179409
+                        },
+                        {
+                            "@_TEXT": "Share your contacts to email them",
+                            "@_ID": "ID_1816138588",
+                            "@_CREATED": 1571999164674,
+                            "@_MODIFIED": 1571999171677
+                        },
+                        {
+                            "@_TEXT": "Flow",
+                            "@_ID": "ID_551008889",
+                            "@_CREATED": 1571999197366,
+                            "@_MODIFIED": 1571999198885,
+                            "node": [
+                                {
+                                    "@_TEXT": "Authorization Code Flow",
+                                    "@_ID": "ID_900753286",
+                                    "@_CREATED": 1571999266144,
+                                    "@_MODIFIED": 1571999274886,
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "Click on your provider",
+                                    "@_ID": "ID_1044247150",
+                                    "@_CREATED": 1571999199689,
+                                    "@_MODIFIED": 1571999203396
+                                },
+                                {
+                                    "@_TEXT": "Redirect there",
+                                    "@_ID": "ID_1278643681",
+                                    "@_CREATED": 1571999232286,
+                                    "@_MODIFIED": 1571999235714
+                                },
+                                {
+                                    "@_TEXT": "Log in or logged in",
+                                    "@_ID": "ID_1500974585",
+                                    "@_CREATED": 1571999204239,
+                                    "@_MODIFIED": 1571999210222
+                                },
+                                {
+                                    "@_TEXT": "Click allow",
+                                    "@_ID": "ID_708254690",
+                                    "@_CREATED": 1571999211169,
+                                    "@_MODIFIED": 1571999214985
+                                },
+                                {
+                                    "@_TEXT": "Redirect back",
+                                    "@_ID": "ID_488426351",
+                                    "@_CREATED": 1571999225294,
+                                    "@_MODIFIED": 1571999229175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "OIDC",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1972852853",
+                    "@_CREATED": 1572000024658,
+                    "@_MODIFIED": 1572000289189,
+                    "@_HGAP_QUANTITY": "-78.9999972283841 pt",
+                    "@_VSHIFT_QUANTITY": "20.24999939650299 pt",
+                    "icon": {
+                        "@_BUILTIN": "family"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
+                    "node": {
+                        "@_TEXT": "Flow",
+                        "@_ID": "ID_597814031",
+                        "@_CREATED": 1572000029959,
+                        "@_MODIFIED": 1572000031595,
+                        "node": [
+                            {
+                                "@_TEXT": "OIDC Flow",
+                                "@_ID": "ID_1826138535",
+                                "@_CREATED": 1571999266144,
+                                "@_MODIFIED": 1572000156389,
+                                "font": {
+                                    "@_BOLD": true
+                                }
+                            },
+                            {
+                                "@_TEXT": "Click on your provider",
+                                "@_ID": "ID_109328470",
+                                "@_CREATED": 1571999199689,
+                                "@_MODIFIED": 1571999203396
+                            },
+                            {
+                                "@_TEXT": "Redirect there",
+                                "@_ID": "ID_750838198",
+                                "@_CREATED": 1571999232286,
+                                "@_MODIFIED": 1571999235714
+                            },
+                            {
+                                "@_TEXT": "Log in or logged in",
+                                "@_ID": "ID_1285644072",
+                                "@_CREATED": 1571999204239,
+                                "@_MODIFIED": 1571999210222
+                            },
+                            {
+                                "@_TEXT": "Click allow",
+                                "@_ID": "ID_1177252922",
+                                "@_CREATED": 1571999211169,
+                                "@_MODIFIED": 1571999214985
+                            },
+                            {
+                                "@_TEXT": "Redirect back",
+                                "@_ID": "ID_271945391",
+                                "@_CREATED": 1571999225294,
+                                "@_MODIFIED": 1571999229175,
+                                "node": {
+                                    "@_TEXT": "Client also gets ID JWT Token",
+                                    "@_ID": "ID_1559358335",
+                                    "@_CREATED": 1572000046657,
+                                    "@_MODIFIED": 1572000207473,
+                                    "@_COLOR": "#000099",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
