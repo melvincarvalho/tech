@@ -6,8 +6,12 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1570576812785,
+            "@_MODIFIED": 1572064326913,
+            "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "wizard"
+            },
             "font": {
                 "@_SIZE": 18
             },
@@ -186,19 +190,29 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 12,
+                    "@_COUNTER": 16,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "node": [
                 {
-                    "@_TEXT": "languages",
+                    "@_TEXT": "Languages",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1877121242",
-                    "@_CREATED": 1570900220418,
-                    "@_MODIFIED": 1570900223004,
+                    "@_ID": "ID_176155545",
+                    "@_CREATED": 1572063754537,
+                    "@_MODIFIED": 1572064366377,
+                    "@_HGAP_QUANTITY": "-81.24999716132886 pt",
+                    "@_VSHIFT_QUANTITY": "-35.99999892711642 pt",
+                    "@_COLOR": "#006633",
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
                     "edge": {
-                        "@_COLOR": "#00ffff"
+                        "@_COLOR": "#0000ff"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
                     },
                     "node": {
                         "@_TEXT": "JavaScript",
@@ -209,147 +223,181 @@
                     }
                 },
                 {
-                    "@_TEXT": "editors",
+                    "@_TEXT": "Frameworks",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1019017499",
-                    "@_CREATED": 1571731938237,
-                    "@_MODIFIED": 1571731939889,
+                    "@_ID": "ID_527312312",
+                    "@_CREATED": 1572063758657,
+                    "@_MODIFIED": 1572064375760,
+                    "@_HGAP_QUANTITY": "29.749999530613437 pt",
+                    "@_VSHIFT_QUANTITY": "24.749999262392546 pt",
+                    "@_COLOR": "#000099",
+                    "icon": {
+                        "@_BUILTIN": "launch"
+                    },
                     "edge": {
-                        "@_COLOR": "#7c7c00"
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
                     },
                     "node": {
-                        "@_TEXT": "vscode",
-                        "@_ID": "ID_847676993",
-                        "@_CREATED": 1571731940861,
-                        "@_MODIFIED": 1571732008363,
-                        "@_LINK": "https://code.visualstudio.com/"
+                        "@_TEXT": "web",
+                        "@_ID": "ID_532002583",
+                        "@_CREATED": 1571333469724,
+                        "@_MODIFIED": 1572063802934,
+                        "node": [
+                            {
+                                "@_TEXT": "css",
+                                "@_ID": "ID_1846113849",
+                                "@_CREATED": 1571333474425,
+                                "@_MODIFIED": 1571333716551,
+                                "@_LINK": "css.mm"
+                            },
+                            {
+                                "@_TEXT": "svg",
+                                "@_ID": "ID_428457042",
+                                "@_CREATED": 1571334566267,
+                                "@_MODIFIED": 1571336723249,
+                                "@_LINK": "https://www.w3schools.com/graphics/svg_reference.asp"
+                            }
+                        ]
                     }
                 },
                 {
-                    "@_TEXT": "web",
+                    "@_TEXT": "Tools",
                     "@_POSITION": "right",
-                    "@_ID": "ID_532002583",
-                    "@_CREATED": 1571333469724,
-                    "@_MODIFIED": 1571333472059,
+                    "@_ID": "ID_1810859973",
+                    "@_CREATED": 1572063767900,
+                    "@_MODIFIED": 1572064386689,
+                    "@_HGAP_QUANTITY": "-62.4999977201224 pt",
+                    "@_VSHIFT_QUANTITY": "62.24999814480549 pt",
+                    "@_COLOR": "#666600",
+                    "icon": {
+                        "@_BUILTIN": "executable"
+                    },
                     "edge": {
-                        "@_COLOR": "#00007c"
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
                     },
                     "node": [
                         {
-                            "@_TEXT": "css",
-                            "@_ID": "ID_1846113849",
-                            "@_CREATED": 1571333474425,
-                            "@_MODIFIED": 1571333716551,
-                            "@_LINK": "css.mm"
+                            "@_TEXT": "authorization",
+                            "@_ID": "ID_1568925180",
+                            "@_CREATED": 1572000518964,
+                            "@_MODIFIED": 1572063778651,
+                            "@_LINK": "authorization/index.mm"
                         },
                         {
-                            "@_TEXT": "svg",
-                            "@_ID": "ID_428457042",
-                            "@_CREATED": 1571334566267,
-                            "@_MODIFIED": 1571336723249,
-                            "@_LINK": "https://www.w3schools.com/graphics/svg_reference.asp"
+                            "@_TEXT": "control",
+                            "@_ID": "ID_1041005677",
+                            "@_CREATED": 1570900237485,
+                            "@_MODIFIED": 1572063781802,
+                            "@_LINK": "control/index.mm",
+                            "node": [
+                                {
+                                    "@_TEXT": "git",
+                                    "@_ID": "ID_1536156446",
+                                    "@_CREATED": 1570577057978,
+                                    "@_MODIFIED": 1570900242896
+                                },
+                                {
+                                    "@_TEXT": "pm2",
+                                    "@_ID": "ID_901084502",
+                                    "@_CREATED": 1570636909431,
+                                    "@_MODIFIED": 1570900244713
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "apps",
+                            "@_ID": "ID_453742222",
+                            "@_CREATED": 1571338319058,
+                            "@_MODIFIED": 1572063813094,
+                            "node": {
+                                "@_TEXT": "freeplane",
+                                "@_ID": "ID_756649779",
+                                "@_CREATED": 1571338322315,
+                                "@_MODIFIED": 1571338343996,
+                                "@_LINK": "freeplane.mm"
+                            }
+                        },
+                        {
+                            "@_TEXT": "editors",
+                            "@_ID": "ID_1019017499",
+                            "@_CREATED": 1571731938237,
+                            "@_MODIFIED": 1572063864523,
+                            "node": {
+                                "@_TEXT": "vscode",
+                                "@_ID": "ID_847676993",
+                                "@_CREATED": 1571731940861,
+                                "@_MODIFIED": 1571732008363,
+                                "@_LINK": "https://code.visualstudio.com/"
+                            }
                         }
                     ]
                 },
                 {
-                    "@_TEXT": "control",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1041005677",
-                    "@_CREATED": 1570900237485,
-                    "@_MODIFIED": 1570900384592,
-                    "@_LINK": "control/index.mm",
+                    "@_TEXT": "Links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_777477932",
+                    "@_CREATED": 1572063875737,
+                    "@_MODIFIED": 1572064427848,
+                    "@_COLOR": "#660000",
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
                     "edge": {
-                        "@_COLOR": "#7c0000"
+                        "@_COLOR": "#00ffff"
+                    },
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
                     },
                     "node": [
                         {
-                            "@_TEXT": "git",
-                            "@_ID": "ID_1536156446",
-                            "@_CREATED": 1570577057978,
-                            "@_MODIFIED": 1570900242896
-                        },
-                        {
-                            "@_TEXT": "pm2",
-                            "@_ID": "ID_901084502",
-                            "@_CREATED": 1570636909431,
-                            "@_MODIFIED": 1570900244713
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "authorization",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1568925180",
-                    "@_CREATED": 1572000518964,
-                    "@_MODIFIED": 1572000529230,
-                    "@_LINK": "authorization/index.mm",
-                    "edge": {
-                        "@_COLOR": "#ff0000"
-                    }
-                },
-                {
-                    "@_TEXT": "apps",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_453742222",
-                    "@_CREATED": 1571338319058,
-                    "@_MODIFIED": 1571338321054,
-                    "edge": {
-                        "@_COLOR": "#007c00"
-                    },
-                    "node": {
-                        "@_TEXT": "freeplane",
-                        "@_ID": "ID_756649779",
-                        "@_CREATED": 1571338322315,
-                        "@_MODIFIED": 1571338343996,
-                        "@_LINK": "freeplane.mm"
-                    }
-                },
-                {
-                    "@_TEXT": "lists",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_21985093",
-                    "@_CREATED": 1571731255998,
-                    "@_MODIFIED": 1571731257410,
-                    "edge": {
-                        "@_COLOR": "#7c007c"
-                    },
-                    "node": {
-                        "@_ID": "ID_588856980",
-                        "@_CREATED": 1571731259435,
-                        "@_MODIFIED": 1571731259435,
-                        "@_LINK": "https://getawesomeness.herokuapp.com/get/js",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://getawesomeness.herokuapp.com/get/js",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://getawesomeness.herokuapp.com/get/js"
+                            "@_TEXT": "lists",
+                            "@_ID": "ID_21985093",
+                            "@_CREATED": 1571731255998,
+                            "@_MODIFIED": 1572063881756,
+                            "node": {
+                                "@_ID": "ID_588856980",
+                                "@_CREATED": 1571731259435,
+                                "@_MODIFIED": 1571731259435,
+                                "@_LINK": "https://getawesomeness.herokuapp.com/get/js",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://getawesomeness.herokuapp.com/get/js",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://getawesomeness.herokuapp.com/get/js"
+                                            }
+                                        }
                                     }
                                 }
                             }
+                        },
+                        {
+                            "@_TEXT": "this page",
+                            "@_ID": "ID_117142409",
+                            "@_CREATED": 1571731629320,
+                            "@_MODIFIED": 1572063883712,
+                            "node": {
+                                "@_TEXT": "json",
+                                "@_ID": "ID_485260235",
+                                "@_CREATED": 1571731633357,
+                                "@_MODIFIED": 1571731648894,
+                                "@_LINK": "index.json"
+                            }
                         }
-                    }
-                },
-                {
-                    "@_TEXT": "this page",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_117142409",
-                    "@_CREATED": 1571731629320,
-                    "@_MODIFIED": 1571731631437,
-                    "edge": {
-                        "@_COLOR": "#007c7c"
-                    },
-                    "node": {
-                        "@_TEXT": "json",
-                        "@_ID": "ID_485260235",
-                        "@_CREATED": 1571731633357,
-                        "@_MODIFIED": 1571731648894,
-                        "@_LINK": "index.json"
-                    }
+                    ]
                 }
             ]
         }
