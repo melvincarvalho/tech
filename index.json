@@ -207,12 +207,12 @@
                     "icon": {
                         "@_BUILTIN": "list"
                     },
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
                     },
                     "node": {
                         "@_TEXT": "JavaScript",
@@ -234,12 +234,12 @@
                     "icon": {
                         "@_BUILTIN": "launch"
                     },
-                    "edge": {
-                        "@_COLOR": "#00ff00"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
                     },
                     "node": {
                         "@_TEXT": "web",
@@ -276,12 +276,12 @@
                     "icon": {
                         "@_BUILTIN": "executable"
                     },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
                     },
                     "node": [
                         {
@@ -350,45 +350,38 @@
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
-                    "edge": {
-                        "@_COLOR": "#00ffff"
-                    },
                     "font": {
                         "@_SIZE": 12,
                         "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ffff"
                     },
                     "node": [
                         {
                             "@_TEXT": "lists",
                             "@_ID": "ID_21985093",
                             "@_CREATED": 1571731255998,
-                            "@_MODIFIED": 1572063881756,
+                            "@_MODIFIED": 1572498673983,
+                            "icon": {
+                                "@_BUILTIN": "list"
+                            },
                             "node": {
+                                "@_TEXT": "awesome lists",
                                 "@_ID": "ID_588856980",
                                 "@_CREATED": 1571731259435,
-                                "@_MODIFIED": 1571731259435,
-                                "@_LINK": "https://getawesomeness.herokuapp.com/get/js",
-                                "richcontent": {
-                                    "@_TYPE": "NODE",
-                                    "html": {
-                                        "head": "",
-                                        "body": {
-                                            "a": {
-                                                "#text": "https://getawesomeness.herokuapp.com/get/js",
-                                                "@_http-equiv": "content-type",
-                                                "@_content": "text/html; charset=utf-8",
-                                                "@_href": "https://getawesomeness.herokuapp.com/get/js"
-                                            }
-                                        }
-                                    }
-                                }
+                                "@_MODIFIED": 1572498667633,
+                                "@_LINK": "https://getawesomeness.herokuapp.com/get/js"
                             }
                         },
                         {
                             "@_TEXT": "this page",
                             "@_ID": "ID_117142409",
                             "@_CREATED": 1571731629320,
-                            "@_MODIFIED": 1572063883712,
+                            "@_MODIFIED": 1572498680071,
+                            "icon": {
+                                "@_BUILTIN": "bookmark"
+                            },
                             "node": {
                                 "@_TEXT": "json",
                                 "@_ID": "ID_485260235",

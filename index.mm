@@ -67,14 +67,14 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Languages" POSITION="right" ID="ID_176155545" CREATED="1572063754537" MODIFIED="1572064366377" HGAP_QUANTITY="-81.24999716132886 pt" VSHIFT_QUANTITY="-35.99999892711642 pt" COLOR="#006633">
 <icon BUILTIN="list"/>
-<edge COLOR="#0000ff"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#0000ff"/>
 <node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1570900226429" LINK="https://melvincarvalho.github.io/JavaScript/"/>
 </node>
 <node TEXT="Frameworks" POSITION="right" ID="ID_527312312" CREATED="1572063758657" MODIFIED="1572064375760" HGAP_QUANTITY="29.749999530613437 pt" VSHIFT_QUANTITY="24.749999262392546 pt" COLOR="#000099">
 <icon BUILTIN="launch"/>
-<edge COLOR="#00ff00"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#00ff00"/>
 <node TEXT="web" ID="ID_532002583" CREATED="1571333469724" MODIFIED="1572063802934">
 <node TEXT="css" ID="ID_1846113849" CREATED="1571333474425" MODIFIED="1571333716551" LINK="css.mm"/>
 <node TEXT="svg" ID="ID_428457042" CREATED="1571334566267" MODIFIED="1571336723249" LINK="https://www.w3schools.com/graphics/svg_reference.asp"/>
@@ -82,8 +82,8 @@
 </node>
 <node TEXT="Tools" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1572064386689" HGAP_QUANTITY="-62.4999977201224 pt" VSHIFT_QUANTITY="62.24999814480549 pt" COLOR="#666600">
 <icon BUILTIN="executable"/>
-<edge COLOR="#ff00ff"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#ff00ff"/>
 <node TEXT="authorization" ID="ID_1568925180" CREATED="1572000518964" MODIFIED="1572063778651" LINK="authorization/index.mm"/>
 <node TEXT="control" ID="ID_1041005677" CREATED="1570900237485" MODIFIED="1572063781802" LINK="control/index.mm">
 <node TEXT="git" ID="ID_1536156446" CREATED="1570577057978" MODIFIED="1570900242896"/>
@@ -98,23 +98,14 @@
 </node>
 <node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
 <icon BUILTIN="attach"/>
-<edge COLOR="#00ffff"/>
 <font SIZE="12" BOLD="true"/>
-<node TEXT="lists" ID="ID_21985093" CREATED="1571731255998" MODIFIED="1572063881756">
-<node ID="ID_588856980" CREATED="1571731259435" MODIFIED="1571731259435" LINK="https://getawesomeness.herokuapp.com/get/js"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://getawesomeness.herokuapp.com/get/js">https://getawesomeness.herokuapp.com/get/js</a> 
-  </body>
-</html>
-</richcontent>
+<edge COLOR="#00ffff"/>
+<node TEXT="lists" ID="ID_21985093" CREATED="1571731255998" MODIFIED="1572498673983">
+<icon BUILTIN="list"/>
+<node TEXT="awesome lists" ID="ID_588856980" CREATED="1571731259435" MODIFIED="1572498667633" LINK="https://getawesomeness.herokuapp.com/get/js"/>
 </node>
-</node>
-<node TEXT="this page" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1572063883712">
+<node TEXT="this page" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1572498680071">
+<icon BUILTIN="bookmark"/>
 <node TEXT="json" ID="ID_485260235" CREATED="1571731633357" MODIFIED="1571731648894" LINK="index.json"/>
 </node>
 </node>
