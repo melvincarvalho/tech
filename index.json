@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1572064326913,
+            "@_MODIFIED": 1572957563923,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -227,9 +227,9 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_527312312",
                     "@_CREATED": 1572063758657,
-                    "@_MODIFIED": 1572064375760,
-                    "@_HGAP_QUANTITY": "29.749999530613437 pt",
-                    "@_VSHIFT_QUANTITY": "24.749999262392546 pt",
+                    "@_MODIFIED": 1572957563919,
+                    "@_HGAP_QUANTITY": "35.74999935179951 pt",
+                    "@_VSHIFT_QUANTITY": "40.499998793005986 pt",
                     "@_COLOR": "#000099",
                     "icon": {
                         "@_BUILTIN": "launch"
@@ -260,6 +260,13 @@
                                 "@_CREATED": 1571334566267,
                                 "@_MODIFIED": 1571336723249,
                                 "@_LINK": "https://www.w3schools.com/graphics/svg_reference.asp"
+                            },
+                            {
+                                "@_TEXT": "solid",
+                                "@_ID": "ID_1070141955",
+                                "@_CREATED": 1572957566339,
+                                "@_MODIFIED": 1572957590106,
+                                "@_LINK": "https://solid.mit.edu/"
                             }
                         ]
                     }
