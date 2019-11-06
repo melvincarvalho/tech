@@ -211,13 +211,22 @@
                     "font": {
                         "@_BOLD": true
                     },
-                    "node": {
-                        "@_TEXT": "deployment",
-                        "@_ID": "ID_1486875563",
-                        "@_CREATED": 1573033564610,
-                        "@_MODIFIED": 1573033570486,
-                        "@_LINK": "https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "deployment",
+                            "@_ID": "ID_1486875563",
+                            "@_CREATED": 1573033564610,
+                            "@_MODIFIED": 1573033570486,
+                            "@_LINK": "https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"
+                        },
+                        {
+                            "@_TEXT": "hooks",
+                            "@_ID": "ID_1162474461",
+                            "@_CREATED": 1573034028145,
+                            "@_MODIFIED": 1573034036750,
+                            "@_LINK": "https://git-scm.com/docs/githooks"
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "links",

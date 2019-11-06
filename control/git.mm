@@ -70,6 +70,7 @@
 <edge COLOR="#00ff00"/>
 <font BOLD="true"/>
 <node TEXT="deployment" ID="ID_1486875563" CREATED="1573033564610" MODIFIED="1573033570486" LINK="https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"/>
+<node TEXT="hooks" ID="ID_1162474461" CREATED="1573034028145" MODIFIED="1573034036750" LINK="https://git-scm.com/docs/githooks"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
