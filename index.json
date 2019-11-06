@@ -282,13 +282,29 @@
                                 "@_ID": "ID_1682894723",
                                 "@_CREATED": 1573041656991,
                                 "@_MODIFIED": 1573041659220,
-                                "node": {
-                                    "@_TEXT": "Native File System",
-                                    "@_ID": "ID_1944964332",
-                                    "@_CREATED": 1573041667364,
-                                    "@_MODIFIED": 1573041678745,
-                                    "@_LINK": "https://wicg.github.io/native-file-system/"
-                                }
+                                "node": [
+                                    {
+                                        "@_TEXT": "Native File System",
+                                        "@_ID": "ID_1944964332",
+                                        "@_CREATED": 1573041667364,
+                                        "@_MODIFIED": 1573041678745,
+                                        "@_LINK": "https://wicg.github.io/native-file-system/"
+                                    },
+                                    {
+                                        "@_TEXT": "Web Share API",
+                                        "@_ID": "ID_131281787",
+                                        "@_CREATED": 1573042137566,
+                                        "@_MODIFIED": 1573042142561,
+                                        "@_LINK": "https://w3c.github.io/web-share/"
+                                    },
+                                    {
+                                        "@_TEXT": "Credential Management Level 1",
+                                        "@_ID": "ID_1415592675",
+                                        "@_CREATED": 1573042176019,
+                                        "@_MODIFIED": 1573042185242,
+                                        "@_LINK": "https://www.w3.org/TR/credential-management-1/"
+                                    }
+                                ]
                             }
                         ]
                     }
