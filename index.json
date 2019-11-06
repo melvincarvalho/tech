@@ -276,6 +276,19 @@
                                 "@_CREATED": 1572957566339,
                                 "@_MODIFIED": 1573024605205,
                                 "@_LINK": "../solid/index.mm"
+                            },
+                            {
+                                "@_TEXT": "specs",
+                                "@_ID": "ID_1682894723",
+                                "@_CREATED": 1573041656991,
+                                "@_MODIFIED": 1573041659220,
+                                "node": {
+                                    "@_TEXT": "Native File System",
+                                    "@_ID": "ID_1944964332",
+                                    "@_CREATED": 1573041667364,
+                                    "@_MODIFIED": 1573041678745,
+                                    "@_LINK": "https://wicg.github.io/native-file-system/"
+                                }
                             }
                         ]
                     }
