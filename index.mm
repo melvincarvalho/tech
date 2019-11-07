@@ -118,6 +118,19 @@
 <node TEXT="this page" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1572498680071">
 <icon BUILTIN="bookmark"/>
 <node TEXT="json" ID="ID_485260235" CREATED="1571731633357" MODIFIED="1571731648894" LINK="index.json"/>
+<node ID="ID_1630439828" CREATED="1573154702956" MODIFIED="1573154702956" LINK="https://webmaps.io/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://webmaps.io/">https://webmaps.io/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>

@@ -444,13 +444,35 @@
                             "icon": {
                                 "@_BUILTIN": "bookmark"
                             },
-                            "node": {
-                                "@_TEXT": "json",
-                                "@_ID": "ID_485260235",
-                                "@_CREATED": 1571731633357,
-                                "@_MODIFIED": 1571731648894,
-                                "@_LINK": "index.json"
-                            }
+                            "node": [
+                                {
+                                    "@_TEXT": "json",
+                                    "@_ID": "ID_485260235",
+                                    "@_CREATED": 1571731633357,
+                                    "@_MODIFIED": 1571731648894,
+                                    "@_LINK": "index.json"
+                                },
+                                {
+                                    "@_ID": "ID_1630439828",
+                                    "@_CREATED": 1573154702956,
+                                    "@_MODIFIED": 1573154702956,
+                                    "@_LINK": "https://webmaps.io/",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://webmaps.io/",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://webmaps.io/"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
