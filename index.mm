@@ -80,7 +80,7 @@
 <node TEXT="css" ID="ID_1846113849" CREATED="1571333474425" MODIFIED="1571333716551" LINK="css.mm"/>
 <node TEXT="svg" ID="ID_428457042" CREATED="1571334566267" MODIFIED="1571336723249" LINK="https://www.w3schools.com/graphics/svg_reference.asp"/>
 <node TEXT="solid" ID="ID_1070141955" CREATED="1572957566339" MODIFIED="1573024605205" LINK="../solid/index.mm"/>
-<node TEXT="specs" ID="ID_1682894723" CREATED="1573041656991" MODIFIED="1573041659220">
+<node TEXT="specs" ID="ID_1682894723" CREATED="1573041656991" MODIFIED="1574594852027" LINK="../specs/index.mm">
 <node TEXT="Native File System" ID="ID_1944964332" CREATED="1573041667364" MODIFIED="1573041678745" LINK="https://wicg.github.io/native-file-system/"/>
 <node TEXT="Web Share API" ID="ID_131281787" CREATED="1573042137566" MODIFIED="1573042142561" LINK="https://w3c.github.io/web-share/"/>
 <node TEXT="Credential Management Level 1" ID="ID_1415592675" CREATED="1573042176019" MODIFIED="1573042185242" LINK="https://www.w3.org/TR/credential-management-1/"/>
@@ -128,7 +128,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://webmaps.io/">https://webmaps.io/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
