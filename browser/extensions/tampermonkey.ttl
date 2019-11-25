@@ -1,0 +1,6 @@
+<#ID_777477932> <urn:string:@_TEXT> """Links""" .
+<#ID_1810859973> <urn:string:@_TEXT> """Details""" .
+<#ID_179062585> <urn:string:@_TEXT> """Tampermonkey is the most popular userscript manager, with over 10 million users. It&apos;s available for Chrome, Microsoft Edge, Safari, Opera Next, and Firefox.""" .
+<#ID_179062585> <urn:string:child> <ID_179062585> .
+<#ID_1008129966> <urn:string:@_TEXT> """Tampermonkey makes it very easy to manage your userscripts and provides features like a clear overview over the running scripts, a built-in editor, ZIP-based import and export, automatic update checks and browser and cloud storage based synchronization.""" .
+<#ID_1008129966> <urn:string:child> <ID_1008129966> .

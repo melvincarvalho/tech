@@ -400,6 +400,13 @@
                             "icon": {
                                 "@_BUILTIN": "folder"
                             }
+                        },
+                        {
+                            "@_TEXT": "browser",
+                            "@_ID": "ID_220365950",
+                            "@_CREATED": 1574694199767,
+                            "@_MODIFIED": 1574694442134,
+                            "@_LINK": "browser/index.mm"
                         }
                     ]
                 },
