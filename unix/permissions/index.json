@@ -191,10 +191,40 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 18,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
-            ]
+            ],
+            "node": {
+                "@_TEXT": "docs",
+                "@_POSITION": "right",
+                "@_ID": "ID_1243694432",
+                "@_CREATED": 1574808656546,
+                "@_MODIFIED": 1574808658843,
+                "edge": {
+                    "@_COLOR": "#00007c"
+                },
+                "node": {
+                    "@_ID": "ID_1014946444",
+                    "@_CREATED": 1574808660926,
+                    "@_MODIFIED": 1574808660926,
+                    "@_LINK": "https://en.wikipedia.org/wiki/File_system_permissions",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://en.wikipedia.org/wiki/File_system_permissions",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://en.wikipedia.org/wiki/File_system_permissions"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

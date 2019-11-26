@@ -64,6 +64,22 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="docs" POSITION="right" ID="ID_1243694432" CREATED="1574808656546" MODIFIED="1574808658843">
+<edge COLOR="#00007c"/>
+<node ID="ID_1014946444" CREATED="1574808660926" MODIFIED="1574808660926" LINK="https://en.wikipedia.org/wiki/File_system_permissions"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://en.wikipedia.org/wiki/File_system_permissions">https://en.wikipedia.org/wiki/File_system_permissions</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </map>
