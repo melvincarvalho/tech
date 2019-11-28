@@ -113,6 +113,7 @@
 <icon BUILTIN="list"/>
 <node TEXT="awesome lists" ID="ID_588856980" CREATED="1571731259435" MODIFIED="1572498667633" LINK="https://getawesomeness.herokuapp.com/get/js"/>
 </node>
+<node TEXT="devhints" ID="ID_1033702527" CREATED="1574949098101" MODIFIED="1574949108806" LINK="https://devhints.io/"/>
 <node TEXT="this page" ID="ID_117142409" CREATED="1571731629320" MODIFIED="1572498680071">
 <icon BUILTIN="bookmark"/>
 <node TEXT="json" ID="ID_485260235" CREATED="1571731633357" MODIFIED="1571731648894" LINK="index.json"/>

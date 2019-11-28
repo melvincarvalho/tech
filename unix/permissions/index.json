@@ -191,40 +191,305 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 18,
+                    "@_COUNTER": 22,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": {
-                "@_TEXT": "docs",
-                "@_POSITION": "right",
-                "@_ID": "ID_1243694432",
-                "@_CREATED": 1574808656546,
-                "@_MODIFIED": 1574808658843,
-                "edge": {
-                    "@_COLOR": "#00007c"
-                },
-                "node": {
-                    "@_ID": "ID_1014946444",
-                    "@_CREATED": 1574808660926,
-                    "@_MODIFIED": 1574808660926,
-                    "@_LINK": "https://en.wikipedia.org/wiki/File_system_permissions",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://en.wikipedia.org/wiki/File_system_permissions",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://en.wikipedia.org/wiki/File_system_permissions"
+            "node": [
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1243694432",
+                    "@_CREATED": 1574808656546,
+                    "@_MODIFIED": 1574808658843,
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_1014946444",
+                            "@_CREATED": 1574808660926,
+                            "@_MODIFIED": 1574808660926,
+                            "@_LINK": "https://en.wikipedia.org/wiki/File_system_permissions",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://en.wikipedia.org/wiki/File_system_permissions",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://en.wikipedia.org/wiki/File_system_permissions"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_141907254",
+                            "@_CREATED": 1574867599540,
+                            "@_MODIFIED": 1574867599540,
+                            "@_LINK": "https://en.wikipedia.org/wiki/Modes_(Unix)",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://en.wikipedia.org/wiki/Modes_(Unix)",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://en.wikipedia.org/wiki/Modes_(Unix)"
+                                        }
+                                    }
                                 }
                             }
                         }
-                    }
+                    ]
+                },
+                {
+                    "@_TEXT": "modes",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_150877229",
+                    "@_CREATED": 1574868086932,
+                    "@_MODIFIED": 1574868088625,
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "$ chmod ug+rw sample",
+                            "@_ID": "ID_864977651",
+                            "@_CREATED": 1574868093306,
+                            "@_MODIFIED": 1574868093306
+                        },
+                        {
+                            "@_TEXT": "$ ls -ld sample",
+                            "@_ID": "ID_1481316847",
+                            "@_CREATED": 1574868093307,
+                            "@_MODIFIED": 1574868093307
+                        },
+                        {
+                            "@_TEXT": "drw-rw----   2 unixguy  unixguy       96 Dec  8 12:53 sample",
+                            "@_ID": "ID_1403719885",
+                            "@_CREATED": 1574868093324,
+                            "@_MODIFIED": 1574868093324
+                        },
+                        {
+                            "@_TEXT": "This command removes all permissions, allowing no one to read, write, or execute the file named sample.",
+                            "@_ID": "ID_846571585",
+                            "@_CREATED": 1574868093324,
+                            "@_MODIFIED": 1574868093324
+                        },
+                        {
+                            "@_TEXT": "$ chmod a-rwx sample",
+                            "@_ID": "ID_1430656093",
+                            "@_CREATED": 1574868093326,
+                            "@_MODIFIED": 1574868093326
+                        },
+                        {
+                            "@_TEXT": "$ ls -l sample",
+                            "@_ID": "ID_1325930662",
+                            "@_CREATED": 1574868093331,
+                            "@_MODIFIED": 1574868093331
+                        },
+                        {
+                            "@_TEXT": "----------   2 unixguy  unixguy       96 Dec  8 12:53 sample",
+                            "@_ID": "ID_314314656",
+                            "@_CREATED": 1574868093332,
+                            "@_MODIFIED": 1574868093332
+                        },
+                        {
+                            "@_TEXT": "The following command changes the permissions for the user and the group to read and execute only (no write permission) on sample.",
+                            "@_ID": "ID_1114752646",
+                            "@_CREATED": 1574868093332,
+                            "@_MODIFIED": 1574868093332
+                        },
+                        {
+                            "@_TEXT": "$ # Sample file permissions before command",
+                            "@_ID": "ID_1268244799",
+                            "@_CREATED": 1574868093333,
+                            "@_MODIFIED": 1574868093333
+                        },
+                        {
+                            "@_TEXT": "$ ls -ld sample",
+                            "@_ID": "ID_1143048075",
+                            "@_CREATED": 1574868093336,
+                            "@_MODIFIED": 1574868093336
+                        },
+                        {
+                            "@_TEXT": "drw-rw----   2 unixguy  unixguy       96 Dec  8 12:53 sample",
+                            "@_ID": "ID_229967548",
+                            "@_CREATED": 1574868093337,
+                            "@_MODIFIED": 1574868093337
+                        },
+                        {
+                            "@_TEXT": "$ chmod ug=rx sample",
+                            "@_ID": "ID_161509738",
+                            "@_CREATED": 1574868093338,
+                            "@_MODIFIED": 1574868093338
+                        },
+                        {
+                            "@_TEXT": "$ ls -ld sample",
+                            "@_ID": "ID_252447029",
+                            "@_CREATED": 1574868093340,
+                            "@_MODIFIED": 1574868093340
+                        },
+                        {
+                            "@_TEXT": "dr-xr-x---   2 unixguy  unixguy       96 Dec  8 12:53 sample",
+                            "@_ID": "ID_1248750826",
+                            "@_CREATED": 1574868093340,
+                            "@_MODIFIED": 1574868093340
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "terms",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1249451884",
+                    "@_CREATED": 1574809033393,
+                    "@_MODIFIED": 1574809035227,
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "users",
+                            "@_ID": "ID_875646522",
+                            "@_CREATED": 1574809036927,
+                            "@_MODIFIED": 1574809040197
+                        },
+                        {
+                            "@_TEXT": "groups",
+                            "@_ID": "ID_1079726318",
+                            "@_CREATED": 1574809041831,
+                            "@_MODIFIED": 1574809044128
+                        },
+                        {
+                            "@_TEXT": "others",
+                            "@_ID": "ID_709227410",
+                            "@_CREATED": 1574809859823,
+                            "@_MODIFIED": 1574809861975
+                        },
+                        {
+                            "@_TEXT": "effective permissions",
+                            "@_ID": "ID_1502235079",
+                            "@_CREATED": 1574867034584,
+                            "@_MODIFIED": 1574867038071
+                        },
+                        {
+                            "@_TEXT": "umask",
+                            "@_ID": "ID_1771188584",
+                            "@_CREATED": 1574809915941,
+                            "@_MODIFIED": 1574809918692,
+                            "node": {
+                                "@_TEXT": "When a file is created on a Unix-like system, its permissions are restricted by the umask of the process that created it",
+                                "@_ID": "ID_1640724673",
+                                "@_CREATED": 1574809928648,
+                                "@_MODIFIED": 1574809928648
+                            }
+                        },
+                        {
+                            "@_TEXT": "sticky bit",
+                            "@_ID": "ID_252018089",
+                            "@_CREATED": 1574868457642,
+                            "@_MODIFIED": 1574868463263,
+                            "@_LINK": "https://en.wikipedia.org/wiki/Sticky_bit"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "actions",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1407101570",
+                    "@_CREATED": 1574809100872,
+                    "@_MODIFIED": 1574809104721,
+                    "edge": {
+                        "@_COLOR": "#7c007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "view",
+                            "@_ID": "ID_889912051",
+                            "@_CREATED": 1574809106091,
+                            "@_MODIFIED": 1574809107784
+                        },
+                        {
+                            "@_TEXT": "change",
+                            "@_ID": "ID_1109300399",
+                            "@_CREATED": 1574809108817,
+                            "@_MODIFIED": 1574809111027
+                        },
+                        {
+                            "@_TEXT": "navigate",
+                            "@_ID": "ID_1396476177",
+                            "@_CREATED": 1574809112372,
+                            "@_MODIFIED": 1574809116047
+                        },
+                        {
+                            "@_TEXT": "execute",
+                            "@_ID": "ID_385642129",
+                            "@_CREATED": 1574809116544,
+                            "@_MODIFIED": 1574809119515
+                        },
+                        {
+                            "@_TEXT": "special execute",
+                            "@_ID": "ID_850179751",
+                            "@_CREATED": 1574868240469,
+                            "@_MODIFIED": 1574868245278,
+                            "node": {
+                                "@_TEXT": "which is not a permission in itself but rather can be used instead of x. It applies execute permissions to directories regardless of their current permissions and applies execute permissions to a file which already has at least 1 execute permission bit already set (either user, group or other). It is only really useful when used with &apos;+&apos; and usually in combination with the -R option for giving group or other access to a big directory tree without setting execute permission on normal files (such as text files), which would normally happen if you just used &quot;chmod -R a+rx .&quot;, whereas with &apos;X&apos; you can do &quot;chmod -R a+rX .&quot; instead",
+                                "@_ID": "ID_1327369607",
+                                "@_CREATED": 1574868329790,
+                                "@_MODIFIED": 1574868329790
+                            }
+                        },
+                        {
+                            "@_TEXT": "sticky",
+                            "@_ID": "ID_512472174",
+                            "@_CREATED": 1574868246957,
+                            "@_MODIFIED": 1574868248894
+                        },
+                        {
+                            "@_TEXT": "setuid/gid",
+                            "@_ID": "ID_1921915189",
+                            "@_CREATED": 1574868252240,
+                            "@_MODIFIED": 1574868256032
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "types",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1095169337",
+                    "@_CREATED": 1574809284058,
+                    "@_MODIFIED": 1574809286277,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "traditional unix",
+                            "@_ID": "ID_413727769",
+                            "@_CREATED": 1574809287013,
+                            "@_MODIFIED": 1574809292211,
+                            "node": {
+                                "@_TEXT": "POSIX ACLs",
+                                "@_ID": "ID_358965075",
+                                "@_CREATED": 1574809483978,
+                                "@_MODIFIED": 1574809813379
+                            }
+                        },
+                        {
+                            "@_TEXT": "access control lists",
+                            "@_ID": "ID_279045853",
+                            "@_CREATED": 1574809293329,
+                            "@_MODIFIED": 1574809298114
+                        }
+                    ]
                 }
-            }
+            ]
         }
     }
 }

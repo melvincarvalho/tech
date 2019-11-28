@@ -1,0 +1,67 @@
+<#ID_1243694432> <urn:string:@_TEXT> """docs""" .
+<#ID_1014946444> <urn:string:@_TEXT> """undefined""" .
+<#ID_1014946444> <urn:string:child> <ID_1014946444> .
+<#ID_141907254> <urn:string:@_TEXT> """undefined""" .
+<#ID_141907254> <urn:string:child> <ID_141907254> .
+<#ID_150877229> <urn:string:@_TEXT> """modes""" .
+<#ID_864977651> <urn:string:@_TEXT> """$ chmod ug+rw sample""" .
+<#ID_864977651> <urn:string:child> <ID_864977651> .
+<#ID_1481316847> <urn:string:@_TEXT> """$ ls -ld sample""" .
+<#ID_1481316847> <urn:string:child> <ID_1481316847> .
+<#ID_1403719885> <urn:string:@_TEXT> """drw-rw----   2 unixguy  unixguy       96 Dec  8 12:53 sample""" .
+<#ID_1403719885> <urn:string:child> <ID_1403719885> .
+<#ID_846571585> <urn:string:@_TEXT> """This command removes all permissions, allowing no one to read, write, or execute the file named sample.""" .
+<#ID_846571585> <urn:string:child> <ID_846571585> .
+<#ID_1430656093> <urn:string:@_TEXT> """$ chmod a-rwx sample""" .
+<#ID_1430656093> <urn:string:child> <ID_1430656093> .
+<#ID_1325930662> <urn:string:@_TEXT> """$ ls -l sample""" .
+<#ID_1325930662> <urn:string:child> <ID_1325930662> .
+<#ID_314314656> <urn:string:@_TEXT> """----------   2 unixguy  unixguy       96 Dec  8 12:53 sample""" .
+<#ID_314314656> <urn:string:child> <ID_314314656> .
+<#ID_1114752646> <urn:string:@_TEXT> """The following command changes the permissions for the user and the group to read and execute only (no write permission) on sample.""" .
+<#ID_1114752646> <urn:string:child> <ID_1114752646> .
+<#ID_1268244799> <urn:string:@_TEXT> """$ # Sample file permissions before command""" .
+<#ID_1268244799> <urn:string:child> <ID_1268244799> .
+<#ID_1143048075> <urn:string:@_TEXT> """$ ls -ld sample""" .
+<#ID_1143048075> <urn:string:child> <ID_1143048075> .
+<#ID_229967548> <urn:string:@_TEXT> """drw-rw----   2 unixguy  unixguy       96 Dec  8 12:53 sample""" .
+<#ID_229967548> <urn:string:child> <ID_229967548> .
+<#ID_161509738> <urn:string:@_TEXT> """$ chmod ug=rx sample""" .
+<#ID_161509738> <urn:string:child> <ID_161509738> .
+<#ID_252447029> <urn:string:@_TEXT> """$ ls -ld sample""" .
+<#ID_252447029> <urn:string:child> <ID_252447029> .
+<#ID_1248750826> <urn:string:@_TEXT> """dr-xr-x---   2 unixguy  unixguy       96 Dec  8 12:53 sample""" .
+<#ID_1248750826> <urn:string:child> <ID_1248750826> .
+<#ID_1249451884> <urn:string:@_TEXT> """terms""" .
+<#ID_875646522> <urn:string:@_TEXT> """users""" .
+<#ID_875646522> <urn:string:child> <ID_875646522> .
+<#ID_1079726318> <urn:string:@_TEXT> """groups""" .
+<#ID_1079726318> <urn:string:child> <ID_1079726318> .
+<#ID_709227410> <urn:string:@_TEXT> """others""" .
+<#ID_709227410> <urn:string:child> <ID_709227410> .
+<#ID_1502235079> <urn:string:@_TEXT> """effective permissions""" .
+<#ID_1502235079> <urn:string:child> <ID_1502235079> .
+<#ID_1771188584> <urn:string:@_TEXT> """umask""" .
+<#ID_1771188584> <urn:string:child> <ID_1771188584> .
+<#ID_252018089> <urn:string:@_TEXT> """sticky bit""" .
+<#ID_252018089> <urn:string:child> <ID_252018089> .
+<#ID_1407101570> <urn:string:@_TEXT> """actions""" .
+<#ID_889912051> <urn:string:@_TEXT> """view""" .
+<#ID_889912051> <urn:string:child> <ID_889912051> .
+<#ID_1109300399> <urn:string:@_TEXT> """change""" .
+<#ID_1109300399> <urn:string:child> <ID_1109300399> .
+<#ID_1396476177> <urn:string:@_TEXT> """navigate""" .
+<#ID_1396476177> <urn:string:child> <ID_1396476177> .
+<#ID_385642129> <urn:string:@_TEXT> """execute""" .
+<#ID_385642129> <urn:string:child> <ID_385642129> .
+<#ID_850179751> <urn:string:@_TEXT> """special execute""" .
+<#ID_850179751> <urn:string:child> <ID_850179751> .
+<#ID_512472174> <urn:string:@_TEXT> """sticky""" .
+<#ID_512472174> <urn:string:child> <ID_512472174> .
+<#ID_1921915189> <urn:string:@_TEXT> """setuid/gid""" .
+<#ID_1921915189> <urn:string:child> <ID_1921915189> .
+<#ID_1095169337> <urn:string:@_TEXT> """types""" .
+<#ID_413727769> <urn:string:@_TEXT> """traditional unix""" .
+<#ID_413727769> <urn:string:child> <ID_413727769> .
+<#ID_279045853> <urn:string:@_TEXT> """access control lists""" .
+<#ID_279045853> <urn:string:child> <ID_279045853> .
