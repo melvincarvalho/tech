@@ -415,26 +415,48 @@
                     "edge": {
                         "@_COLOR": "#00007c"
                     },
-                    "node": {
-                        "@_ID": "ID_920528829",
-                        "@_CREATED": 1571999021268,
-                        "@_MODIFIED": 1571999021268,
-                        "@_LINK": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc"
+                    "node": [
+                        {
+                            "@_ID": "ID_920528829",
+                            "@_CREATED": 1571999021268,
+                            "@_MODIFIED": 1571999021268,
+                            "@_LINK": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_1474984060",
+                            "@_CREATED": 1575213499024,
+                            "@_MODIFIED": 1575213499024,
+                            "@_LINK": "https://github.com/panva/node-oidc-provider",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://github.com/panva/node-oidc-provider",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://github.com/panva/node-oidc-provider"
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
+                    ]
                 },
                 {
                     "@_TEXT": "docs",

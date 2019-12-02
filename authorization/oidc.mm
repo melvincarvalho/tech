@@ -133,7 +133,18 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc">https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc</a> 
   </body>
 </html>
+</richcontent>
+</node>
+<node ID="ID_1474984060" CREATED="1575213499024" MODIFIED="1575213499024" LINK="https://github.com/panva/node-oidc-provider"><richcontent TYPE="NODE">
 
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/panva/node-oidc-provider">https://github.com/panva/node-oidc-provider</a> 
+  </body>
+</html>
 </richcontent>
 </node>
 </node>
