@@ -64,13 +64,40 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Details" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1570980228711">
 <icon BUILTIN="list"/>
 <edge COLOR="#00ff00"/>
 <font BOLD="true"/>
 <node TEXT="deployment" ID="ID_1486875563" CREATED="1573033564610" MODIFIED="1573033570486" LINK="https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"/>
 <node TEXT="hooks" ID="ID_1162474461" CREATED="1573034028145" MODIFIED="1573034036750" LINK="https://git-scm.com/docs/githooks"/>
+</node>
+<node TEXT="Commands" POSITION="right" ID="ID_1547856803" CREATED="1577143500034" MODIFIED="1577143502066">
+<edge COLOR="#7c0000"/>
+<node TEXT="reset" ID="ID_765780789" CREATED="1577143503127" MODIFIED="1577143505114">
+<node ID="ID_622264619" CREATED="1577143532312" MODIFIED="1577143532312" LINK="https://www.atlassian.com/git/tutorials/undoing-changes/git-reset"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.atlassian.com/git/tutorials/undoing-changes/git-reset">https://www.atlassian.com/git/tutorials/undoing-changes/git-reset</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="soft" ID="ID_625336574" CREATED="1577143578880" MODIFIED="1577143580705">
+<node TEXT="commit tree" ID="ID_1871528466" CREATED="1577143767770" MODIFIED="1577143770339"/>
+</node>
+<node TEXT="mixed" ID="ID_1578045062" CREATED="1577143581385" MODIFIED="1577143582848">
+<node TEXT="staging index" ID="ID_1338796809" CREATED="1577143772184" MODIFIED="1577143774906"/>
+</node>
+<node TEXT="hard" ID="ID_948378930" CREATED="1577143584246" MODIFIED="1577143585635">
+<node TEXT="working directory" ID="ID_286677452" CREATED="1577143777292" MODIFIED="1577143780071"/>
+</node>
+</node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
@@ -89,7 +116,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://git-scm.com/book/en/v1/Getting-Started-Git-Basics">https://git-scm.com/book/en/v1/Getting-Started-Git-Basics</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 5,
+                    "@_COUNTER": 6,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -227,6 +227,80 @@
                             "@_LINK": "https://git-scm.com/docs/githooks"
                         }
                     ]
+                },
+                {
+                    "@_TEXT": "Commands",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1547856803",
+                    "@_CREATED": 1577143500034,
+                    "@_MODIFIED": 1577143502066,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
+                    },
+                    "node": {
+                        "@_TEXT": "reset",
+                        "@_ID": "ID_765780789",
+                        "@_CREATED": 1577143503127,
+                        "@_MODIFIED": 1577143505114,
+                        "node": [
+                            {
+                                "@_ID": "ID_622264619",
+                                "@_CREATED": 1577143532312,
+                                "@_MODIFIED": 1577143532312,
+                                "@_LINK": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "@_TEXT": "soft",
+                                "@_ID": "ID_625336574",
+                                "@_CREATED": 1577143578880,
+                                "@_MODIFIED": 1577143580705,
+                                "node": {
+                                    "@_TEXT": "commit tree",
+                                    "@_ID": "ID_1871528466",
+                                    "@_CREATED": 1577143767770,
+                                    "@_MODIFIED": 1577143770339
+                                }
+                            },
+                            {
+                                "@_TEXT": "mixed",
+                                "@_ID": "ID_1578045062",
+                                "@_CREATED": 1577143581385,
+                                "@_MODIFIED": 1577143582848,
+                                "node": {
+                                    "@_TEXT": "staging index",
+                                    "@_ID": "ID_1338796809",
+                                    "@_CREATED": 1577143772184,
+                                    "@_MODIFIED": 1577143774906
+                                }
+                            },
+                            {
+                                "@_TEXT": "hard",
+                                "@_ID": "ID_948378930",
+                                "@_CREATED": 1577143584246,
+                                "@_MODIFIED": 1577143585635,
+                                "node": {
+                                    "@_TEXT": "working directory",
+                                    "@_ID": "ID_286677452",
+                                    "@_CREATED": 1577143777292,
+                                    "@_MODIFIED": 1577143780071
+                                }
+                            }
+                        ]
+                    }
                 },
                 {
                     "@_TEXT": "links",
