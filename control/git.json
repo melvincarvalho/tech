@@ -279,12 +279,35 @@
                                 "@_TEXT": "mixed",
                                 "@_ID": "ID_1578045062",
                                 "@_CREATED": 1577143581385,
-                                "@_MODIFIED": 1577143582848,
+                                "@_MODIFIED": 1577164554828,
+                                "font": {
+                                    "@_BOLD": true
+                                },
                                 "node": {
                                     "@_TEXT": "staging index",
                                     "@_ID": "ID_1338796809",
                                     "@_CREATED": 1577143772184,
-                                    "@_MODIFIED": 1577143774906
+                                    "@_MODIFIED": 1577143774906,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "his tree is tracking Working Directory changes, that have been promoted with git add, to be stored in the next commit. This tree is a complex internal caching mechanism.",
+                                            "@_ID": "ID_1679719810",
+                                            "@_CREATED": 1577163829512,
+                                            "@_MODIFIED": 1577163829512
+                                        },
+                                        {
+                                            "@_TEXT": "git ls-files",
+                                            "@_ID": "ID_1444858658",
+                                            "@_CREATED": 1577163895174,
+                                            "@_MODIFIED": 1577163899120,
+                                            "node": {
+                                                "@_TEXT": "-s or --stage",
+                                                "@_ID": "ID_1177229065",
+                                                "@_CREATED": 1577163960997,
+                                                "@_MODIFIED": 1577163964858
+                                            }
+                                        }
+                                    ]
                                 }
                             },
                             {
@@ -292,12 +315,26 @@
                                 "@_ID": "ID_948378930",
                                 "@_CREATED": 1577143584246,
                                 "@_MODIFIED": 1577143585635,
-                                "node": {
-                                    "@_TEXT": "working directory",
-                                    "@_ID": "ID_286677452",
-                                    "@_CREATED": 1577143777292,
-                                    "@_MODIFIED": 1577143780071
-                                }
+                                "node": [
+                                    {
+                                        "@_TEXT": "working directory",
+                                        "@_ID": "ID_286677452",
+                                        "@_CREATED": 1577143777292,
+                                        "@_MODIFIED": 1577143780071,
+                                        "node": {
+                                            "@_TEXT": "your local tree",
+                                            "@_ID": "ID_242765237",
+                                            "@_CREATED": 1577162795287,
+                                            "@_MODIFIED": 1577162798580
+                                        }
+                                    },
+                                    {
+                                        "@_TEXT": "Reset the staging area and the working directory to match the most recent commit. In addition to unstaging changes, the --hard flag tells Git to overwrite all changes in the working directory, too. Put another way: this obliterates all uncommitted changes, so make sure you really want to throw away your local developments before using it.",
+                                        "@_ID": "ID_897335891",
+                                        "@_CREATED": 1577168125680,
+                                        "@_MODIFIED": 1577168125680
+                                    }
+                                ]
                             }
                         ]
                     }
