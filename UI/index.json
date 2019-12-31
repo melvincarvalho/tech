@@ -6,8 +6,12 @@
             "@_FOLDED": false,
             "@_ID": "ID_1339113212",
             "@_CREATED": 1577512770034,
-            "@_MODIFIED": 1577512794171,
+            "@_MODIFIED": 1577599327401,
             "@_LINK": "../index.mm",
+            "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 18
+            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00ff00",
@@ -189,60 +193,114 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 18,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": {
-                "@_TEXT": "icons",
-                "@_POSITION": "right",
-                "@_ID": "ID_1662448683",
-                "@_CREATED": 1577512807591,
-                "@_MODIFIED": 1577512809522,
-                "edge": {
-                    "@_COLOR": "#7c0000"
-                },
-                "node": {
-                    "@_ID": "ID_1508871464",
-                    "@_CREATED": 1577512816432,
-                    "@_MODIFIED": 1577512816432,
-                    "@_LINK": "https://github.com/coreui/coreui-icons/tree/1.0.0",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://github.com/coreui/coreui-icons/tree/1.0.0",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://github.com/coreui/coreui-icons/tree/1.0.0"
-                                }
-                            }
-                        }
+            "node": [
+                {
+                    "@_TEXT": "icons",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1662448683",
+                    "@_CREATED": 1577512807591,
+                    "@_MODIFIED": 1577512809522,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
                     },
                     "node": {
-                        "@_ID": "ID_163483205",
-                        "@_CREATED": 1577512833865,
-                        "@_MODIFIED": 1577512833865,
-                        "@_LINK": "https://news.ycombinator.com/item?id=21891053",
+                        "@_ID": "ID_1508871464",
+                        "@_CREATED": 1577512816432,
+                        "@_MODIFIED": 1577512816432,
+                        "@_LINK": "https://github.com/coreui/coreui-icons/tree/1.0.0",
                         "richcontent": {
                             "@_TYPE": "NODE",
                             "html": {
                                 "head": "",
                                 "body": {
                                     "a": {
-                                        "#text": "https://news.ycombinator.com/item?id=21891053",
+                                        "#text": "https://github.com/coreui/coreui-icons/tree/1.0.0",
                                         "@_http-equiv": "content-type",
                                         "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://news.ycombinator.com/item?id=21891053"
+                                        "@_href": "https://github.com/coreui/coreui-icons/tree/1.0.0"
+                                    }
+                                }
+                            }
+                        },
+                        "node": {
+                            "@_ID": "ID_163483205",
+                            "@_CREATED": 1577512833865,
+                            "@_MODIFIED": 1577512833865,
+                            "@_LINK": "https://news.ycombinator.com/item?id=21891053",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://news.ycombinator.com/item?id=21891053",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://news.ycombinator.com/item?id=21891053"
+                                        }
                                     }
                                 }
                             }
                         }
                     }
+                },
+                {
+                    "@_TEXT": "design",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_611098242",
+                    "@_CREATED": 1577599333589,
+                    "@_MODIFIED": 1577599335628,
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_1149665101",
+                            "@_CREATED": 1577593606767,
+                            "@_MODIFIED": 1577593606767,
+                            "@_LINK": "https://github.com/LisaDziuba/Awesome-Design-Tools",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://github.com/LisaDziuba/Awesome-Design-Tools",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://github.com/LisaDziuba/Awesome-Design-Tools"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_1000100352",
+                            "@_CREATED": 1577791944237,
+                            "@_MODIFIED": 1577791944237,
+                            "@_LINK": "https://github.com/sw-yx/spark-joy",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://github.com/sw-yx/spark-joy",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://github.com/sw-yx/spark-joy"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-            }
+            ]
         }
     }
 }

@@ -197,65 +197,16 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "docs",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1243694432",
-                    "@_CREATED": 1574808656546,
-                    "@_MODIFIED": 1574808658843,
-                    "edge": {
-                        "@_COLOR": "#00007c"
-                    },
-                    "node": [
-                        {
-                            "@_ID": "ID_1014946444",
-                            "@_CREATED": 1574808660926,
-                            "@_MODIFIED": 1574808660926,
-                            "@_LINK": "https://en.wikipedia.org/wiki/File_system_permissions",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://en.wikipedia.org/wiki/File_system_permissions",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://en.wikipedia.org/wiki/File_system_permissions"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "@_ID": "ID_141907254",
-                            "@_CREATED": 1574867599540,
-                            "@_MODIFIED": 1574867599540,
-                            "@_LINK": "https://en.wikipedia.org/wiki/Modes_(Unix)",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://en.wikipedia.org/wiki/Modes_(Unix)",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://en.wikipedia.org/wiki/Modes_(Unix)"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
                     "@_TEXT": "modes",
                     "@_POSITION": "right",
                     "@_ID": "ID_150877229",
                     "@_CREATED": 1574868086932,
-                    "@_MODIFIED": 1574868088625,
+                    "@_MODIFIED": 1577599847356,
                     "edge": {
                         "@_COLOR": "#7c7c00"
+                    },
+                    "font": {
+                        "@_BOLD": true
                     },
                     "node": [
                         {
@@ -349,9 +300,12 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1249451884",
                     "@_CREATED": 1574809033393,
-                    "@_MODIFIED": 1574809035227,
+                    "@_MODIFIED": 1577599848449,
                     "edge": {
                         "@_COLOR": "#007c00"
+                    },
+                    "font": {
+                        "@_BOLD": true
                     },
                     "node": [
                         {
@@ -404,9 +358,12 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1407101570",
                     "@_CREATED": 1574809100872,
-                    "@_MODIFIED": 1574809104721,
+                    "@_MODIFIED": 1577599849760,
                     "edge": {
                         "@_COLOR": "#7c007c"
+                    },
+                    "font": {
+                        "@_BOLD": true
                     },
                     "node": [
                         {
@@ -464,9 +421,12 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1095169337",
                     "@_CREATED": 1574809284058,
-                    "@_MODIFIED": 1574809286277,
+                    "@_MODIFIED": 1577599851759,
                     "edge": {
                         "@_COLOR": "#007c7c"
+                    },
+                    "font": {
+                        "@_BOLD": true
                     },
                     "node": [
                         {
@@ -486,6 +446,58 @@
                             "@_ID": "ID_279045853",
                             "@_CREATED": 1574809293329,
                             "@_MODIFIED": 1574809298114
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1243694432",
+                    "@_CREATED": 1574808656546,
+                    "@_MODIFIED": 1574808658843,
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_1014946444",
+                            "@_CREATED": 1574808660926,
+                            "@_MODIFIED": 1574808660926,
+                            "@_LINK": "https://en.wikipedia.org/wiki/File_system_permissions",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://en.wikipedia.org/wiki/File_system_permissions",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://en.wikipedia.org/wiki/File_system_permissions"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_141907254",
+                            "@_CREATED": 1574867599540,
+                            "@_MODIFIED": 1574867599540,
+                            "@_LINK": "https://en.wikipedia.org/wiki/Modes_(Unix)",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://en.wikipedia.org/wiki/Modes_(Unix)",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://en.wikipedia.org/wiki/Modes_(Unix)"
+                                        }
+                                    }
+                                }
+                            }
                         }
                     ]
                 }
