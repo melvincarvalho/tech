@@ -87,19 +87,19 @@
 </node>
 <node TEXT="Here we go, the whitepaper: https://blockstack.org/whitepaper.pdf" ID="ID_670394103" CREATED="1577860820244" MODIFIED="1577860820244" LINK="https://blockstack.org/whitepaper.pdf"/>
 </node>
-<node TEXT="todo" POSITION="right" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1570968728179">
+<node TEXT="comparison" POSITION="right" ID="ID_1414960960" CREATED="1570968728177" MODIFIED="1577863052690">
 <icon BUILTIN="idea"/>
 <edge COLOR="#ff0000"/>
-<node TEXT="next" ID="ID_785505323" CREATED="1570968728179" MODIFIED="1570980194153">
-<icon BUILTIN="prepare"/>
+<node TEXT="table" ID="ID_1764100359" CREATED="1577863054178" MODIFIED="1577863061331" LINK="https://docs.blockstack.org/storage/overview.html#gaia-versus-other-storage-systems"/>
+<node TEXT="sia" ID="ID_779049770" CREATED="1577863062491" MODIFIED="1577863064461"/>
+<node TEXT="storj" ID="ID_171418160" CREATED="1577863064842" MODIFIED="1577863067408"/>
+<node TEXT="ipfs" ID="ID_1103089809" CREATED="1577863077573" MODIFIED="1577863079492"/>
+<node TEXT="dat" ID="ID_275620548" CREATED="1577863082467" MODIFIED="1577863083321"/>
+<node TEXT="ssb" ID="ID_1907398948" CREATED="1577863086325" MODIFIED="1577863087457"/>
+<node TEXT="not listed" ID="ID_1568240429" CREATED="1577863088212" MODIFIED="1577863090260">
+<node TEXT="filecoin" ID="ID_769090191" CREATED="1577863091558" MODIFIED="1577863093967"/>
+<node TEXT="safe" ID="ID_1063323144" CREATED="1577863095060" MODIFIED="1577863107779"/>
 </node>
-<node TEXT="doing" ID="ID_1140642316" CREATED="1570968728181" MODIFIED="1570980197861">
-<icon BUILTIN="go"/>
-</node>
-</node>
-<node TEXT="done" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" POSITION="left" ID="ID_1835807969" CREATED="1570968728183" MODIFIED="1571345195088">
-<icon BUILTIN="button_ok"/>
-<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
@@ -114,7 +114,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://blockstack.org/">https://blockstack.org/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="gitter" ID="ID_1525806509" CREATED="1577860883944" MODIFIED="1577860890164" LINK="https://gitter.im/solid/chat?at=5e0c17006ff7ae03fc7e86b7"/>

@@ -2,13 +2,13 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "blockstack",
+            "@_TEXT": "identity",
             "@_FOLDED": false,
             "@_ID": "ID_1831615648",
             "@_CREATED": 1569272472516,
-            "@_MODIFIED": 1571345636302,
+            "@_MODIFIED": 1577862174286,
             "@_ICON_SIZE": "20.0 pt",
-            "@_LINK": "index.mm",
+            "@_LINK": "../index.mm",
             "@_STYLE": "oval",
             "icon": {
                 "@_BUILTIN": "bookmark"
@@ -197,11 +197,11 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "Summary",
+                    "@_TEXT": "Systems",
                     "@_POSITION": "right",
                     "@_ID": "ID_1226961462",
                     "@_CREATED": 1570979963389,
-                    "@_MODIFIED": 1570980209554,
+                    "@_MODIFIED": 1577862123683,
                     "@_COLOR": "#3333ff",
                     "icon": {
                         "@_BUILTIN": "wizard"
@@ -215,89 +215,27 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "Hi guys, I just ran across this project called BlockStack and noticed they seem to have a decent intersection with what you are doing. Here&apos;s the home page in case this is news to you too:",
-                            "@_ID": "ID_614185579",
-                            "@_CREATED": 1577860820202,
-                            "@_MODIFIED": 1577860820202
+                            "@_TEXT": "blockstack",
+                            "@_ID": "ID_713218300",
+                            "@_CREATED": 1577862150032,
+                            "@_MODIFIED": 1577862155954,
+                            "@_LINK": "blockstack.mm"
                         },
                         {
-                            "@_TEXT": "Jeanne-Kamikaze @jeannekamikaze 05:25",
-                            "@_ID": "ID_27478486",
-                            "@_CREATED": 1577860820243,
-                            "@_MODIFIED": 1577860820243
+                            "@_TEXT": "webid",
+                            "@_ID": "ID_952718617",
+                            "@_CREATED": 1577862330930,
+                            "@_MODIFIED": 1577862334351,
+                            "@_LINK": "https://www.w3.org/2005/Incubator/webid/spec/"
                         }
                     ]
                 },
                 {
-                    "@_TEXT": "Details",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_120250381",
-                    "@_CREATED": 1570979967089,
-                    "@_MODIFIED": 1570980228711,
-                    "icon": {
-                        "@_BUILTIN": "list"
-                    },
-                    "edge": {
-                        "@_COLOR": "#00ff00"
-                    },
-                    "font": {
-                        "@_BOLD": true
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "I don&apos;t know if they are using anything like the semantic Web, but they are at least inverting the data ownership model in a similar way to how a Solid pod works. Here are more details:",
-                            "@_ID": "ID_389172493",
-                            "@_CREATED": 1577860820230,
-                            "@_MODIFIED": 1577860820230,
-                            "node": {
-                                "@_TEXT": "https://blockstack.org/technology",
-                                "@_ID": "ID_1976567073",
-                                "@_CREATED": 1577860820232,
-                                "@_MODIFIED": 1577860820232,
-                                "@_LINK": "https://blockstack.org/technology"
-                            }
-                        },
-                        {
-                            "@_TEXT": "Their storage system called Gaia is documented here. It appears to use a combination of blockchain and traditional storage:",
-                            "@_ID": "ID_1341179695",
-                            "@_CREATED": 1577860820235,
-                            "@_MODIFIED": 1577860820235,
-                            "node": {
-                                "@_TEXT": "https://docs.blockstack.org/storage/overview.html",
-                                "@_ID": "ID_1108972457",
-                                "@_CREATED": 1577860820236,
-                                "@_MODIFIED": 1577860820236,
-                                "@_LINK": "https://docs.blockstack.org/storage/overview.html"
-                            }
-                        },
-                        {
-                            "@_TEXT": "An example application written on top of Blockstack is Sigle, a decentralized blogging system:",
-                            "@_ID": "ID_1222067867",
-                            "@_CREATED": 1577860820240,
-                            "@_MODIFIED": 1577860820240,
-                            "node": {
-                                "@_TEXT": "https://www.sigle.io/",
-                                "@_ID": "ID_1946203220",
-                                "@_CREATED": 1577860820241,
-                                "@_MODIFIED": 1577860820241,
-                                "@_LINK": "https://www.sigle.io/"
-                            }
-                        },
-                        {
-                            "@_TEXT": "Here we go, the whitepaper: https://blockstack.org/whitepaper.pdf",
-                            "@_ID": "ID_670394103",
-                            "@_CREATED": 1577860820244,
-                            "@_MODIFIED": 1577860820244,
-                            "@_LINK": "https://blockstack.org/whitepaper.pdf"
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "comparison",
+                    "@_TEXT": "todo",
                     "@_POSITION": "right",
                     "@_ID": "ID_1414960960",
                     "@_CREATED": 1570968728177,
-                    "@_MODIFIED": 1577863052690,
+                    "@_MODIFIED": 1570968728179,
                     "icon": {
                         "@_BUILTIN": "idea"
                     },
@@ -306,63 +244,38 @@
                     },
                     "node": [
                         {
-                            "@_TEXT": "table",
-                            "@_ID": "ID_1764100359",
-                            "@_CREATED": 1577863054178,
-                            "@_MODIFIED": 1577863061331,
-                            "@_LINK": "https://docs.blockstack.org/storage/overview.html#gaia-versus-other-storage-systems"
+                            "@_TEXT": "next",
+                            "@_ID": "ID_785505323",
+                            "@_CREATED": 1570968728179,
+                            "@_MODIFIED": 1570980194153,
+                            "icon": {
+                                "@_BUILTIN": "prepare"
+                            }
                         },
                         {
-                            "@_TEXT": "sia",
-                            "@_ID": "ID_779049770",
-                            "@_CREATED": 1577863062491,
-                            "@_MODIFIED": 1577863064461
-                        },
-                        {
-                            "@_TEXT": "storj",
-                            "@_ID": "ID_171418160",
-                            "@_CREATED": 1577863064842,
-                            "@_MODIFIED": 1577863067408
-                        },
-                        {
-                            "@_TEXT": "ipfs",
-                            "@_ID": "ID_1103089809",
-                            "@_CREATED": 1577863077573,
-                            "@_MODIFIED": 1577863079492
-                        },
-                        {
-                            "@_TEXT": "dat",
-                            "@_ID": "ID_275620548",
-                            "@_CREATED": 1577863082467,
-                            "@_MODIFIED": 1577863083321
-                        },
-                        {
-                            "@_TEXT": "ssb",
-                            "@_ID": "ID_1907398948",
-                            "@_CREATED": 1577863086325,
-                            "@_MODIFIED": 1577863087457
-                        },
-                        {
-                            "@_TEXT": "not listed",
-                            "@_ID": "ID_1568240429",
-                            "@_CREATED": 1577863088212,
-                            "@_MODIFIED": 1577863090260,
-                            "node": [
-                                {
-                                    "@_TEXT": "filecoin",
-                                    "@_ID": "ID_769090191",
-                                    "@_CREATED": 1577863091558,
-                                    "@_MODIFIED": 1577863093967
-                                },
-                                {
-                                    "@_TEXT": "safe",
-                                    "@_ID": "ID_1063323144",
-                                    "@_CREATED": 1577863095060,
-                                    "@_MODIFIED": 1577863107779
-                                }
-                            ]
+                            "@_TEXT": "doing",
+                            "@_ID": "ID_1140642316",
+                            "@_CREATED": 1570968728181,
+                            "@_MODIFIED": 1570980197861,
+                            "icon": {
+                                "@_BUILTIN": "go"
+                            }
                         }
                     ]
+                },
+                {
+                    "@_TEXT": "done",
+                    "@_LOCALIZED_STYLE_REF": "AutomaticLayout.level,2",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1835807969",
+                    "@_CREATED": 1570968728183,
+                    "@_MODIFIED": 1571345195088,
+                    "icon": {
+                        "@_BUILTIN": "button_ok"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    }
                 },
                 {
                     "@_TEXT": "links",
@@ -375,36 +288,7 @@
                     },
                     "edge": {
                         "@_COLOR": "#00007c"
-                    },
-                    "node": [
-                        {
-                            "@_ID": "ID_1526144481",
-                            "@_CREATED": 1577860908657,
-                            "@_MODIFIED": 1577860908657,
-                            "@_LINK": "https://blockstack.org/",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://blockstack.org/",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://blockstack.org/"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "@_TEXT": "gitter",
-                            "@_ID": "ID_1525806509",
-                            "@_CREATED": 1577860883944,
-                            "@_MODIFIED": 1577860890164,
-                            "@_LINK": "https://gitter.im/solid/chat?at=5e0c17006ff7ae03fc7e86b7"
-                        }
-                    ]
+                    }
                 },
                 {
                     "@_TEXT": "docs",
@@ -430,6 +314,12 @@
                     },
                     "edge": {
                         "@_COLOR": "#007c00"
+                    },
+                    "node": {
+                        "@_TEXT": "identity",
+                        "@_ID": "ID_793525740",
+                        "@_CREATED": 1577862133604,
+                        "@_MODIFIED": 1577862135395
                     }
                 }
             ]
