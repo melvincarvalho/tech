@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1577229964386,
+            "@_MODIFIED": 1578144952464,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -236,9 +236,9 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_527312312",
                     "@_CREATED": 1572063758657,
-                    "@_MODIFIED": 1577229964381,
-                    "@_HGAP_QUANTITY": "37.249999307096026 pt",
-                    "@_VSHIFT_QUANTITY": "47.24999859184032 pt",
+                    "@_MODIFIED": 1578144952459,
+                    "@_HGAP_QUANTITY": "45.49999906122687 pt",
+                    "@_VSHIFT_QUANTITY": "56.24999832361942 pt",
                     "@_COLOR": "#000099",
                     "icon": {
                         "@_BUILTIN": "launch"
@@ -312,6 +312,18 @@
                             "@_CREATED": 1577862270015,
                             "@_MODIFIED": 1577862279966,
                             "@_LINK": "identity/index.mm"
+                        },
+                        {
+                            "@_TEXT": "dweb",
+                            "@_ID": "ID_1672732454",
+                            "@_CREATED": 1577959768037,
+                            "@_MODIFIED": 1577959768038,
+                            "@_LINK": "dweb/index.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#00ff00",
+                                "@_WIDTH": "thin"
+                            }
                         }
                     ]
                 },
@@ -418,6 +430,18 @@
                             "@_ID": "ID_697718730",
                             "@_CREATED": 1577229948358,
                             "@_MODIFIED": 1577229969005
+                        },
+                        {
+                            "@_TEXT": "cryptocurrencies",
+                            "@_ID": "ID_653198444",
+                            "@_CREATED": 1578144402821,
+                            "@_MODIFIED": 1578144402825,
+                            "@_LINK": "cryptocurrencies/index.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#ff00ff",
+                                "@_WIDTH": "thin"
+                            }
                         }
                     ]
                 },

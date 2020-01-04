@@ -1,0 +1,5 @@
+<#ID_1893594912> <urn:string:@_TEXT> """awesome list""" .
+<#ID_1476511013> <urn:string:@_TEXT> """solid list""" .
+<#ID_784061287> <urn:string:@_TEXT> """awesome open source""" .
+<#ID_1598333087> <urn:string:@_TEXT> """storage""" .
+<#ID_1284435099> <urn:string:@_TEXT> """others""" .

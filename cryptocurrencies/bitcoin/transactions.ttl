@@ -1,0 +1,16 @@
+<#ID_329238139> <urn:string:@_TEXT> """undefined""" .
+<#ID_747891472> <urn:string:@_TEXT> """example""" .
+<#ID_1438371809> <urn:string:@_TEXT> """Script: &lt;signature&gt; &lt;pubKey&gt; OP_DUP OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG""" .
+<#ID_1438371809> <urn:string:child> <ID_1438371809> .
+<#ID_1608239053> <urn:string:@_TEXT> """signature""" .
+<#ID_1608239053> <urn:string:child> <ID_1608239053> .
+<#ID_1662853924> <urn:string:@_TEXT> """OP_DUP""" .
+<#ID_1662853924> <urn:string:child> <ID_1662853924> .
+<#ID_1271193085> <urn:string:@_TEXT> """HASH160""" .
+<#ID_1271193085> <urn:string:child> <ID_1271193085> .
+<#ID_727501130> <urn:string:@_TEXT> """&lt;pubkeyHash&gt;""" .
+<#ID_727501130> <urn:string:child> <ID_727501130> .
+<#ID_1005246884> <urn:string:@_TEXT> """OP_EQUALVERIFY""" .
+<#ID_1005246884> <urn:string:child> <ID_1005246884> .
+<#ID_656592081> <urn:string:@_TEXT> """OP_CHECKSIG""" .
+<#ID_656592081> <urn:string:child> <ID_656592081> .

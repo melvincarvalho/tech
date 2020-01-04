@@ -1,0 +1,288 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "transactions",
+            "@_FOLDED": false,
+            "@_ID": "ID_555710409",
+            "@_CREATED": 1578144579705,
+            "@_MODIFIED": 1578144698023,
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#00007c",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 21,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "font": {
+                "@_SIZE": 18
+            },
+            "node": [
+                {
+                    "@_POSITION": "right",
+                    "@_ID": "ID_329238139",
+                    "@_CREATED": 1578144752124,
+                    "@_MODIFIED": 1578144752132,
+                    "@_LINK": "https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line/blob/master/07_3_Scripting_a_P2PKH.md",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line/blob/master/07_3_Scripting_a_P2PKH.md",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://github.com/ChristopherA/Learning-Bitcoin-from-the-Command-Line/blob/master/07_3_Scripting_a_P2PKH.md"
+                                }
+                            }
+                        }
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c007c"
+                    }
+                },
+                {
+                    "@_TEXT": "example",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_747891472",
+                    "@_CREATED": 1578144852858,
+                    "@_MODIFIED": 1578144854755,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Script: &lt;signature&gt; &lt;pubKey&gt; OP_DUP OP_HASH160 &lt;pubKeyHash&gt; OP_EQUALVERIFY OP_CHECKSIG",
+                            "@_ID": "ID_1438371809",
+                            "@_CREATED": 1578144858172,
+                            "@_MODIFIED": 1578144858172
+                        },
+                        {
+                            "@_TEXT": "signature",
+                            "@_ID": "ID_1608239053",
+                            "@_CREATED": 1578144863259,
+                            "@_MODIFIED": 1578144867038,
+                            "node": {
+                                "@_TEXT": "pubkey",
+                                "@_ID": "ID_945071350",
+                                "@_CREATED": 1578144867889,
+                                "@_MODIFIED": 1578144870755
+                            }
+                        },
+                        {
+                            "@_TEXT": "OP_DUP",
+                            "@_ID": "ID_1662853924",
+                            "@_CREATED": 1578144872206,
+                            "@_MODIFIED": 1578144874831
+                        },
+                        {
+                            "@_TEXT": "HASH160",
+                            "@_ID": "ID_1271193085",
+                            "@_CREATED": 1578144879948,
+                            "@_MODIFIED": 1578144882662
+                        },
+                        {
+                            "@_TEXT": "&lt;pubkeyHash&gt;",
+                            "@_ID": "ID_727501130",
+                            "@_CREATED": 1578144883451,
+                            "@_MODIFIED": 1578144891111
+                        },
+                        {
+                            "@_TEXT": "OP_EQUALVERIFY",
+                            "@_ID": "ID_1005246884",
+                            "@_CREATED": 1578144892397,
+                            "@_MODIFIED": 1578144899196
+                        },
+                        {
+                            "@_TEXT": "OP_CHECKSIG",
+                            "@_ID": "ID_656592081",
+                            "@_CREATED": 1578144900661,
+                            "@_MODIFIED": 1578144904739
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
