@@ -324,6 +324,18 @@
                                 "@_COLOR": "#00ff00",
                                 "@_WIDTH": "thin"
                             }
+                        },
+                        {
+                            "@_TEXT": "storage",
+                            "@_ID": "ID_1360108173",
+                            "@_CREATED": 1578226051002,
+                            "@_MODIFIED": 1578226051004,
+                            "@_LINK": "storage/index.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#00ff00",
+                                "@_WIDTH": "thin"
+                            }
                         }
                     ]
                 },

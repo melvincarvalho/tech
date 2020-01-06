@@ -1,7 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="dweb" FOLDED="false" ID="ID_456592130" CREATED="1577959748543" MODIFIED="1577959788352" LINK="../index.mm" STYLE="oval">
-<font SIZE="18"/>
+<node TEXT="storage" FOLDED="false" ID="ID_1091898504" CREATED="1578226017540" MODIFIED="1578226050888" LINK="../index.mm">
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,38 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="awesome list" POSITION="right" ID="ID_1893594912" CREATED="1577959790628" MODIFIED="1577959839405" LINK="https://github.com/gdamdam/awesome-decentralized-web">
-<edge COLOR="#7c0000"/>
-</node>
-<node TEXT="solid list" POSITION="right" ID="ID_1476511013" CREATED="1577959807028" MODIFIED="1577959814543" LINK="https://github.com/solid/external-interop-panel">
-<edge COLOR="#00007c"/>
-</node>
-<node TEXT="awesome open source" POSITION="right" ID="ID_784061287" CREATED="1577960028327" MODIFIED="1577960034641" LINK="https://awesomeopensource.com/projects/decentralized">
-<edge COLOR="#7c007c"/>
-</node>
-<node TEXT="storage" POSITION="right" ID="ID_1598333087" CREATED="1577960396527" MODIFIED="1577960398222">
-<edge COLOR="#007c7c"/>
-<node TEXT="golden list" ID="ID_954620184" CREATED="1577960399655" MODIFIED="1577960407073" LINK="https://golden.com/decentralized-file-storage-projects"/>
-</node>
-<node TEXT="bittorrent" POSITION="right" ID="ID_1192160118" CREATED="1578226130728" MODIFIED="1578226134477">
-<edge COLOR="#7c7c00"/>
-<node TEXT="bittorrent client in go" ID="ID_480428186" CREATED="1578226135683" MODIFIED="1578226142385" LINK="https://news.ycombinator.com/item?id=21958359"/>
-</node>
-<node TEXT="others" POSITION="right" ID="ID_1284435099" CREATED="1577959842940" MODIFIED="1577959845217">
-<edge COLOR="#007c00"/>
-<node ID="ID_948384496" CREATED="1577959876579" MODIFIED="1577959876579" LINK="https://small-tech.org/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://small-tech.org/">https://small-tech.org/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="webFS" POSITION="right" ID="ID_944457850" CREATED="1578226026606" MODIFIED="1578226033824" LINK="https://news.ycombinator.com/item?id=21953634"/>
 </node>
 </map>

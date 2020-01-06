@@ -2,16 +2,12 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "dweb",
+            "@_TEXT": "storage",
             "@_FOLDED": false,
-            "@_ID": "ID_456592130",
-            "@_CREATED": 1577959748543,
-            "@_MODIFIED": 1577959788352,
+            "@_ID": "ID_1091898504",
+            "@_CREATED": 1578226017540,
+            "@_MODIFIED": 1578226050888,
             "@_LINK": "../index.mm",
-            "@_STYLE": "oval",
-            "font": {
-                "@_SIZE": 18
-            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00ff00",
@@ -193,109 +189,18 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 22,
+                    "@_COUNTER": 16,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_TEXT": "awesome list",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1893594912",
-                    "@_CREATED": 1577959790628,
-                    "@_MODIFIED": 1577959839405,
-                    "@_LINK": "https://github.com/gdamdam/awesome-decentralized-web",
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    }
-                },
-                {
-                    "@_TEXT": "solid list",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1476511013",
-                    "@_CREATED": 1577959807028,
-                    "@_MODIFIED": 1577959814543,
-                    "@_LINK": "https://github.com/solid/external-interop-panel",
-                    "edge": {
-                        "@_COLOR": "#00007c"
-                    }
-                },
-                {
-                    "@_TEXT": "awesome open source",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_784061287",
-                    "@_CREATED": 1577960028327,
-                    "@_MODIFIED": 1577960034641,
-                    "@_LINK": "https://awesomeopensource.com/projects/decentralized",
-                    "edge": {
-                        "@_COLOR": "#7c007c"
-                    }
-                },
-                {
-                    "@_TEXT": "storage",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1598333087",
-                    "@_CREATED": 1577960396527,
-                    "@_MODIFIED": 1577960398222,
-                    "edge": {
-                        "@_COLOR": "#007c7c"
-                    },
-                    "node": {
-                        "@_TEXT": "golden list",
-                        "@_ID": "ID_954620184",
-                        "@_CREATED": 1577960399655,
-                        "@_MODIFIED": 1577960407073,
-                        "@_LINK": "https://golden.com/decentralized-file-storage-projects"
-                    }
-                },
-                {
-                    "@_TEXT": "bittorrent",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1192160118",
-                    "@_CREATED": 1578226130728,
-                    "@_MODIFIED": 1578226134477,
-                    "edge": {
-                        "@_COLOR": "#7c7c00"
-                    },
-                    "node": {
-                        "@_TEXT": "bittorrent client in go",
-                        "@_ID": "ID_480428186",
-                        "@_CREATED": 1578226135683,
-                        "@_MODIFIED": 1578226142385,
-                        "@_LINK": "https://news.ycombinator.com/item?id=21958359"
-                    }
-                },
-                {
-                    "@_TEXT": "others",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1284435099",
-                    "@_CREATED": 1577959842940,
-                    "@_MODIFIED": 1577959845217,
-                    "edge": {
-                        "@_COLOR": "#007c00"
-                    },
-                    "node": {
-                        "@_ID": "ID_948384496",
-                        "@_CREATED": 1577959876579,
-                        "@_MODIFIED": 1577959876579,
-                        "@_LINK": "https://small-tech.org/",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://small-tech.org/",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://small-tech.org/"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            "node": {
+                "@_TEXT": "webFS",
+                "@_POSITION": "right",
+                "@_ID": "ID_944457850",
+                "@_CREATED": 1578226026606,
+                "@_MODIFIED": 1578226033824,
+                "@_LINK": "https://news.ycombinator.com/item?id=21953634"
+            }
         }
     }
 }
