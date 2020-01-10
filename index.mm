@@ -81,6 +81,9 @@
 <node TEXT="svg" ID="ID_428457042" CREATED="1571334566267" MODIFIED="1571336723249" LINK="https://www.w3schools.com/graphics/svg_reference.asp"/>
 <node TEXT="solid" ID="ID_1070141955" CREATED="1572957566339" MODIFIED="1573024605205" LINK="../solid/index.mm"/>
 <node TEXT="specs" ID="ID_1682894723" CREATED="1573041656991" MODIFIED="1574594852027" LINK="../specs/index.mm"/>
+<node TEXT="linked data" ID="ID_1972132930" CREATED="1578577934328" MODIFIED="1578577934340" LINK="../linkeddata/index.html.mm">
+<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
+</node>
 </node>
 <node TEXT="unix" ID="ID_7338816" CREATED="1574808370249" MODIFIED="1574808559592" LINK="unix/index.mm"/>
 <node TEXT="UI" ID="ID_1601511624" CREATED="1577512794222" MODIFIED="1577512794229" LINK="UI/index.mm">

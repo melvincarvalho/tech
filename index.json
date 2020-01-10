@@ -284,6 +284,18 @@
                                     "@_CREATED": 1573041656991,
                                     "@_MODIFIED": 1574594852027,
                                     "@_LINK": "../specs/index.mm"
+                                },
+                                {
+                                    "@_TEXT": "linked data",
+                                    "@_ID": "ID_1972132930",
+                                    "@_CREATED": 1578577934328,
+                                    "@_MODIFIED": 1578577934340,
+                                    "@_LINK": "../linkeddata/index.html.mm",
+                                    "edge": {
+                                        "@_STYLE": "bezier",
+                                        "@_COLOR": "#00ff00",
+                                        "@_WIDTH": "thin"
+                                    }
                                 }
                             ]
                         },
