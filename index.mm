@@ -81,7 +81,7 @@
 <node TEXT="svg" ID="ID_428457042" CREATED="1571334566267" MODIFIED="1571336723249" LINK="https://www.w3schools.com/graphics/svg_reference.asp"/>
 <node TEXT="solid" ID="ID_1070141955" CREATED="1572957566339" MODIFIED="1573024605205" LINK="../solid/index.mm"/>
 <node TEXT="specs" ID="ID_1682894723" CREATED="1573041656991" MODIFIED="1574594852027" LINK="../specs/index.mm"/>
-<node TEXT="linked data" ID="ID_1972132930" CREATED="1578577934328" MODIFIED="1578577934340" LINK="../linkeddata/index.html.mm">
+<node TEXT="linked data" ID="ID_1972132930" CREATED="1578577934328" MODIFIED="1578926955881" LINK="../linkeddata/index.mm">
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 </node>
 </node>
@@ -126,6 +126,19 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>
+<node ID="ID_1974475433" CREATED="1578928125418" MODIFIED="1578928638703" LINK="https://webapps.io/" COLOR="#000099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webapps.io
+  </body>
+</html>
+</richcontent>
+<font SIZE="10" BOLD="true"/>
+</node>
 <node TEXT="lists" ID="ID_21985093" CREATED="1571731255998" MODIFIED="1572498673983">
 <icon BUILTIN="list"/>
 <node TEXT="awesome lists" ID="ID_588856980" CREATED="1571731259435" MODIFIED="1572498667633" LINK="https://getawesomeness.herokuapp.com/get/js"/>
