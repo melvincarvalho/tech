@@ -348,6 +348,18 @@
                                 "@_COLOR": "#00ff00",
                                 "@_WIDTH": "thin"
                             }
+                        },
+                        {
+                            "@_TEXT": "sync",
+                            "@_ID": "ID_989569041",
+                            "@_CREATED": 1578985181101,
+                            "@_MODIFIED": 1578985181103,
+                            "@_LINK": "sync/index.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#00ff00",
+                                "@_WIDTH": "thin"
+                            }
                         }
                     ]
                 },
@@ -490,15 +502,15 @@
                         {
                             "@_ID": "ID_1974475433",
                             "@_CREATED": 1578928125418,
-                            "@_MODIFIED": 1578928638703,
-                            "@_LINK": "https://webapps.io/",
+                            "@_MODIFIED": 1578928988662,
+                            "@_LINK": "https://webmaps.io/",
                             "@_COLOR": "#000099",
                             "richcontent": {
                                 "@_TYPE": "NODE",
                                 "html": {
                                     "head": "",
                                     "body": {
-                                        "#text": "Made with&#160;using webapps.io",
+                                        "#text": "Made with&#160;using webmaps.io",
                                         "img": {
                                             "@_class": "emoji",
                                             "@_alt": "heart",
