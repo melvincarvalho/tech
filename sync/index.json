@@ -193,56 +193,95 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 18,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": {
-                "@_TEXT": "articles",
-                "@_POSITION": "right",
-                "@_ID": "ID_843740279",
-                "@_CREATED": 1578985199362,
-                "@_MODIFIED": 1578985200845,
-                "edge": {
-                    "@_COLOR": "#7c0000"
-                },
-                "node": [
-                    {
-                        "@_TEXT": "https://www.inkandswitch.com/local-first.html",
-                        "@_ID": "ID_1704167895",
-                        "@_CREATED": 1578985296374,
-                        "@_MODIFIED": 1578985296374,
-                        "@_LINK": "https://www.inkandswitch.com/local-first.html"
+            "node": [
+                {
+                    "@_TEXT": "articles",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_843740279",
+                    "@_CREATED": 1578985199362,
+                    "@_MODIFIED": 1578985200845,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
                     },
-                    {
-                        "@_ID": "ID_1055164401",
-                        "@_CREATED": 1578985306056,
-                        "@_MODIFIED": 1578985306056,
-                        "@_LINK": "https://www.inkandswitch.com/local-first.html",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://www.inkandswitch.com/local-first.html",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://www.inkandswitch.com/local-first.html"
+                    "node": [
+                        {
+                            "@_TEXT": "https://www.inkandswitch.com/local-first.html",
+                            "@_ID": "ID_1704167895",
+                            "@_CREATED": 1578985296374,
+                            "@_MODIFIED": 1578985296374,
+                            "@_LINK": "https://www.inkandswitch.com/local-first.html"
+                        },
+                        {
+                            "@_ID": "ID_1055164401",
+                            "@_CREATED": 1578985306056,
+                            "@_MODIFIED": 1578985306056,
+                            "@_LINK": "https://www.inkandswitch.com/local-first.html",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://www.inkandswitch.com/local-first.html",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://www.inkandswitch.com/local-first.html"
+                                        }
                                     }
                                 }
+                            },
+                            "node": {
+                                "@_TEXT": "HN",
+                                "@_ID": "ID_1048460930",
+                                "@_CREATED": 1578985322078,
+                                "@_MODIFIED": 1578985327429,
+                                "@_LINK": "https://news.ycombinator.com/item?id=22039950"
                             }
-                        },
-                        "node": {
-                            "@_TEXT": "HN",
-                            "@_ID": "ID_1048460930",
-                            "@_CREATED": 1578985322078,
-                            "@_MODIFIED": 1578985327429,
-                            "@_LINK": "https://news.ycombinator.com/item?id=22039950"
                         }
-                    }
-                ]
-            }
+                    ]
+                },
+                {
+                    "@_TEXT": "systems",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_22077486",
+                    "@_CREATED": 1578985375007,
+                    "@_MODIFIED": 1578985378542,
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "CRDT",
+                            "@_ID": "ID_549796093",
+                            "@_CREATED": 1578985379435,
+                            "@_MODIFIED": 1578985380947
+                        },
+                        {
+                            "@_TEXT": "OT",
+                            "@_ID": "ID_1016446793",
+                            "@_CREATED": 1578985381835,
+                            "@_MODIFIED": 1578985382795
+                        },
+                        {
+                            "@_TEXT": "Gun",
+                            "@_ID": "ID_639872239",
+                            "@_CREATED": 1578985383086,
+                            "@_MODIFIED": 1578985387333
+                        },
+                        {
+                            "@_TEXT": "https://github.com/automerge/automerge",
+                            "@_ID": "ID_115950461",
+                            "@_CREATED": 1578985582501,
+                            "@_MODIFIED": 1578985582501,
+                            "@_LINK": "https://github.com/automerge/automerge"
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

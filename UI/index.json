@@ -207,46 +207,88 @@
                     "edge": {
                         "@_COLOR": "#7c0000"
                     },
-                    "node": {
-                        "@_ID": "ID_1508871464",
-                        "@_CREATED": 1577512816432,
-                        "@_MODIFIED": 1577512816432,
-                        "@_LINK": "https://github.com/coreui/coreui-icons/tree/1.0.0",
-                        "richcontent": {
-                            "@_TYPE": "NODE",
-                            "html": {
-                                "head": "",
-                                "body": {
-                                    "a": {
-                                        "#text": "https://github.com/coreui/coreui-icons/tree/1.0.0",
-                                        "@_http-equiv": "content-type",
-                                        "@_content": "text/html; charset=utf-8",
-                                        "@_href": "https://github.com/coreui/coreui-icons/tree/1.0.0"
-                                    }
-                                }
-                            }
-                        },
-                        "node": {
-                            "@_ID": "ID_163483205",
-                            "@_CREATED": 1577512833865,
-                            "@_MODIFIED": 1577512833865,
-                            "@_LINK": "https://news.ycombinator.com/item?id=21891053",
+                    "node": [
+                        {
+                            "@_ID": "ID_1508871464",
+                            "@_CREATED": 1577512816432,
+                            "@_MODIFIED": 1577512816432,
+                            "@_LINK": "https://github.com/coreui/coreui-icons/tree/1.0.0",
                             "richcontent": {
                                 "@_TYPE": "NODE",
                                 "html": {
                                     "head": "",
                                     "body": {
                                         "a": {
-                                            "#text": "https://news.ycombinator.com/item?id=21891053",
+                                            "#text": "https://github.com/coreui/coreui-icons/tree/1.0.0",
                                             "@_http-equiv": "content-type",
                                             "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://news.ycombinator.com/item?id=21891053"
+                                            "@_href": "https://github.com/coreui/coreui-icons/tree/1.0.0"
+                                        }
+                                    }
+                                }
+                            },
+                            "node": {
+                                "@_ID": "ID_163483205",
+                                "@_CREATED": 1577512833865,
+                                "@_MODIFIED": 1577512833865,
+                                "@_LINK": "https://news.ycombinator.com/item?id=21891053",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://news.ycombinator.com/item?id=21891053",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://news.ycombinator.com/item?id=21891053"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_883788335",
+                            "@_CREATED": 1578991602798,
+                            "@_MODIFIED": 1578991602798,
+                            "@_LINK": "https://twemoji.twitter.com/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://twemoji.twitter.com/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://twemoji.twitter.com/"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_ID": "ID_382519365",
+                            "@_CREATED": 1578991616095,
+                            "@_MODIFIED": 1578991616095,
+                            "@_LINK": "https://thenounproject.com/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://thenounproject.com/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://thenounproject.com/"
                                         }
                                     }
                                 }
                             }
                         }
-                    }
+                    ]
                 },
                 {
                     "@_TEXT": "design",

@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="articles" POSITION="right" ID="ID_843740279" CREATED="1578985199362" MODIFIED="1578985200845">
 <edge COLOR="#7c0000"/>
 <node TEXT="https://www.inkandswitch.com/local-first.html" ID="ID_1704167895" CREATED="1578985296374" MODIFIED="1578985296374" LINK="https://www.inkandswitch.com/local-first.html"/>
@@ -78,10 +78,16 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.inkandswitch.com/local-first.html">https://www.inkandswitch.com/local-first.html</a> 
   </body>
 </html>
-
 </richcontent>
 <node TEXT="HN" ID="ID_1048460930" CREATED="1578985322078" MODIFIED="1578985327429" LINK="https://news.ycombinator.com/item?id=22039950"/>
 </node>
+</node>
+<node TEXT="systems" POSITION="right" ID="ID_22077486" CREATED="1578985375007" MODIFIED="1578985378542">
+<edge COLOR="#00007c"/>
+<node TEXT="CRDT" ID="ID_549796093" CREATED="1578985379435" MODIFIED="1578985380947"/>
+<node TEXT="OT" ID="ID_1016446793" CREATED="1578985381835" MODIFIED="1578985382795"/>
+<node TEXT="Gun" ID="ID_639872239" CREATED="1578985383086" MODIFIED="1578985387333"/>
+<node TEXT="https://github.com/automerge/automerge" ID="ID_115950461" CREATED="1578985582501" MODIFIED="1578985582501" LINK="https://github.com/automerge/automerge"/>
 </node>
 </node>
 </map>

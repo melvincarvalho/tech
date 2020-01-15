@@ -91,6 +91,32 @@
 </richcontent>
 </node>
 </node>
+<node ID="ID_883788335" CREATED="1578991602798" MODIFIED="1578991602798" LINK="https://twemoji.twitter.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://twemoji.twitter.com/">https://twemoji.twitter.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_382519365" CREATED="1578991616095" MODIFIED="1578991616095" LINK="https://thenounproject.com/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://thenounproject.com/">https://thenounproject.com/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="design" POSITION="right" ID="ID_611098242" CREATED="1577599333589" MODIFIED="1577599335628">
 <edge COLOR="#00007c"/>
@@ -116,7 +142,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/sw-yx/spark-joy">https://github.com/sw-yx/spark-joy</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
