@@ -296,6 +296,13 @@
                                         "@_COLOR": "#00ff00",
                                         "@_WIDTH": "thin"
                                     }
+                                },
+                                {
+                                    "@_TEXT": "Web almanac",
+                                    "@_ID": "ID_576483331",
+                                    "@_CREATED": 1579263452350,
+                                    "@_MODIFIED": 1579263466353,
+                                    "@_LINK": "https://almanac.httparchive.org/en/2019/table-of-contents"
                                 }
                             ]
                         },

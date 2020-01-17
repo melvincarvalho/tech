@@ -16,6 +16,8 @@
 <#ID_1682894723> <urn:string:child> <ID_1682894723> .
 <#ID_1972132930> <urn:string:@_TEXT> """linked data""" .
 <#ID_1972132930> <urn:string:child> <ID_1972132930> .
+<#ID_576483331> <urn:string:@_TEXT> """Web almanac""" .
+<#ID_576483331> <urn:string:child> <ID_576483331> .
 <#ID_7338816> <urn:string:@_TEXT> """unix""" .
 <#ID_7338816> <urn:string:child> <ID_7338816> .
 <#ID_1601511624> <urn:string:@_TEXT> """UI""" .
