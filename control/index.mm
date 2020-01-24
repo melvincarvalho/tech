@@ -63,12 +63,15 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="pm2" POSITION="right" ID="ID_1709105674" CREATED="1570900352607" MODIFIED="1570900404661" LINK="pm2.mm">
 <edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="git" POSITION="right" ID="ID_1006031312" CREATED="1570900398681" MODIFIED="1573033503112" LINK="git.mm">
 <edge COLOR="#00ffff"/>
+</node>
+<node TEXT="npm" POSITION="right" ID="ID_1575723610" CREATED="1579849063886" MODIFIED="1579849066168">
+<edge COLOR="#7c0000"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_132797472" CREATED="1570900337193" MODIFIED="1570900337198">
 <icon BUILTIN="attach"/>

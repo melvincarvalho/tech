@@ -187,7 +187,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 16,
+                    "@_COUNTER": 17,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -212,6 +212,16 @@
                     "@_LINK": "git.mm",
                     "edge": {
                         "@_COLOR": "#00ffff"
+                    }
+                },
+                {
+                    "@_TEXT": "npm",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1575723610",
+                    "@_CREATED": 1579849063886,
+                    "@_MODIFIED": 1579849066168,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
                     }
                 },
                 {

@@ -402,28 +402,7 @@
                             "@_ID": "ID_1041005677",
                             "@_CREATED": 1570900237485,
                             "@_MODIFIED": 1572063781802,
-                            "@_LINK": "control/index.mm",
-                            "node": [
-                                {
-                                    "@_TEXT": "git",
-                                    "@_ID": "ID_1536156446",
-                                    "@_CREATED": 1570577057978,
-                                    "@_MODIFIED": 1573034743413,
-                                    "@_LINK": "control/git.mm"
-                                },
-                                {
-                                    "@_TEXT": "pm2",
-                                    "@_ID": "ID_901084502",
-                                    "@_CREATED": 1570636909431,
-                                    "@_MODIFIED": 1570900244713
-                                },
-                                {
-                                    "@_TEXT": "npm",
-                                    "@_ID": "ID_677687213",
-                                    "@_CREATED": 1572684106016,
-                                    "@_MODIFIED": 1572684108133
-                                }
-                            ]
+                            "@_LINK": "control/index.mm"
                         },
                         {
                             "@_TEXT": "apps",
