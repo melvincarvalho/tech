@@ -2,15 +2,18 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "control",
+            "@_TEXT": "Commands",
             "@_FOLDED": false,
-            "@_ID": "ID_1331037305",
-            "@_CREATED": 1570900320561,
-            "@_MODIFIED": 1570900375788,
+            "@_ID": "ID_1547856803",
+            "@_CREATED": 1577143500034,
+            "@_MODIFIED": 1579849576218,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
-            "font": {
-                "@_SIZE": 18
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#7c0000",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
             },
             "hook": [
                 {
@@ -187,57 +190,115 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 6,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_TEXT": "pm2",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1709105674",
-                    "@_CREATED": 1570900352607,
-                    "@_MODIFIED": 1570900404661,
-                    "@_LINK": "pm2.mm",
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "git",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1006031312",
-                    "@_CREATED": 1570900398681,
-                    "@_MODIFIED": 1579849516710,
-                    "@_LINK": "git/index.mm",
-                    "edge": {
-                        "@_COLOR": "#00ffff"
-                    }
-                },
-                {
-                    "@_TEXT": "npm",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1575723610",
-                    "@_CREATED": 1579849063886,
-                    "@_MODIFIED": 1579849066168,
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    }
-                },
-                {
-                    "@_TEXT": "links",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_132797472",
-                    "@_CREATED": 1570900337193,
-                    "@_MODIFIED": 1570900337198,
-                    "icon": {
-                        "@_BUILTIN": "attach"
+            "font": {
+                "@_SIZE": 18
+            },
+            "node": {
+                "@_TEXT": "reset",
+                "@_POSITION": "right",
+                "@_ID": "ID_765780789",
+                "@_CREATED": 1577143503127,
+                "@_MODIFIED": 1577143505114,
+                "node": [
+                    {
+                        "@_ID": "ID_622264619",
+                        "@_CREATED": 1577143532312,
+                        "@_MODIFIED": 1577143532312,
+                        "@_LINK": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://www.atlassian.com/git/tutorials/undoing-changes/git-reset"
+                                    }
+                                }
+                            }
+                        }
                     },
-                    "edge": {
-                        "@_COLOR": "#00ff00"
+                    {
+                        "@_TEXT": "soft",
+                        "@_ID": "ID_625336574",
+                        "@_CREATED": 1577143578880,
+                        "@_MODIFIED": 1577143580705,
+                        "node": {
+                            "@_TEXT": "commit tree",
+                            "@_ID": "ID_1871528466",
+                            "@_CREATED": 1577143767770,
+                            "@_MODIFIED": 1577143770339
+                        }
+                    },
+                    {
+                        "@_TEXT": "mixed",
+                        "@_ID": "ID_1578045062",
+                        "@_CREATED": 1577143581385,
+                        "@_MODIFIED": 1577164554828,
+                        "font": {
+                            "@_BOLD": true
+                        },
+                        "node": {
+                            "@_TEXT": "staging index",
+                            "@_ID": "ID_1338796809",
+                            "@_CREATED": 1577143772184,
+                            "@_MODIFIED": 1577143774906,
+                            "node": [
+                                {
+                                    "@_TEXT": "his tree is tracking Working Directory changes, that have been promoted with git add, to be stored in the next commit. This tree is a complex internal caching mechanism.",
+                                    "@_ID": "ID_1679719810",
+                                    "@_CREATED": 1577163829512,
+                                    "@_MODIFIED": 1577163829512
+                                },
+                                {
+                                    "@_TEXT": "git ls-files",
+                                    "@_ID": "ID_1444858658",
+                                    "@_CREATED": 1577163895174,
+                                    "@_MODIFIED": 1577163899120,
+                                    "node": {
+                                        "@_TEXT": "-s or --stage",
+                                        "@_ID": "ID_1177229065",
+                                        "@_CREATED": 1577163960997,
+                                        "@_MODIFIED": 1577163964858
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "@_TEXT": "hard",
+                        "@_ID": "ID_948378930",
+                        "@_CREATED": 1577143584246,
+                        "@_MODIFIED": 1577143585635,
+                        "node": [
+                            {
+                                "@_TEXT": "working directory",
+                                "@_ID": "ID_286677452",
+                                "@_CREATED": 1577143777292,
+                                "@_MODIFIED": 1577143780071,
+                                "node": {
+                                    "@_TEXT": "your local tree",
+                                    "@_ID": "ID_242765237",
+                                    "@_CREATED": 1577162795287,
+                                    "@_MODIFIED": 1577162798580
+                                }
+                            },
+                            {
+                                "@_TEXT": "Reset the staging area and the working directory to match the most recent commit. In addition to unstaging changes, the --hard flag tells Git to overwrite all changes in the working directory, too. Put another way: this obliterates all uncommitted changes, so make sure you really want to throw away your local developments before using it.",
+                                "@_ID": "ID_897335891",
+                                "@_CREATED": 1577168125680,
+                                "@_MODIFIED": 1577168125680
+                            }
+                        ]
                     }
-                }
-            ]
+                ]
+            }
         }
     }
 }

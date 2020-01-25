@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="en" xmlns:my="local.uri">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>workflows</title>
+        <meta name="description" content="Freeplane mindmap HTML presentation">
+        <meta name="author" content="Yours Respectfully">
+        <meta name="generator" content="Mindslide at http://berteh.github.io/mindslide/">
+        <!--Mindslide version 0.5-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/reveal.css">
+        <link rel="stylesheet" id="theme" href="https://solidpayorg.github.io/reveal.js/css/theme/solid.css">
+        <!--For syntax highlighting-->
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/lib/css/zenburn.css">
+        <style type="text/css">
+            a.connector, a.subsection {margin-left: 1ex; font-size: smaller}
+            .illustrations a {float:left; margin: 1ex 5px; max-width:100%}
+            .illustrations img {max-height:8em;}
+            .illustrations.w1 a {max-width:98%} 
+            .illustrations.w2 a {max-width:47%} 
+            .illustrations.w3 a, .illustrations.w6 a  {max-width:31%} 
+            .illustrations.w4 a, .illustrations.w7 a, .illustrations.w8 a {max-width:23%} 
+            .illustrations.w5 a, .illustrations.w9 a, .illustrations.w10 a {max-width:18%} 
+
+            /* bullet lists layout */
+			#mindslide li p {margin: 0 0;}
+            #mindslide section.content>ul li {font-size: 90%;}
+            #mindslide section.content>ul>li:first-of-type, #mindslide section.title>ul li {list-style:none; display:block; font-size: 120%; margin-bottom:1ex}   
+
+            /* zenburn hack for inline code highlight */
+            pre.inline, .inline code {display:inline; width:auto;}
+			
+			/* icons */
+			#mindslide.awesome section.content li.icon {list-style:none; margin-left: -1em}
+			#mindslide.awesome .fa {font-family: FontAwesome; margin-right: 1ex;}			
+        </style>
+        <!--If the query includes 'print-pdf', use the PDF print sheet. works in Chrome, maybe not other browsers-->
+        <script type="text/javascript">
+        document.write( '<link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        </script>
+        <!--
+            [if lt IE 9]>
+            <script src="https://solidpayorg.github.io/reveal.js/lib/js/html5shiv.js"></script>
+            <![endif]
+        -->
+        <!--placeholder for custom header items (typically scripts or stylesheets)-->
+    </head>
+    <body>
+        <div class="reveal">
+            <!--Any section element inside of this container is displayed as a slide-->
+            <div id="mindslide" class="slides">
+                <section class="content" id="ID_776844172">
+                    <h2>workflows</h2>
+                    <ul>
+                        <li>
+                            links<a href="#/ID_49988024" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li>
+                            basic<a href="#/ID_775684126" class="link subsection"> &#8628;</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="content" id="ID_49988024">
+                    <h3>links</h3>
+                    <ul>
+                        <li>
+                            <a href="https://buddy.works/blog/5-types-of-git-workflows" class="link external">5 types of git workflow</a>
+                        </li>
+                    </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_775684126">
+                        <h3>basic</h3>
+                        <ul>
+                            <li>central repo</li>
+                            <li>feature branch</li>
+                            <li>merge requests</li>
+                            <li>
+                                gitflow<a href="#/ID_1980365261" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                forking workflow<a href="#/ID_1746438760" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1980365261">
+                        <h4>gitflow</h4>
+                        <ul>
+                            <li>invented and described by Vincent Driessen in 2010</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1746438760">
+                        <h4>forking workflow</h4>
+                        <ul>
+                            <li>
+                                <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow">https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow</a></a>
+                            </li>
+                            <li>You want to contribute to an open source library hosted at bitbucket.org/userA/open-project</li>
+                            <li>Using Bitbucket you create a fork of the repo to bitbucket.org/YourName/open-project</li>
+                            <li>
+                                <a href="https://bitbucket.org/YourName/open-project" class="link external">On your local system you execute git clone on https://bitbucket.org/YourName/open-project to get a local copy of the repo</a>
+                            </li>
+                            <li>You create a new feature branch in your local repo</li>
+                            <li>Work is done to complete the new feature and git commit is executed to save the changes</li>
+                            <li>You then push the new feature branch to your remote forked repo</li>
+                            <li>Using Bitbucket you open up a pull request for the new branch against the original repo at bitbucket.org/userA/open-project</li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="end">
+                    <h1>The End</h1>
+                    <h3 class="thanks">Thank You!</h3>
+                    <p id="author">Yours Respectfully</p>
+                    <p id="credits">
+                        <small>Powered by <a href="http://berteh.github.io/mindslide/">Mindslide</a> for <a href="http://freeplane.sourceforge.net/">Freeplane</a>, using <a href="http://lab.hakim.se/reveal-js/#/">Reveal.js</a></small>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer class="info">
+            workflows | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.7.0
+        </footer>
+        <script src="https://solidpayorg.github.io/reveal.js/lib/js/head.min.js"></script><script src="https://solidpayorg.github.io/reveal.js/js/reveal.js"></script><script>
+
+	//run reveal.js
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		slideNumber: false,
+		history: true,
+		keyboard: true,
+		overview: true,
+		center: true,
+		touch: true,
+		loop: false,
+		rtl: false,
+		shuffle: false,
+		fragments: true,
+		embedded: false,
+		help: true,
+		showNotes: false,
+		autoSlide: 0,
+		autoSlideStoppable: true,
+		autoSlideMethod: Reveal.navigateNext,
+		mouseWheel: true,
+		hideAddressBar: true,
+		previewLinks: false,
+		transition: 'cube',
+		transitionSpeed: 'default',
+		backgroundTransition: 'slide',
+		viewDistance: 3,
+		parallaxBackgroundImage: '',
+		parallaxBackgroundSize: '',
+		parallaxBackgroundHorizontal: null,
+		parallaxBackgroundVertical: null,
+
+		theme: Reveal.getQueryHash().theme || 'solid',
+		transition: Reveal.getQueryHash().transition || 'cube',
+
+		
+        // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src:'https://solidpayorg.github.io/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+		  //{ src:'https://solidpayorg.github.io/reveal.js/plugin/math/math.js', async: true }
+		]
+    	
+    });
+        </script>
+        <link rel="stylesheet" crossorigin="anonymous" href="Font-Awesome/css/font-awesome.min.css">
+        <script>
+		// add "awesome" class to #mindslide (only) if FontAwesome is loaded (for icons layout)
+	
+		function css(element, property) {
+			return window.getComputedStyle(element, null).getPropertyValue(property);
+		}
+		
+		window.onload = function () {
+			var span = document.createElement('span');
+			span.className = 'fa';
+			span.style.display = 'none';
+			document.body.insertBefore(span, document.body.firstChild);
+			if ((css(span, 'font-family')) == 'FontAwesome') {
+				var ms = document.getElementById("mindslide");
+				ms.className += " awesome";
+			}
+			document.body.removeChild(span);
+		};		
+		</script>
+    </body>
+</html>

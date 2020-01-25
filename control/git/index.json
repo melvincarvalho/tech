@@ -2,13 +2,17 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "control",
+            "@_TEXT": "git",
             "@_FOLDED": false,
-            "@_ID": "ID_1331037305",
-            "@_CREATED": 1570900320561,
-            "@_MODIFIED": 1570900375788,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1579849504745,
+            "@_ICON_SIZE": "20.0 pt",
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
             "font": {
                 "@_SIZE": 18
             },
@@ -187,54 +191,126 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 9,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "node": [
                 {
-                    "@_TEXT": "pm2",
+                    "@_TEXT": "Details",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1709105674",
-                    "@_CREATED": 1570900352607,
-                    "@_MODIFIED": 1570900404661,
-                    "@_LINK": "pm2.mm",
+                    "@_ID": "ID_120250381",
+                    "@_CREATED": 1570979967089,
+                    "@_MODIFIED": 1570980228711,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
                     "edge": {
-                        "@_COLOR": "#ff00ff"
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "deployment",
+                            "@_ID": "ID_1486875563",
+                            "@_CREATED": 1573033564610,
+                            "@_MODIFIED": 1573033570486,
+                            "@_LINK": "https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"
+                        },
+                        {
+                            "@_TEXT": "hooks",
+                            "@_ID": "ID_1162474461",
+                            "@_CREATED": 1573034028145,
+                            "@_MODIFIED": 1573034036750,
+                            "@_LINK": "https://git-scm.com/docs/githooks"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Commands",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_874828969",
+                    "@_CREATED": 1579849550005,
+                    "@_MODIFIED": 1579849550011,
+                    "@_LINK": "commands/index.mm",
+                    "edge": {
+                        "@_STYLE": "bezier",
+                        "@_COLOR": "#7c0000",
+                        "@_WIDTH": "thin"
                     }
                 },
                 {
-                    "@_TEXT": "git",
+                    "@_TEXT": "workflows",
                     "@_POSITION": "right",
-                    "@_ID": "ID_1006031312",
-                    "@_CREATED": 1570900398681,
-                    "@_MODIFIED": 1579849516710,
-                    "@_LINK": "git/index.mm",
+                    "@_ID": "ID_1960909325",
+                    "@_CREATED": 1579849790373,
+                    "@_MODIFIED": 1579849790375,
+                    "@_LINK": "workflows/index.mm",
                     "edge": {
-                        "@_COLOR": "#00ffff"
-                    }
-                },
-                {
-                    "@_TEXT": "npm",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1575723610",
-                    "@_CREATED": 1579849063886,
-                    "@_MODIFIED": 1579849066168,
-                    "edge": {
-                        "@_COLOR": "#7c0000"
+                        "@_STYLE": "bezier",
+                        "@_COLOR": "#007c00",
+                        "@_WIDTH": "thin"
                     }
                 },
                 {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
-                    "@_ID": "ID_132797472",
-                    "@_CREATED": 1570900337193,
-                    "@_MODIFIED": 1570900337198,
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
                     "edge": {
-                        "@_COLOR": "#00ff00"
+                        "@_COLOR": "#00007c"
+                    }
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1573033519997,
+                    "icon": {
+                        "@_BUILTIN": "info"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": {
+                        "@_ID": "ID_755738657",
+                        "@_CREATED": 1573033551299,
+                        "@_MODIFIED": 1573033551299,
+                        "@_LINK": "https://git-scm.com/book/en/v1/Getting-Started-Git-Basics",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://git-scm.com/book/en/v1/Getting-Started-Git-Basics",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://git-scm.com/book/en/v1/Getting-Started-Git-Basics"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
                     }
                 }
             ]

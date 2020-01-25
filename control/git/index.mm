@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="control" FOLDED="false" ID="ID_1331037305" CREATED="1570900320561" MODIFIED="1570900375788" LINK="../index.mm" STYLE="oval">
+<node TEXT="git" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1579849504745" ICON_SIZE="20.0 pt" LINK="../index.mm" STYLE="oval">
+<icon BUILTIN="bookmark"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,19 +64,43 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="pm2" POSITION="right" ID="ID_1709105674" CREATED="1570900352607" MODIFIED="1570900404661" LINK="pm2.mm">
-<edge COLOR="#ff00ff"/>
-</node>
-<node TEXT="git" POSITION="right" ID="ID_1006031312" CREATED="1570900398681" MODIFIED="1579849516710" LINK="git/index.mm">
-<edge COLOR="#00ffff"/>
-</node>
-<node TEXT="npm" POSITION="right" ID="ID_1575723610" CREATED="1579849063886" MODIFIED="1579849066168">
-<edge COLOR="#7c0000"/>
-</node>
-<node TEXT="links" POSITION="left" ID="ID_132797472" CREATED="1570900337193" MODIFIED="1570900337198">
-<icon BUILTIN="attach"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Details" POSITION="right" ID="ID_120250381" CREATED="1570979967089" MODIFIED="1570980228711">
+<icon BUILTIN="list"/>
 <edge COLOR="#00ff00"/>
+<font BOLD="true"/>
+<node TEXT="deployment" ID="ID_1486875563" CREATED="1573033564610" MODIFIED="1573033570486" LINK="https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa"/>
+<node TEXT="hooks" ID="ID_1162474461" CREATED="1573034028145" MODIFIED="1573034036750" LINK="https://git-scm.com/docs/githooks"/>
+</node>
+<node TEXT="Commands" POSITION="right" ID="ID_874828969" CREATED="1579849550005" MODIFIED="1579849550011" LINK="commands/index.mm">
+<edge STYLE="bezier" COLOR="#7c0000" WIDTH="thin"/>
+</node>
+<node TEXT="workflows" POSITION="right" ID="ID_1960909325" CREATED="1579849790373" MODIFIED="1579849790375" LINK="workflows/index.mm">
+<edge STYLE="bezier" COLOR="#007c00" WIDTH="thin"/>
+</node>
+<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
+<icon BUILTIN="attach"/>
+<edge COLOR="#00007c"/>
+</node>
+<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1573033519997">
+<icon BUILTIN="info"/>
+<edge COLOR="#ff00ff"/>
+<node ID="ID_755738657" CREATED="1573033551299" MODIFIED="1573033551299" LINK="https://git-scm.com/book/en/v1/Getting-Started-Git-Basics"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://git-scm.com/book/en/v1/Getting-Started-Git-Basics">https://git-scm.com/book/en/v1/Getting-Started-Git-Basics</a> 
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="tags" POSITION="left" ID="ID_466759422" CREATED="1570968754383" MODIFIED="1571340239144">
+<icon BUILTIN="hashtag"/>
+<edge COLOR="#007c00"/>
 </node>
 </node>
 </map>

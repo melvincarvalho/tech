@@ -2,15 +2,18 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "control",
+            "@_TEXT": "workflows",
             "@_FOLDED": false,
-            "@_ID": "ID_1331037305",
-            "@_CREATED": 1570900320561,
-            "@_MODIFIED": 1570900375788,
+            "@_ID": "ID_776844172",
+            "@_CREATED": 1579849673455,
+            "@_MODIFIED": 1579849811282,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
-            "font": {
-                "@_SIZE": 18
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#007c00",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
             },
             "hook": [
                 {
@@ -187,55 +190,163 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 10,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
+            "font": {
+                "@_SIZE": 18
+            },
             "node": [
-                {
-                    "@_TEXT": "pm2",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1709105674",
-                    "@_CREATED": 1570900352607,
-                    "@_MODIFIED": 1570900404661,
-                    "@_LINK": "pm2.mm",
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "git",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1006031312",
-                    "@_CREATED": 1570900398681,
-                    "@_MODIFIED": 1579849516710,
-                    "@_LINK": "git/index.mm",
-                    "edge": {
-                        "@_COLOR": "#00ffff"
-                    }
-                },
-                {
-                    "@_TEXT": "npm",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1575723610",
-                    "@_CREATED": 1579849063886,
-                    "@_MODIFIED": 1579849066168,
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    }
-                },
                 {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
-                    "@_ID": "ID_132797472",
-                    "@_CREATED": 1570900337193,
-                    "@_MODIFIED": 1570900337198,
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
+                    "@_ID": "ID_49988024",
+                    "@_CREATED": 1579849831537,
+                    "@_MODIFIED": 1579849834841,
                     "edge": {
-                        "@_COLOR": "#00ff00"
+                        "@_COLOR": "#7c007c"
+                    },
+                    "node": {
+                        "@_TEXT": "5 types of git workflow",
+                        "@_ID": "ID_1280227078",
+                        "@_CREATED": 1579849836943,
+                        "@_MODIFIED": 1579849844990,
+                        "@_LINK": "https://buddy.works/blog/5-types-of-git-workflows"
                     }
+                },
+                {
+                    "@_TEXT": "basic",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_775684126",
+                    "@_CREATED": 1579850012677,
+                    "@_MODIFIED": 1579850014893,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "central repo",
+                            "@_ID": "ID_1080816137",
+                            "@_CREATED": 1579850019330,
+                            "@_MODIFIED": 1579850023804
+                        },
+                        {
+                            "@_TEXT": "feature branch",
+                            "@_ID": "ID_1653710134",
+                            "@_CREATED": 1579850135352,
+                            "@_MODIFIED": 1579850140476,
+                            "node": {
+                                "@_ID": "ID_1196578970",
+                                "@_CREATED": 1579850953206,
+                                "@_MODIFIED": 1579850953206,
+                                "@_LINK": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow",
+                                "richcontent": {
+                                    "@_TYPE": "NODE",
+                                    "html": {
+                                        "head": "",
+                                        "body": {
+                                            "a": {
+                                                "#text": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow",
+                                                "@_http-equiv": "content-type",
+                                                "@_content": "text/html; charset=utf-8",
+                                                "@_href": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "merge requests",
+                            "@_ID": "ID_422165702",
+                            "@_CREATED": 1579850341758,
+                            "@_MODIFIED": 1579850345259
+                        },
+                        {
+                            "@_TEXT": "gitflow",
+                            "@_ID": "ID_1980365261",
+                            "@_CREATED": 1579850347349,
+                            "@_MODIFIED": 1579850360419,
+                            "node": {
+                                "@_TEXT": "invented and described by Vincent Driessen in 2010",
+                                "@_ID": "ID_1663191854",
+                                "@_CREATED": 1579850403561,
+                                "@_MODIFIED": 1579850403561
+                            }
+                        },
+                        {
+                            "@_TEXT": "forking workflow",
+                            "@_ID": "ID_1746438760",
+                            "@_CREATED": 1579850429913,
+                            "@_MODIFIED": 1579850433450,
+                            "node": [
+                                {
+                                    "@_ID": "ID_1541402011",
+                                    "@_CREATED": 1579850677448,
+                                    "@_MODIFIED": 1579850677448,
+                                    "@_LINK": "https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow",
+                                    "richcontent": {
+                                        "@_TYPE": "NODE",
+                                        "html": {
+                                            "head": "",
+                                            "body": {
+                                                "a": {
+                                                    "#text": "https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow",
+                                                    "@_http-equiv": "content-type",
+                                                    "@_content": "text/html; charset=utf-8",
+                                                    "@_href": "https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "You want to contribute to an open source library hosted at bitbucket.org/userA/open-project",
+                                    "@_ID": "ID_1749535951",
+                                    "@_CREATED": 1579850857784,
+                                    "@_MODIFIED": 1579850857784
+                                },
+                                {
+                                    "@_TEXT": "Using Bitbucket you create a fork of the repo to bitbucket.org/YourName/open-project",
+                                    "@_ID": "ID_1637393652",
+                                    "@_CREATED": 1579850857784,
+                                    "@_MODIFIED": 1579850857784
+                                },
+                                {
+                                    "@_TEXT": "On your local system you execute git clone on https://bitbucket.org/YourName/open-project to get a local copy of the repo",
+                                    "@_ID": "ID_1478678632",
+                                    "@_CREATED": 1579850857793,
+                                    "@_MODIFIED": 1579850857793,
+                                    "@_LINK": "https://bitbucket.org/YourName/open-project"
+                                },
+                                {
+                                    "@_TEXT": "You create a new feature branch in your local repo",
+                                    "@_ID": "ID_464795393",
+                                    "@_CREATED": 1579850857796,
+                                    "@_MODIFIED": 1579850857796
+                                },
+                                {
+                                    "@_TEXT": "Work is done to complete the new feature and git commit is executed to save the changes",
+                                    "@_ID": "ID_1521337804",
+                                    "@_CREATED": 1579850857799,
+                                    "@_MODIFIED": 1579850857799
+                                },
+                                {
+                                    "@_TEXT": "You then push the new feature branch to your remote forked repo",
+                                    "@_ID": "ID_1258860962",
+                                    "@_CREATED": 1579850857799,
+                                    "@_MODIFIED": 1579850857799
+                                },
+                                {
+                                    "@_TEXT": "Using Bitbucket you open up a pull request for the new branch against the original repo at bitbucket.org/userA/open-project",
+                                    "@_ID": "ID_63102765",
+                                    "@_CREATED": 1579850857801,
+                                    "@_MODIFIED": 1579850857801
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

@@ -1,0 +1,28 @@
+<#ID_49988024> <urn:string:@_TEXT> """links""" .
+<#ID_775684126> <urn:string:@_TEXT> """basic""" .
+<#ID_1080816137> <urn:string:@_TEXT> """central repo""" .
+<#ID_1080816137> <urn:string:child> <ID_1080816137> .
+<#ID_1653710134> <urn:string:@_TEXT> """feature branch""" .
+<#ID_1653710134> <urn:string:child> <ID_1653710134> .
+<#ID_422165702> <urn:string:@_TEXT> """merge requests""" .
+<#ID_422165702> <urn:string:child> <ID_422165702> .
+<#ID_1980365261> <urn:string:@_TEXT> """gitflow""" .
+<#ID_1980365261> <urn:string:child> <ID_1980365261> .
+<#ID_1746438760> <urn:string:@_TEXT> """forking workflow""" .
+<#ID_1746438760> <urn:string:child> <ID_1746438760> .
+<#ID_1541402011> <urn:string:@_TEXT> """undefined""" .
+<#ID_1541402011> <urn:string:child> <ID_1541402011> .
+<#ID_1749535951> <urn:string:@_TEXT> """You want to contribute to an open source library hosted at bitbucket.org/userA/open-project""" .
+<#ID_1749535951> <urn:string:child> <ID_1749535951> .
+<#ID_1637393652> <urn:string:@_TEXT> """Using Bitbucket you create a fork of the repo to bitbucket.org/YourName/open-project""" .
+<#ID_1637393652> <urn:string:child> <ID_1637393652> .
+<#ID_1478678632> <urn:string:@_TEXT> """On your local system you execute git clone on https://bitbucket.org/YourName/open-project to get a local copy of the repo""" .
+<#ID_1478678632> <urn:string:child> <ID_1478678632> .
+<#ID_464795393> <urn:string:@_TEXT> """You create a new feature branch in your local repo""" .
+<#ID_464795393> <urn:string:child> <ID_464795393> .
+<#ID_1521337804> <urn:string:@_TEXT> """Work is done to complete the new feature and git commit is executed to save the changes""" .
+<#ID_1521337804> <urn:string:child> <ID_1521337804> .
+<#ID_1258860962> <urn:string:@_TEXT> """You then push the new feature branch to your remote forked repo""" .
+<#ID_1258860962> <urn:string:child> <ID_1258860962> .
+<#ID_63102765> <urn:string:@_TEXT> """Using Bitbucket you open up a pull request for the new branch against the original repo at bitbucket.org/userA/open-project""" .
+<#ID_63102765> <urn:string:child> <ID_63102765> .

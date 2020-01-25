@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="control" FOLDED="false" ID="ID_1331037305" CREATED="1570900320561" MODIFIED="1570900375788" LINK="../index.mm" STYLE="oval">
-<font SIZE="18"/>
+<node TEXT="Commands" FOLDED="false" ID="ID_1547856803" CREATED="1577143500034" MODIFIED="1579849576218" LINK="../index.mm" STYLE="oval">
+<edge STYLE="bezier" COLOR="#7c0000" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -63,19 +63,39 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="pm2" POSITION="right" ID="ID_1709105674" CREATED="1570900352607" MODIFIED="1570900404661" LINK="pm2.mm">
-<edge COLOR="#ff00ff"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<font SIZE="18"/>
+<node TEXT="reset" POSITION="right" ID="ID_765780789" CREATED="1577143503127" MODIFIED="1577143505114">
+<node ID="ID_622264619" CREATED="1577143532312" MODIFIED="1577143532312" LINK="https://www.atlassian.com/git/tutorials/undoing-changes/git-reset"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.atlassian.com/git/tutorials/undoing-changes/git-reset">https://www.atlassian.com/git/tutorials/undoing-changes/git-reset</a> 
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="git" POSITION="right" ID="ID_1006031312" CREATED="1570900398681" MODIFIED="1579849516710" LINK="git/index.mm">
-<edge COLOR="#00ffff"/>
+<node TEXT="soft" ID="ID_625336574" CREATED="1577143578880" MODIFIED="1577143580705">
+<node TEXT="commit tree" ID="ID_1871528466" CREATED="1577143767770" MODIFIED="1577143770339"/>
 </node>
-<node TEXT="npm" POSITION="right" ID="ID_1575723610" CREATED="1579849063886" MODIFIED="1579849066168">
-<edge COLOR="#7c0000"/>
+<node TEXT="mixed" ID="ID_1578045062" CREATED="1577143581385" MODIFIED="1577164554828">
+<font BOLD="true"/>
+<node TEXT="staging index" ID="ID_1338796809" CREATED="1577143772184" MODIFIED="1577143774906">
+<node TEXT="his tree is tracking Working Directory changes, that have been promoted with git add, to be stored in the next commit. This tree is a complex internal caching mechanism." ID="ID_1679719810" CREATED="1577163829512" MODIFIED="1577163829512"/>
+<node TEXT="git ls-files" ID="ID_1444858658" CREATED="1577163895174" MODIFIED="1577163899120">
+<node TEXT="-s or --stage" ID="ID_1177229065" CREATED="1577163960997" MODIFIED="1577163964858"/>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_132797472" CREATED="1570900337193" MODIFIED="1570900337198">
-<icon BUILTIN="attach"/>
-<edge COLOR="#00ff00"/>
+</node>
+</node>
+<node TEXT="hard" ID="ID_948378930" CREATED="1577143584246" MODIFIED="1577143585635">
+<node TEXT="working directory" ID="ID_286677452" CREATED="1577143777292" MODIFIED="1577143780071">
+<node TEXT="your local tree" ID="ID_242765237" CREATED="1577162795287" MODIFIED="1577162798580"/>
+</node>
+<node TEXT="Reset the staging area and the working directory to match the most recent commit. In addition to unstaging changes, the --hard flag tells Git to overwrite all changes in the working directory, too. Put another way: this obliterates all uncommitted changes, so make sure you really want to throw away your local developments before using it." ID="ID_897335891" CREATED="1577168125680" MODIFIED="1577168125680"/>
+</node>
 </node>
 </node>
 </map>
