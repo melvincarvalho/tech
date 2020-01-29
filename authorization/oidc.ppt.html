@@ -1,0 +1,352 @@
+<!DOCTYPE html><html lang="en" xmlns:my="local.uri">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>oidc</title>
+        <meta name="description" content="Freeplane mindmap HTML presentation">
+        <meta name="author" content="Yours Respectfully">
+        <meta name="generator" content="Mindslide at http://berteh.github.io/mindslide/">
+        <!--Mindslide version 0.5-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/reveal.css">
+        <link rel="stylesheet" id="theme" href="https://solidpayorg.github.io/reveal.js/css/theme/solid.css">
+        <!--For syntax highlighting-->
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/lib/css/zenburn.css">
+        <style type="text/css">
+            a.connector, a.subsection {margin-left: 1ex; font-size: smaller}
+            .illustrations a {float:left; margin: 1ex 5px; max-width:100%}
+            .illustrations img {max-height:8em;}
+            .illustrations.w1 a {max-width:98%} 
+            .illustrations.w2 a {max-width:47%} 
+            .illustrations.w3 a, .illustrations.w6 a  {max-width:31%} 
+            .illustrations.w4 a, .illustrations.w7 a, .illustrations.w8 a {max-width:23%} 
+            .illustrations.w5 a, .illustrations.w9 a, .illustrations.w10 a {max-width:18%} 
+
+            /* bullet lists layout */
+			#mindslide li p {margin: 0 0;}
+            #mindslide section.content>ul li {font-size: 90%;}
+            #mindslide section.content>ul>li:first-of-type, #mindslide section.title>ul li {list-style:none; display:block; font-size: 120%; margin-bottom:1ex}   
+
+            /* zenburn hack for inline code highlight */
+            pre.inline, .inline code {display:inline; width:auto;}
+			
+			/* icons */
+			#mindslide.awesome section.content li.icon {list-style:none; margin-left: -1em}
+			#mindslide.awesome .fa {font-family: FontAwesome; margin-right: 1ex;}			
+        </style>
+        <!--If the query includes 'print-pdf', use the PDF print sheet. works in Chrome, maybe not other browsers-->
+        <script type="text/javascript">
+        document.write( '<link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        </script>
+        <!--
+            [if lt IE 9]>
+            <script src="https://solidpayorg.github.io/reveal.js/lib/js/html5shiv.js"></script>
+            <![endif]
+        -->
+        <!--placeholder for custom header items (typically scripts or stylesheets)-->
+    </head>
+    <body>
+        <div class="reveal">
+            <!--Any section element inside of this container is displayed as a slide-->
+            <div id="mindslide" class="slides">
+                <section class="content" id="ID_1831615648">
+                    <h2>oidc</h2>
+                    <ul>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-list"></span>Terminology<a href="#/ID_1572009272" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-paperclip"></span>links<a href="#/ID_808607355" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-folder"></span>docs
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa "></span>tags
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-key"></span>OAuth2<a href="#/ID_449520030" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-group"></span>OIDC<a href="#/ID_1972852853" class="link subsection"> &#8628;</a>
+                        </li>
+                    </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_1572009272">
+                        <h3>Terminology</h3>
+                        <ul>
+                            <li>
+                                Resource Owner<a href="#/ID_1289681239" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Client<a href="#/ID_136917330" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Authorization Server<a href="#/ID_773693740" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Resource Server<a href="#/ID_583339478" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Redirect URI<a href="#/ID_763149664" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Response Type<a href="#/ID_1034503034" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Scope<a href="#/ID_1605955820" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Consent<a href="#/ID_245246260" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Client ID<a href="#/ID_1454557639" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Client Secret<a href="#/ID_1921522318" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Authorization Code<a href="#/ID_113405435" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Access Token<a href="#/ID_1535983558" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1289681239">
+                        <h4>Resource Owner</h4>
+                        <ul>
+                            <li>You</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_136917330">
+                        <h4>Client</h4>
+                        <ul>
+                            <li>Terrible Pun of the Day</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_773693740">
+                        <h4>Authorization Server</h4>
+                        <ul>
+                            <li>Where you have an account</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_583339478">
+                        <h4>Resource Server</h4>
+                        <ul>
+                            <li>API the client wants to use</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_763149664">
+                        <h4>Redirect URI</h4>
+                        <ul>
+                            <li>Where you come back</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1034503034">
+                        <h4>Response Type</h4>
+                        <ul>
+                            <li>
+                                most common is code<a href="#/ID_1328666592" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1328666592">
+                        <h5>most common is code</h5>
+                        <ul>
+                            <li>authorization code</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1605955820">
+                        <h4>Scope</h4>
+                        <ul>
+                            <li>granular permissions</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_245246260">
+                        <h4>Consent</h4>
+                        <ul>
+                            <li>The box you click to allow access</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1454557639">
+                        <h4>Client ID</h4>
+                        <ul>
+                            <li>Identifies the client</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1921522318">
+                        <h4>Client Secret</h4>
+                        <ul>
+                            <li>Shared secret only the Authorization server and client know</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_113405435">
+                        <h4>Authorization Code</h4>
+                        <ul>
+                            <li>short lived code the client gives the authz server for an access token</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1535983558">
+                        <h4>Access Token</h4>
+                        <ul>
+                            <li>Key the client will use with the authz server</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="content" id="ID_808607355">
+                    <h3>links</h3>
+                    <ul>
+                        <li>
+                            <a href="https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc">https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc</a></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/panva/node-oidc-provider" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/panva/node-oidc-provider">https://github.com/panva/node-oidc-provider</a></a>
+                        </li>
+                    </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_449520030">
+                        <h3>OAuth2</h3>
+                        <ul>
+                            <li>No password anti pattern</li>
+                            <li>Share your contacts to email them</li>
+                            <li>
+                                Flow<a href="#/ID_551008889" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_551008889">
+                        <h4>Flow</h4>
+                        <ul>
+                            <li>Authorization Code Flow</li>
+                            <li>Click on your provider</li>
+                            <li>Redirect there</li>
+                            <li>Log in or logged in</li>
+                            <li>Click allow</li>
+                            <li>Redirect back</li>
+                        </ul>
+                    </section>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_1972852853">
+                        <h3>OIDC</h3>
+                        <ul>
+                            <li>
+                                Flow<a href="#/ID_597814031" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_597814031">
+                        <h4>Flow</h4>
+                        <ul>
+                            <li>OIDC Flow</li>
+                            <li>Click on your provider</li>
+                            <li>Redirect there</li>
+                            <li>Log in or logged in</li>
+                            <li>Click allow</li>
+                            <li>
+                                Redirect back<a href="#/ID_271945391" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_271945391">
+                        <h5>Redirect back</h5>
+                        <ul>
+                            <li>Client also gets ID JWT Token</li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="end">
+                    <h1>The End</h1>
+                    <h3 class="thanks">Thank You!</h3>
+                    <p id="author">Yours Respectfully</p>
+                    <p id="credits">
+                        <small>Powered by <a href="http://berteh.github.io/mindslide/">Mindslide</a> for <a href="http://freeplane.sourceforge.net/">Freeplane</a>, using <a href="http://lab.hakim.se/reveal-js/#/">Reveal.js</a></small>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer class="info">
+            oidc | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.7.0
+        </footer>
+        <script src="https://solidpayorg.github.io/reveal.js/lib/js/head.min.js"></script><script src="https://solidpayorg.github.io/reveal.js/js/reveal.js"></script><script>
+
+	//run reveal.js
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		slideNumber: false,
+		history: true,
+		keyboard: true,
+		overview: true,
+		center: true,
+		touch: true,
+		loop: false,
+		rtl: false,
+		shuffle: false,
+		fragments: true,
+		embedded: false,
+		help: true,
+		showNotes: false,
+		autoSlide: 0,
+		autoSlideStoppable: true,
+		autoSlideMethod: Reveal.navigateNext,
+		mouseWheel: true,
+		hideAddressBar: true,
+		previewLinks: false,
+		transition: 'cube',
+		transitionSpeed: 'default',
+		backgroundTransition: 'slide',
+		viewDistance: 3,
+		parallaxBackgroundImage: '',
+		parallaxBackgroundSize: '',
+		parallaxBackgroundHorizontal: null,
+		parallaxBackgroundVertical: null,
+
+		theme: Reveal.getQueryHash().theme || 'solid',
+		transition: Reveal.getQueryHash().transition || 'cube',
+
+		
+        // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src:'https://solidpayorg.github.io/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+		  //{ src:'https://solidpayorg.github.io/reveal.js/plugin/math/math.js', async: true }
+		]
+    	
+    });
+        </script>
+        <link rel="stylesheet" crossorigin="anonymous" href="Font-Awesome/css/font-awesome.min.css">
+        <script>
+		// add "awesome" class to #mindslide (only) if FontAwesome is loaded (for icons layout)
+	
+		function css(element, property) {
+			return window.getComputedStyle(element, null).getPropertyValue(property);
+		}
+		
+		window.onload = function () {
+			var span = document.createElement('span');
+			span.className = 'fa';
+			span.style.display = 'none';
+			document.body.insertBefore(span, document.body.firstChild);
+			if ((css(span, 'font-family')) == 'FontAwesome') {
+				var ms = document.getElementById("mindslide");
+				ms.className += " awesome";
+			}
+			document.body.removeChild(span);
+		};		
+		</script>
+    </body>
+</html>
