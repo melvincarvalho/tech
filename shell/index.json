@@ -187,7 +187,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 7,
+                    "@_COUNTER": 8,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -224,6 +224,17 @@
                         "@_CREATED": 1572861211871,
                         "@_MODIFIED": 1572861211895,
                         "@_LINK": "index.mm"
+                    }
+                },
+                {
+                    "@_TEXT": "safe shell",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_393177370",
+                    "@_CREATED": 1580773375901,
+                    "@_MODIFIED": 1580773380834,
+                    "@_LINK": "https://sipb.mit.edu/doc/safe-shell/",
+                    "edge": {
+                        "@_COLOR": "#007c00"
                     }
                 }
             ]

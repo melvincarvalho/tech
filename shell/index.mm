@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="explain shell" POSITION="right" ID="ID_888082133" CREATED="1572861211155" MODIFIED="1572861297119" LINK="../index.mm">
 <icon BUILTIN="idea"/>
 <edge COLOR="#ff0000"/>
@@ -72,6 +72,9 @@
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
 <node TEXT="docs" ID="ID_339488760" CREATED="1572861211871" MODIFIED="1572861211895" LINK="index.mm"/>
+</node>
+<node TEXT="safe shell" POSITION="right" ID="ID_393177370" CREATED="1580773375901" MODIFIED="1580773380834" LINK="https://sipb.mit.edu/doc/safe-shell/">
+<edge COLOR="#007c00"/>
 </node>
 </node>
 </map>
