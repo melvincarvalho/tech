@@ -308,64 +308,25 @@
                     },
                     "node": [
                         {
-                            "@_ID": "ID_1248490359",
-                            "@_CREATED": 1571338424296,
-                            "@_MODIFIED": 1571338424296,
-                            "@_LINK": "https://github.com/freeplane/freeplane",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://github.com/freeplane/freeplane",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://github.com/freeplane/freeplane"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
+                            "@_TEXT": "freeplane",
                             "@_ID": "ID_1288808904",
                             "@_CREATED": 1571338505640,
-                            "@_MODIFIED": 1571338505640,
-                            "@_LINK": "https://www.freeplane.org/",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://www.freeplane.org/",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://www.freeplane.org/"
-                                        }
-                                    }
-                                }
-                            }
+                            "@_MODIFIED": 1580762877644,
+                            "@_LINK": "https://www.freeplane.org/"
                         },
                         {
+                            "@_TEXT": "github",
+                            "@_ID": "ID_1248490359",
+                            "@_CREATED": 1571338424296,
+                            "@_MODIFIED": 1580762872356,
+                            "@_LINK": "https://github.com/freeplane/freeplane"
+                        },
+                        {
+                            "@_TEXT": "wiki",
                             "@_ID": "ID_1162793213",
                             "@_CREATED": 1571344020507,
-                            "@_MODIFIED": 1571344020507,
-                            "@_LINK": "https://www.freeplane.org/wiki/",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://www.freeplane.org/wiki/",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://www.freeplane.org/wiki/"
-                                        }
-                                    }
-                                }
-                            }
+                            "@_MODIFIED": 1580762885829,
+                            "@_LINK": "https://www.freeplane.org/wiki/"
                         }
                     ]
                 },

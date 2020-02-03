@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1578144952464" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1580762843237" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="wizard"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -72,7 +72,7 @@
 <node TEXT="JavaScript" ID="ID_546595456" CREATED="1570576879455" MODIFIED="1572860776940" LINK="../JavaScript/index.mm"/>
 <node TEXT="wasm" ID="ID_1992588014" CREATED="1572992931576" MODIFIED="1572992955851" LINK="languages/wasm/index.mm"/>
 </node>
-<node TEXT="Systems" POSITION="right" ID="ID_527312312" CREATED="1572063758657" MODIFIED="1578144952459" HGAP_QUANTITY="45.49999906122687 pt" VSHIFT_QUANTITY="56.24999832361942 pt" COLOR="#000099">
+<node TEXT="Systems" POSITION="right" ID="ID_527312312" CREATED="1572063758657" MODIFIED="1580762843236" HGAP_QUANTITY="46.24999903887513 pt" VSHIFT_QUANTITY="40.499998793005986 pt" COLOR="#000099">
 <icon BUILTIN="launch"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ff00"/>

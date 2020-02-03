@@ -89,7 +89,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/htw-docear/docear/blob/master/freeplane/resources/xslt/freeplane2html.xsl">https://github.com/htw-docear/docear/blob/master/freeplane/resources/xslt/freeplane2html.xsl</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1309887860" CREATED="1571347033471" MODIFIED="1571347033471" LINK="https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl"><richcontent TYPE="NODE">
@@ -102,7 +101,6 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl">https://github.com/freeplane/freeplane/blob/2fe1447b5e67e7ffaa8ad7c31eb46c83bb0c83f3/freeplane/src/editor/resources/xslt/freeplane2html.xsl</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -110,42 +108,9 @@
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
-<node ID="ID_1248490359" CREATED="1571338424296" MODIFIED="1571338424296" LINK="https://github.com/freeplane/freeplane"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/freeplane/freeplane">https://github.com/freeplane/freeplane</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1288808904" CREATED="1571338505640" MODIFIED="1571338505640" LINK="https://www.freeplane.org/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.freeplane.org/">https://www.freeplane.org/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1162793213" CREATED="1571344020507" MODIFIED="1571344020507" LINK="https://www.freeplane.org/wiki/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.freeplane.org/wiki/">https://www.freeplane.org/wiki/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="freeplane" ID="ID_1288808904" CREATED="1571338505640" MODIFIED="1580762877644" LINK="https://www.freeplane.org/"/>
+<node TEXT="github" ID="ID_1248490359" CREATED="1571338424296" MODIFIED="1580762872356" LINK="https://github.com/freeplane/freeplane"/>
+<node TEXT="wiki" ID="ID_1162793213" CREATED="1571344020507" MODIFIED="1580762885829" LINK="https://www.freeplane.org/wiki/"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>
