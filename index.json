@@ -310,8 +310,11 @@
                             "@_TEXT": "unix",
                             "@_ID": "ID_7338816",
                             "@_CREATED": 1574808370249,
-                            "@_MODIFIED": 1574808559592,
-                            "@_LINK": "unix/index.mm"
+                            "@_MODIFIED": 1581029579314,
+                            "@_LINK": "unix/index.mm",
+                            "icon": {
+                                "@_BUILTIN": "forward"
+                            }
                         },
                         {
                             "@_TEXT": "UI",

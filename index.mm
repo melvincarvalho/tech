@@ -86,7 +86,9 @@
 </node>
 <node TEXT="Web almanac" ID="ID_576483331" CREATED="1579263452350" MODIFIED="1579263466353" LINK="https://almanac.httparchive.org/en/2019/table-of-contents"/>
 </node>
-<node TEXT="unix" ID="ID_7338816" CREATED="1574808370249" MODIFIED="1574808559592" LINK="unix/index.mm"/>
+<node TEXT="unix" ID="ID_7338816" CREATED="1574808370249" MODIFIED="1581029579314" LINK="unix/index.mm">
+<icon BUILTIN="forward"/>
+</node>
 <node TEXT="UI" ID="ID_1601511624" CREATED="1577512794222" MODIFIED="1577512794229" LINK="UI/index.mm">
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 </node>
