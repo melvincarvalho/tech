@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1580762843237" ICON_SIZE="16.0 pt" STYLE="oval">
+<node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1584226054336" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="wizard"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Languages" POSITION="right" ID="ID_176155545" CREATED="1572063754537" MODIFIED="1572064366377" HGAP_QUANTITY="-81.24999716132886 pt" VSHIFT_QUANTITY="-35.99999892711642 pt" COLOR="#006633">
+<node TEXT="Languages" POSITION="right" ID="ID_176155545" CREATED="1572063754537" MODIFIED="1584226054334" HGAP_QUANTITY="-82.74999711662538 pt" VSHIFT_QUANTITY="-34.499998971819906 pt" COLOR="#006633">
 <icon BUILTIN="list"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#0000ff"/>
@@ -124,7 +124,7 @@
 <edge STYLE="bezier" COLOR="#ff00ff" WIDTH="thin"/>
 </node>
 </node>
-<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
+<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1584226035595" COLOR="#660000" HGAP_QUANTITY="21.49999977648259 pt" VSHIFT_QUANTITY="-9.749999709427366 pt">
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>

@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1580762843237,
+            "@_MODIFIED": 1584226054336,
             "@_ICON_SIZE": "16.0 pt",
             "@_STYLE": "oval",
             "icon": {
@@ -200,9 +200,9 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_176155545",
                     "@_CREATED": 1572063754537,
-                    "@_MODIFIED": 1572064366377,
-                    "@_HGAP_QUANTITY": "-81.24999716132886 pt",
-                    "@_VSHIFT_QUANTITY": "-35.99999892711642 pt",
+                    "@_MODIFIED": 1584226054334,
+                    "@_HGAP_QUANTITY": "-82.74999711662538 pt",
+                    "@_VSHIFT_QUANTITY": "-34.499998971819906 pt",
                     "@_COLOR": "#006633",
                     "icon": {
                         "@_BUILTIN": "list"
@@ -475,8 +475,10 @@
                     "@_POSITION": "left",
                     "@_ID": "ID_777477932",
                     "@_CREATED": 1572063875737,
-                    "@_MODIFIED": 1572064427848,
+                    "@_MODIFIED": 1584226035595,
                     "@_COLOR": "#660000",
+                    "@_HGAP_QUANTITY": "21.49999977648259 pt",
+                    "@_VSHIFT_QUANTITY": "-9.749999709427366 pt",
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
