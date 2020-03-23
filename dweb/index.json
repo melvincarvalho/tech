@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "dweb",
             "@_FOLDED": false,
@@ -193,7 +193,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 22,
+                    "@_COUNTER": 23,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -263,6 +263,22 @@
                         "@_CREATED": 1578226135683,
                         "@_MODIFIED": 1578226142385,
                         "@_LINK": "https://news.ycombinator.com/item?id=21958359"
+                    }
+                },
+                {
+                    "@_TEXT": "currency",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1611946238",
+                    "@_CREATED": 1585000748977,
+                    "@_MODIFIED": 1585000755683,
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    },
+                    "node": {
+                        "@_TEXT": "bitcoin",
+                        "@_ID": "ID_1203229846",
+                        "@_CREATED": 1585000757348,
+                        "@_MODIFIED": 1585000763101
                     }
                 },
                 {

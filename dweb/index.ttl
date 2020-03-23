@@ -3,4 +3,5 @@
 <#ID_784061287> <urn:string:@_TEXT> """awesome open source""" .
 <#ID_1598333087> <urn:string:@_TEXT> """storage""" .
 <#ID_1192160118> <urn:string:@_TEXT> """bittorrent""" .
+<#ID_1611946238> <urn:string:@_TEXT> """currency""" .
 <#ID_1284435099> <urn:string:@_TEXT> """others""" .

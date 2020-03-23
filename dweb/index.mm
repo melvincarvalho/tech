@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="dweb" FOLDED="false" ID="ID_456592130" CREATED="1577959748543" MODIFIED="1577959788352" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>
@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="awesome list" POSITION="right" ID="ID_1893594912" CREATED="1577959790628" MODIFIED="1577959839405" LINK="https://github.com/gdamdam/awesome-decentralized-web">
 <edge COLOR="#7c0000"/>
 </node>
@@ -81,6 +81,10 @@
 <node TEXT="bittorrent" POSITION="right" ID="ID_1192160118" CREATED="1578226130728" MODIFIED="1578226134477">
 <edge COLOR="#7c7c00"/>
 <node TEXT="bittorrent client in go" ID="ID_480428186" CREATED="1578226135683" MODIFIED="1578226142385" LINK="https://news.ycombinator.com/item?id=21958359"/>
+</node>
+<node TEXT="currency" POSITION="right" ID="ID_1611946238" CREATED="1585000748977" MODIFIED="1585000755683">
+<edge COLOR="#ff0000"/>
+<node TEXT="bitcoin" ID="ID_1203229846" CREATED="1585000757348" MODIFIED="1585000763101"/>
 </node>
 <node TEXT="others" POSITION="right" ID="ID_1284435099" CREATED="1577959842940" MODIFIED="1577959845217">
 <edge COLOR="#007c00"/>
