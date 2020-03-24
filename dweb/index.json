@@ -278,7 +278,13 @@
                         "@_TEXT": "bitcoin",
                         "@_ID": "ID_1203229846",
                         "@_CREATED": 1585000757348,
-                        "@_MODIFIED": 1585000763101
+                        "@_MODIFIED": 1585000763101,
+                        "node": {
+                            "@_TEXT": "lightning network",
+                            "@_ID": "ID_1612405961",
+                            "@_CREATED": 1585087365951,
+                            "@_MODIFIED": 1585087371657
+                        }
                     }
                 },
                 {
