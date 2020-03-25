@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "tech",
             "@_FOLDED": false,
@@ -303,6 +303,13 @@
                                     "@_CREATED": 1579263452350,
                                     "@_MODIFIED": 1579263466353,
                                     "@_LINK": "https://almanac.httparchive.org/en/2019/table-of-contents"
+                                },
+                                {
+                                    "@_TEXT": "architecture",
+                                    "@_ID": "ID_506922449",
+                                    "@_CREATED": 1585124783342,
+                                    "@_MODIFIED": 1585124797292,
+                                    "@_LINK": "https://www.w3.org/DesignIssues/Principles.html"
                                 }
                             ]
                         },

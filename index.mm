@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="tech" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1584226054336" ICON_SIZE="16.0 pt" STYLE="oval">
 <icon BUILTIN="wizard"/>
@@ -85,6 +85,7 @@
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 </node>
 <node TEXT="Web almanac" ID="ID_576483331" CREATED="1579263452350" MODIFIED="1579263466353" LINK="https://almanac.httparchive.org/en/2019/table-of-contents"/>
+<node TEXT="architecture" ID="ID_506922449" CREATED="1585124783342" MODIFIED="1585124797292" LINK="https://www.w3.org/DesignIssues/Principles.html"/>
 </node>
 <node TEXT="unix" ID="ID_7338816" CREATED="1574808370249" MODIFIED="1581029579314" LINK="unix/index.mm">
 <icon BUILTIN="forward"/>
