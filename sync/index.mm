@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="sync" FOLDED="false" ID="ID_11428739" CREATED="1578985110141" MODIFIED="1578985198000" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>
@@ -67,7 +67,6 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="articles" POSITION="right" ID="ID_843740279" CREATED="1578985199362" MODIFIED="1578985200845">
 <edge COLOR="#7c0000"/>
-<node TEXT="https://www.inkandswitch.com/local-first.html" ID="ID_1704167895" CREATED="1578985296374" MODIFIED="1578985296374" LINK="https://www.inkandswitch.com/local-first.html"/>
 <node ID="ID_1055164401" CREATED="1578985306056" MODIFIED="1578985306056" LINK="https://www.inkandswitch.com/local-first.html"><richcontent TYPE="NODE">
 
 <html>
@@ -87,7 +86,7 @@
 <node TEXT="CRDT" ID="ID_549796093" CREATED="1578985379435" MODIFIED="1578985380947"/>
 <node TEXT="OT" ID="ID_1016446793" CREATED="1578985381835" MODIFIED="1578985382795"/>
 <node TEXT="Gun" ID="ID_639872239" CREATED="1578985383086" MODIFIED="1578985387333"/>
-<node TEXT="https://github.com/automerge/automerge" ID="ID_115950461" CREATED="1578985582501" MODIFIED="1578985582501" LINK="https://github.com/automerge/automerge"/>
+<node TEXT="automerge" ID="ID_115950461" CREATED="1578985582501" MODIFIED="1585861349354" LINK="https://github.com/automerge/automerge"/>
 </node>
 </node>
 </map>

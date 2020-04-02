@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "sync",
             "@_FOLDED": false,
@@ -207,42 +207,33 @@
                     "edge": {
                         "@_COLOR": "#7c0000"
                     },
-                    "node": [
-                        {
-                            "@_TEXT": "https://www.inkandswitch.com/local-first.html",
-                            "@_ID": "ID_1704167895",
-                            "@_CREATED": 1578985296374,
-                            "@_MODIFIED": 1578985296374,
-                            "@_LINK": "https://www.inkandswitch.com/local-first.html"
-                        },
-                        {
-                            "@_ID": "ID_1055164401",
-                            "@_CREATED": 1578985306056,
-                            "@_MODIFIED": 1578985306056,
-                            "@_LINK": "https://www.inkandswitch.com/local-first.html",
-                            "richcontent": {
-                                "@_TYPE": "NODE",
-                                "html": {
-                                    "head": "",
-                                    "body": {
-                                        "a": {
-                                            "#text": "https://www.inkandswitch.com/local-first.html",
-                                            "@_http-equiv": "content-type",
-                                            "@_content": "text/html; charset=utf-8",
-                                            "@_href": "https://www.inkandswitch.com/local-first.html"
-                                        }
+                    "node": {
+                        "@_ID": "ID_1055164401",
+                        "@_CREATED": 1578985306056,
+                        "@_MODIFIED": 1578985306056,
+                        "@_LINK": "https://www.inkandswitch.com/local-first.html",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "a": {
+                                        "#text": "https://www.inkandswitch.com/local-first.html",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://www.inkandswitch.com/local-first.html"
                                     }
                                 }
-                            },
-                            "node": {
-                                "@_TEXT": "HN",
-                                "@_ID": "ID_1048460930",
-                                "@_CREATED": 1578985322078,
-                                "@_MODIFIED": 1578985327429,
-                                "@_LINK": "https://news.ycombinator.com/item?id=22039950"
                             }
+                        },
+                        "node": {
+                            "@_TEXT": "HN",
+                            "@_ID": "ID_1048460930",
+                            "@_CREATED": 1578985322078,
+                            "@_MODIFIED": 1578985327429,
+                            "@_LINK": "https://news.ycombinator.com/item?id=22039950"
                         }
-                    ]
+                    }
                 },
                 {
                     "@_TEXT": "systems",
@@ -273,10 +264,10 @@
                             "@_MODIFIED": 1578985387333
                         },
                         {
-                            "@_TEXT": "https://github.com/automerge/automerge",
+                            "@_TEXT": "automerge",
                             "@_ID": "ID_115950461",
                             "@_CREATED": 1578985582501,
-                            "@_MODIFIED": 1578985582501,
+                            "@_MODIFIED": 1585861349354,
                             "@_LINK": "https://github.com/automerge/automerge"
                         }
                     ]
