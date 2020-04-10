@@ -1,7 +1,7 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="storage" FOLDED="false" ID="ID_1091898504" CREATED="1578226017540" MODIFIED="1586518653629" LINK="../index.mm" STYLE="oval">
-<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
+<node TEXT="backblaze" FOLDED="false" ID="ID_649408704" CREATED="1586518593372" MODIFIED="1586518628478" LINK="../index.mm" STYLE="oval">
+<font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -63,12 +63,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
-<font SIZE="18"/>
-<node TEXT="webFS" POSITION="right" ID="ID_944457850" CREATED="1578226026606" MODIFIED="1578226033824" LINK="https://news.ycombinator.com/item?id=21953634"/>
-<node TEXT="cloud" POSITION="right" ID="ID_864131218" CREATED="1586518563791" MODIFIED="1586518567494">
-<edge COLOR="#7c0000"/>
-<node TEXT="backblaze" ID="ID_205294485" CREATED="1586518573022" MODIFIED="1586518688554" LINK="backblaze/index.mm"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="CORS" POSITION="right" ID="ID_258221807" CREATED="1586518703840" MODIFIED="1586518715958" LINK="https://www.backblaze.com/b2/docs/cors_rules.html">
+<edge COLOR="#ff0000"/>
 </node>
 </node>
 </map>

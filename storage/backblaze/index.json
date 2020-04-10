@@ -2,18 +2,15 @@
     "map": {
         "@_version": "freeplane 1.8.0",
         "node": {
-            "@_TEXT": "storage",
+            "@_TEXT": "backblaze",
             "@_FOLDED": false,
-            "@_ID": "ID_1091898504",
-            "@_CREATED": 1578226017540,
-            "@_MODIFIED": 1586518653629,
+            "@_ID": "ID_649408704",
+            "@_CREATED": 1586518593372,
+            "@_MODIFIED": 1586518628478,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
-            "edge": {
-                "@_STYLE": "bezier",
-                "@_COLOR": "#00ff00",
-                "@_WIDTH": "thin",
-                "@_DASH": "SOLID"
+            "font": {
+                "@_SIZE": 18
             },
             "hook": [
                 {
@@ -190,40 +187,21 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 17,
+                    "@_COUNTER": 1,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "font": {
-                "@_SIZE": 18
-            },
-            "node": [
-                {
-                    "@_TEXT": "webFS",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_944457850",
-                    "@_CREATED": 1578226026606,
-                    "@_MODIFIED": 1578226033824,
-                    "@_LINK": "https://news.ycombinator.com/item?id=21953634"
-                },
-                {
-                    "@_TEXT": "cloud",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_864131218",
-                    "@_CREATED": 1586518563791,
-                    "@_MODIFIED": 1586518567494,
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    },
-                    "node": {
-                        "@_TEXT": "backblaze",
-                        "@_ID": "ID_205294485",
-                        "@_CREATED": 1586518573022,
-                        "@_MODIFIED": 1586518688554,
-                        "@_LINK": "backblaze/index.mm"
-                    }
+            "node": {
+                "@_TEXT": "CORS",
+                "@_POSITION": "right",
+                "@_ID": "ID_258221807",
+                "@_CREATED": 1586518703840,
+                "@_MODIFIED": 1586518715958,
+                "@_LINK": "https://www.backblaze.com/b2/docs/cors_rules.html",
+                "edge": {
+                    "@_COLOR": "#ff0000"
                 }
-            ]
+            }
         }
     }
 }
