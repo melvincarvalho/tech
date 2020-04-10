@@ -63,9 +63,29 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="CORS" POSITION="right" ID="ID_258221807" CREATED="1586518703840" MODIFIED="1586518715958" LINK="https://www.backblaze.com/b2/docs/cors_rules.html">
-<edge COLOR="#ff0000"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="b2" POSITION="right" ID="ID_1470349731" CREATED="1586518795253" MODIFIED="1586518796966">
+<edge COLOR="#0000ff"/>
+<node TEXT="CORS" ID="ID_258221807" CREATED="1586518703840" MODIFIED="1586518801422" LINK="https://www.backblaze.com/b2/docs/cors_rules.html">
+<node TEXT="With CORS, before making a non-simple cross-origin request, a browser makes a &quot;preflight&quot; request to ask the server if it&apos;s ok to make the cross-origin request" ID="ID_1452754758" CREATED="1586518837995" MODIFIED="1586518842590">
+<icon BUILTIN="full-1"/>
+</node>
+<node TEXT="Adding CORS rules to your bucket tells B2 which preflight requests to approve" ID="ID_1128858971" CREATED="1586518878595" MODIFIED="1586518884726">
+<icon BUILTIN="full-2"/>
+</node>
+<node TEXT="CORS rules only affect B2 operations in their &quot;allowedOperations&quot; list. Every rule must specify at least one in their allowedOperations. So far, only the two upload and two download operations are supported." ID="ID_1460371777" CREATED="1586518944993" MODIFIED="1586518948190">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node TEXT="cli" ID="ID_1320641711" CREATED="1586519182158" MODIFIED="1586519184264">
+<node TEXT="sudo pip install --upgrade b2" ID="ID_373219149" CREATED="1586519190882" MODIFIED="1586519190882"/>
+<node TEXT="b2" ID="ID_524220590" CREATED="1586519246582" MODIFIED="1586519248290">
+<node TEXT="update-bucket" ID="ID_889123660" CREATED="1586519253701" MODIFIED="1586519259246">
+<node TEXT="--corsRules &lt;json&gt;" ID="ID_1760346100" CREATED="1586519274214" MODIFIED="1586519280037"/>
+<node TEXT="b2 update-bucket --corsRules &apos;[&#xa;    {&#xa;      &quot;corsRuleName&quot;: &quot;downloadFromAnyOrigin&quot;,&#xa;      &quot;allowedOrigins&quot;: [&#xa;        &quot;https&quot;&#xa;      ],&#xa;      &quot;allowedHeaders&quot;: [&quot;accept&quot;],&#xa;      &quot;allowedOperations&quot;: [&#xa;        &quot;b2_download_file_by_id&quot;,&#xa;        &quot;b2_download_file_by_name&quot;&#xa;      ],&#xa;      &quot;exposeHeaders&quot;: [&quot;x-bz-content-sha1&quot;],&#xa;      &quot;maxAgeSeconds&quot;: 3600&#xa;    }&#xa;]&apos; markbook allPublic" ID="ID_1598577719" CREATED="1586519899203" MODIFIED="1586519904139"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -50,13 +50,83 @@
         <div class="reveal">
             <!--Any section element inside of this container is displayed as a slide-->
             <div id="mindslide" class="slides">
-                <section class="content" id="ID_649408704">
+                <section class="title" id="ID_649408704">
                     <h1>backblaze</h1>
+                    <ul></ul>
+                </section>
+                <section class="toc">
+                    <h2>Table of Content</h2>
                     <ul>
                         <li>
-                            <a href="https://www.backblaze.com/b2/docs/cors_rules.html" class="link external">CORS</a>
+                            b2<a href="#/ID_1470349731" class="link subsection"> &#8628;</a>
                         </li>
                     </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_1470349731">
+                        <h2>b2</h2>
+                        <ul>
+                            <li>
+                                CORS<a href="#/ID_258221807" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                cli<a href="#/ID_1320641711" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_258221807">
+                        <h3>CORS</h3>
+                        <ul>
+                            <li class="icon">
+                                <span aria-hidden="true" class="fa fa-list-ol"></span>With CORS, before making a non-simple cross-origin request, a browser makes a "preflight" request to ask the server if it's ok to make the cross-origin request
+                            </li>
+                            <li class="icon">
+                                <span aria-hidden="true" class="fa fa-list-ol"></span>Adding CORS rules to your bucket tells B2 which preflight requests to approve
+                            </li>
+                            <li class="icon">
+                                <span aria-hidden="true" class="fa fa-list-ol"></span>CORS rules only affect B2 operations in their "allowedOperations" list. Every rule must specify at least one in their allowedOperations. So far, only the two upload and two download operations are supported.
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1320641711">
+                        <h3>cli</h3>
+                        <ul>
+                            <li>sudo pip install --upgrade b2</li>
+                            <li>
+                                b2<a href="#/ID_524220590" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_524220590">
+                        <h4>b2</h4>
+                        <ul>
+                            <li>
+                                update-bucket<a href="#/ID_889123660" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_889123660">
+                        <h5>update-bucket</h5>
+                        <ul>
+                            <li>--corsRules &lt;json&gt;</li>
+                            <li>b2 update-bucket --corsRules '[
+    {
+      "corsRuleName": "downloadFromAnyOrigin",
+      "allowedOrigins": [
+        "https"
+      ],
+      "allowedHeaders": ["accept"],
+      "allowedOperations": [
+        "b2_download_file_by_id",
+        "b2_download_file_by_name"
+      ],
+      "exposeHeaders": ["x-bz-content-sha1"],
+      "maxAgeSeconds": 3600
+    }
+]' markbook allPublic</li>
+                        </ul>
+                    </section>
                 </section>
                 <section id="end">
                     <h1>The End</h1>

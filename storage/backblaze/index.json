@@ -187,20 +187,97 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 1,
+                    "@_COUNTER": 2,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "node": {
-                "@_TEXT": "CORS",
+                "@_TEXT": "b2",
                 "@_POSITION": "right",
-                "@_ID": "ID_258221807",
-                "@_CREATED": 1586518703840,
-                "@_MODIFIED": 1586518715958,
-                "@_LINK": "https://www.backblaze.com/b2/docs/cors_rules.html",
+                "@_ID": "ID_1470349731",
+                "@_CREATED": 1586518795253,
+                "@_MODIFIED": 1586518796966,
                 "edge": {
-                    "@_COLOR": "#ff0000"
-                }
+                    "@_COLOR": "#0000ff"
+                },
+                "node": [
+                    {
+                        "@_TEXT": "CORS",
+                        "@_ID": "ID_258221807",
+                        "@_CREATED": 1586518703840,
+                        "@_MODIFIED": 1586518801422,
+                        "@_LINK": "https://www.backblaze.com/b2/docs/cors_rules.html",
+                        "node": [
+                            {
+                                "@_TEXT": "With CORS, before making a non-simple cross-origin request, a browser makes a &quot;preflight&quot; request to ask the server if it&apos;s ok to make the cross-origin request",
+                                "@_ID": "ID_1452754758",
+                                "@_CREATED": 1586518837995,
+                                "@_MODIFIED": 1586518842590,
+                                "icon": {
+                                    "@_BUILTIN": "full-1"
+                                }
+                            },
+                            {
+                                "@_TEXT": "Adding CORS rules to your bucket tells B2 which preflight requests to approve",
+                                "@_ID": "ID_1128858971",
+                                "@_CREATED": 1586518878595,
+                                "@_MODIFIED": 1586518884726,
+                                "icon": {
+                                    "@_BUILTIN": "full-2"
+                                }
+                            },
+                            {
+                                "@_TEXT": "CORS rules only affect B2 operations in their &quot;allowedOperations&quot; list. Every rule must specify at least one in their allowedOperations. So far, only the two upload and two download operations are supported.",
+                                "@_ID": "ID_1460371777",
+                                "@_CREATED": 1586518944993,
+                                "@_MODIFIED": 1586518948190,
+                                "icon": {
+                                    "@_BUILTIN": "full-3"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@_TEXT": "cli",
+                        "@_ID": "ID_1320641711",
+                        "@_CREATED": 1586519182158,
+                        "@_MODIFIED": 1586519184264,
+                        "node": [
+                            {
+                                "@_TEXT": "sudo pip install --upgrade b2",
+                                "@_ID": "ID_373219149",
+                                "@_CREATED": 1586519190882,
+                                "@_MODIFIED": 1586519190882
+                            },
+                            {
+                                "@_TEXT": "b2",
+                                "@_ID": "ID_524220590",
+                                "@_CREATED": 1586519246582,
+                                "@_MODIFIED": 1586519248290,
+                                "node": {
+                                    "@_TEXT": "update-bucket",
+                                    "@_ID": "ID_889123660",
+                                    "@_CREATED": 1586519253701,
+                                    "@_MODIFIED": 1586519259246,
+                                    "node": [
+                                        {
+                                            "@_TEXT": "--corsRules &lt;json&gt;",
+                                            "@_ID": "ID_1760346100",
+                                            "@_CREATED": 1586519274214,
+                                            "@_MODIFIED": 1586519280037
+                                        },
+                                        {
+                                            "@_TEXT": "b2 update-bucket --corsRules &apos;[&#xa;    {&#xa;      &quot;corsRuleName&quot;: &quot;downloadFromAnyOrigin&quot;,&#xa;      &quot;allowedOrigins&quot;: [&#xa;        &quot;https&quot;&#xa;      ],&#xa;      &quot;allowedHeaders&quot;: [&quot;accept&quot;],&#xa;      &quot;allowedOperations&quot;: [&#xa;        &quot;b2_download_file_by_id&quot;,&#xa;        &quot;b2_download_file_by_name&quot;&#xa;      ],&#xa;      &quot;exposeHeaders&quot;: [&quot;x-bz-content-sha1&quot;],&#xa;      &quot;maxAgeSeconds&quot;: 3600&#xa;    }&#xa;]&apos; markbook allPublic",
+                                            "@_ID": "ID_1598577719",
+                                            "@_CREATED": 1586519899203,
+                                            "@_MODIFIED": 1586519904139
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }
