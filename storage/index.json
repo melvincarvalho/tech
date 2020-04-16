@@ -9,6 +9,9 @@
             "@_MODIFIED": 1586518653629,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 18
+            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00ff00",
@@ -194,9 +197,6 @@
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "font": {
-                "@_SIZE": 18
-            },
             "node": [
                 {
                     "@_TEXT": "webFS",
@@ -215,13 +215,45 @@
                     "edge": {
                         "@_COLOR": "#7c0000"
                     },
-                    "node": {
-                        "@_TEXT": "backblaze",
-                        "@_ID": "ID_205294485",
-                        "@_CREATED": 1586518573022,
-                        "@_MODIFIED": 1586518688554,
-                        "@_LINK": "backblaze/index.mm"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "backblaze",
+                            "@_ID": "ID_205294485",
+                            "@_CREATED": 1586518573022,
+                            "@_MODIFIED": 1586518688554,
+                            "@_LINK": "backblaze/index.mm"
+                        },
+                        {
+                            "@_TEXT": "aws",
+                            "@_ID": "ID_499288040",
+                            "@_CREATED": 1587027097877,
+                            "@_MODIFIED": 1587027100382
+                        },
+                        {
+                            "@_TEXT": "google",
+                            "@_ID": "ID_787889973",
+                            "@_CREATED": 1587027101385,
+                            "@_MODIFIED": 1587027104378
+                        },
+                        {
+                            "@_TEXT": "backblaze",
+                            "@_ID": "ID_1780778135",
+                            "@_CREATED": 1587027107051,
+                            "@_MODIFIED": 1587027109978
+                        },
+                        {
+                            "@_TEXT": "dropbox",
+                            "@_ID": "ID_887896204",
+                            "@_CREATED": 1587027111286,
+                            "@_MODIFIED": 1587027115165
+                        },
+                        {
+                            "@_TEXT": "azure",
+                            "@_ID": "ID_405795552",
+                            "@_CREATED": 1587027117331,
+                            "@_MODIFIED": 1587027118740
+                        }
+                    ]
                 }
             ]
         }

@@ -1,6 +1,7 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="storage" FOLDED="false" ID="ID_1091898504" CREATED="1578226017540" MODIFIED="1586518653629" LINK="../index.mm" STYLE="oval">
+<font SIZE="18"/>
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,11 +65,15 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
-<font SIZE="18"/>
 <node TEXT="webFS" POSITION="right" ID="ID_944457850" CREATED="1578226026606" MODIFIED="1578226033824" LINK="https://news.ycombinator.com/item?id=21953634"/>
 <node TEXT="cloud" POSITION="right" ID="ID_864131218" CREATED="1586518563791" MODIFIED="1586518567494">
 <edge COLOR="#7c0000"/>
 <node TEXT="backblaze" ID="ID_205294485" CREATED="1586518573022" MODIFIED="1586518688554" LINK="backblaze/index.mm"/>
+<node TEXT="aws" ID="ID_499288040" CREATED="1587027097877" MODIFIED="1587027100382"/>
+<node TEXT="google" ID="ID_787889973" CREATED="1587027101385" MODIFIED="1587027104378"/>
+<node TEXT="backblaze" ID="ID_1780778135" CREATED="1587027107051" MODIFIED="1587027109978"/>
+<node TEXT="dropbox" ID="ID_887896204" CREATED="1587027111286" MODIFIED="1587027115165"/>
+<node TEXT="azure" ID="ID_405795552" CREATED="1587027117331" MODIFIED="1587027118740"/>
 </node>
 </node>
 </map>
