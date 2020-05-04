@@ -310,6 +310,20 @@
                                     "@_CREATED": 1585124783342,
                                     "@_MODIFIED": 1585124797292,
                                     "@_LINK": "https://www.w3.org/DesignIssues/Principles.html"
+                                },
+                                {
+                                    "@_TEXT": "websockets",
+                                    "@_ID": "ID_137885086",
+                                    "@_CREATED": 1588136286798,
+                                    "@_MODIFIED": 1588136381800,
+                                    "@_LINK": "web/websockets/index.mm"
+                                },
+                                {
+                                    "@_TEXT": "webrtc",
+                                    "@_ID": "ID_800155525",
+                                    "@_CREATED": 1588254420009,
+                                    "@_MODIFIED": 1588254509325,
+                                    "@_LINK": "web/webrtc/index.mm"
                                 }
                             ]
                         },

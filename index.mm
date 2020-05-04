@@ -86,6 +86,8 @@
 </node>
 <node TEXT="Web almanac" ID="ID_576483331" CREATED="1579263452350" MODIFIED="1579263466353" LINK="https://almanac.httparchive.org/en/2019/table-of-contents"/>
 <node TEXT="architecture" ID="ID_506922449" CREATED="1585124783342" MODIFIED="1585124797292" LINK="https://www.w3.org/DesignIssues/Principles.html"/>
+<node TEXT="websockets" ID="ID_137885086" CREATED="1588136286798" MODIFIED="1588136381800" LINK="web/websockets/index.mm"/>
+<node TEXT="webrtc" ID="ID_800155525" CREATED="1588254420009" MODIFIED="1588254509325" LINK="web/webrtc/index.mm"/>
 </node>
 <node TEXT="unix" ID="ID_7338816" CREATED="1574808370249" MODIFIED="1581029579314" LINK="unix/index.mm">
 <icon BUILTIN="forward"/>
