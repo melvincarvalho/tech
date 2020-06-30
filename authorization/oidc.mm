@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="oidc" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1572000241129" ICON_SIZE="20.0 pt" LINK="index.mm" STYLE="oval">
 <icon BUILTIN="bookmark"/>
@@ -148,6 +148,7 @@
 </richcontent>
 </node>
 <node TEXT="security considerations" ID="ID_240581677" CREATED="1580891437456" MODIFIED="1580891449289" LINK="https://www.nds.ruhr-uni-bochum.de/media/ei/veroeffentlichungen/2017/01/13/OIDCSecurity_1.pdf"/>
+<node TEXT="openid-config" ID="ID_1412052674" CREATED="1592476006593" MODIFIED="1592476017745" LINK="https://ldapwiki.com/wiki/Openid-configuration"/>
 </node>
 <node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
 <icon BUILTIN="folder"/>
